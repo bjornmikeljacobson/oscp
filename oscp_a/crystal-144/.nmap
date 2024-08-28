@@ -15,7 +15,7 @@ PORT   STATE SERVICE VERSION
 |     Repository description: Unnamed repository; edit this file 'description' to name the...
 |     Last commit message: Security Update 
 |     Remotes:
-|_      https://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@github.com/PWK-Challenge-Lab/dev.git
+|_      https:// SEE_TOKEN_BELOW @github.com/PWK-Challenge-Lab/dev.git
 |_http-server-header: Apache/2.4.52 (Ubuntu)
 |_http-generator: Nicepage 4.21.12, nicepage.com
 |_http-title: Home
@@ -48,3 +48,5 @@ HOP RTT      ADDRESS
 Read data files from: /usr/bin/../share/nmap
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Sat Feb 24 14:25:50 2024 -- 1 IP address (1 host up) scanned in 23.65 seconds
+#
+GITHUB TOKEN: CHANGE GHP TO LOWERCASE "GHP_p8knAghZu7ik2nb2jgnPcz6NxZZUbN4014Na"
