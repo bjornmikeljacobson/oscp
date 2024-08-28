@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Thu Jun 20 13:39:43 2024 as: nmap -v -Pn -sU -oN 192.168.134.110-udp 192.168.134.110
+Nmap scan report for 192.168.134.110
+Host is up.
+All 1000 scanned ports on 192.168.134.110 are in ignored states.
+Not shown: 1000 open|filtered udp ports (no-response)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jun 20 13:43:04 2024 -- 1 IP address (1 host up) scanned in 201.21 seconds

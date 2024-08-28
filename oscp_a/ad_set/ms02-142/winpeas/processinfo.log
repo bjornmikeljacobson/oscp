@@ -1,0 +1,65 @@
+ANSI color bit for Windows is not set. If you are executing this from a Windows terminal inside the host you should run 'REG ADD HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1' and then start a new CMD
+Long paths are disabled, so the maximum length of a path supported is 260 chars (this may cause false negatives when looking for files). If you are admin, you can enable it with 'REG ADD HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v VirtualTerminalLevel /t REG_DWORD /d 1' and then start a new CMD
+[33m  WinPEAS-ng[0m[33m by @hacktricks_live[0m
+[1;32m
+       /---------------------------------------------------------------------------------\
+       |                             [34mDo you like PEASS?[1;32m                                  |
+       |---------------------------------------------------------------------------------| 
+       |         [33mGet the latest version[1;32m    :     [1;31mhttps://github.com/sponsors/carlospolop[1;32m |
+       |         [33mFollow on Twitter[1;32m         :     [1;31m@hacktricks_live[1;32m                        |
+       |         [33mRespect on HTB[1;32m            :     [1;31mSirBroccoli            [1;32m                 |
+       |---------------------------------------------------------------------------------|
+       |                                 [34mThank you![1;32m                                      |
+       \---------------------------------------------------------------------------------/
+[0m
+[33m  [+] [1;32mLegend:[0m
+[1;31m         Red[1;37m                Indicates a special privilege over an object or something is misconfigured[0m
+[1;32m         Green[1;37m              Indicates that some protection is enabled or something is well configured[0m
+[36m         Cyan[1;37m               Indicates active users[0m
+[34m         Blue[1;37m               Indicates disabled users[0m
+[1;33m         LightYellow[1;37m        Indicates links[0m
+
+[34m You can find a Windows local PE Checklist here: [33mhttps://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
+[1;90m   Creating Dynamic lists, this could take a while, please wait...[0m
+[1;90m   - Loading sensitive_files yaml definitions file...[0m
+[1;90m   - Loading regexes yaml definitions file...[0m
+[1;90m   - Checking if domain...[0m
+[1;90m   - Getting Win32_UserAccount info...[0m
+[1;90mError while getting Win32_UserAccount info: System.Management.ManagementException: Access denied 
+   at System.Management.ThreadDispatch.Start()
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winPEAS.Checks.Checks.CreateDynamicLists(Boolean isFileSearchEnabled)[0m
+[1;90m   - Creating current user groups list...[0m
+[1;90m   - Creating active users list (local only)...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Creating disabled users list...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Admin users list...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Creating AppLocker bypass list...[0m
+[1;90m   - Creating files/directories list for search...[0m
+[1;90m        [skipped, file search is disabled][0m
+
+
+[1;36m════════════════════════════════════╣ [1;32mProcesses Information[1;36m ╠════════════════════════════════════[0m
+
+[1;36m╔══════════╣ [1;32mInteresting Processes -non Microsoft-[0m
+[1;36m╚ [1;34mCheck if any interesting processes for memory dump or if you could overwrite some binary running [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#running-processes[0m
+[1;90m  [X] Exception: Access denied [0m
+
+[1;36m╔══════════╣ [1;32mVulnerable Leaked Handlers[0m
+[1;36m╚ [1;34m [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation/leaked-handle-exploitation[0m
+[1;36m╚ [1;34mGetting Leaked Handlers, it might take some time...[0m
+[#########-]  99% |                   [1;32m
+       /---------------------------------------------------------------------------------\
+       |                             [34mDo you like PEASS?[1;32m                                  |
+       |---------------------------------------------------------------------------------| 
+       |         [33mGet the latest version[1;32m    :     [1;31mhttps://github.com/sponsors/carlospolop[1;32m |
+       |         [33mFollow on Twitter[1;32m         :     [1;31m@hacktricks_live[1;32m                        |
+       |         [33mRespect on HTB[1;32m            :     [1;31mSirBroccoli            [1;32m                 |
+       |---------------------------------------------------------------------------------|
+       |                                 [34mThank you![1;32m                                      |
+       \---------------------------------------------------------------------------------/
+[0m

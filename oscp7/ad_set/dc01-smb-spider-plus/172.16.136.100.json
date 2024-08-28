@@ -1,0 +1,445 @@
+{
+    "NETLOGON": {},
+    "SYSVOL": {
+        "oscp.exam/Policies/{31B2F340-016D-11D2-945F-00C04FB984F9}/GPT.INI": {
+            "atime_epoch": "2023-02-23 01:16:24",
+            "ctime_epoch": "2023-02-23 00:06:27",
+            "mtime_epoch": "2023-02-23 01:16:24",
+            "size": "22 B"
+        },
+        "oscp.exam/Policies/{31B2F340-016D-11D2-945F-00C04FB984F9}/MACHINE/Microsoft/Windows NT/SecEdit/GptTmpl.inf": {
+            "atime_epoch": "2023-02-23 00:06:27",
+            "ctime_epoch": "2023-02-23 00:06:27",
+            "mtime_epoch": "2023-02-23 00:06:34",
+            "size": "1.07 KB"
+        },
+        "oscp.exam/Policies/{31B2F340-016D-11D2-945F-00C04FB984F9}/MACHINE/Registry.pol": {
+            "atime_epoch": "2023-02-23 01:16:24",
+            "ctime_epoch": "2023-02-23 01:16:24",
+            "mtime_epoch": "2023-02-23 01:16:24",
+            "size": "2.72 KB"
+        },
+        "oscp.exam/Policies/{6AC1786C-016F-11D2-945F-00C04fB984F9}/GPT.INI": {
+            "atime_epoch": "2023-02-23 00:06:27",
+            "ctime_epoch": "2023-02-23 00:06:27",
+            "mtime_epoch": "2023-02-23 00:06:34",
+            "size": "22 B"
+        },
+        "oscp.exam/Policies/{6AC1786C-016F-11D2-945F-00C04fB984F9}/MACHINE/Microsoft/Windows NT/SecEdit/GptTmpl.inf": {
+            "atime_epoch": "2023-02-23 00:06:27",
+            "ctime_epoch": "2023-02-23 00:06:27",
+            "mtime_epoch": "2023-02-23 00:06:34",
+            "size": "3.68 KB"
+        }
+    },
+    "Users": {
+        "Default/AppData/Local/Microsoft/Windows Sidebar/settings.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "80 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/Shell/DefaultLayouts.xml": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "115.18 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group1/1 - Desktop.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group1/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:53",
+            "ctime_epoch": "2018-09-15 03:16:53",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "75 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group2/1 - Run.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group2/2 - Search.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group2/3 - Windows Explorer.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group2/4 - Control Panel.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.46 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group2/5 - Task Manager.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1021 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group2/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:53",
+            "ctime_epoch": "2018-09-15 03:16:53",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "325 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/01 - Command Prompt.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1015 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/01a - Windows PowerShell.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.1 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/02 - Command Prompt.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.03 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/02a - Windows PowerShell.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.14 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/03 - Computer Management.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1015 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/04 - Disk Management.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1015 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/04-1 - NetworkStatus.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.54 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/05 - Device Manager.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.05 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/06 - SystemAbout.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.54 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/07 - Event Viewer.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1015 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/08 - PowerAndSleep.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.54 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/09 - Mobility Center.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1015 B"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/10 - AppsAndFeatures.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.54 KB"
+        },
+        "Default/AppData/Local/Microsoft/Windows/WinX/Group3/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:53",
+            "ctime_epoch": "2018-09-15 03:16:53",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "941 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/Control Panel.lnk": {
+            "atime_epoch": "2018-09-15 03:13:34",
+            "ctime_epoch": "2018-09-15 03:13:34",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.23 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/Server Manager.lnk": {
+            "atime_epoch": "2018-09-15 03:13:34",
+            "ctime_epoch": "2018-09-15 03:13:34",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.13 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/Shows Desktop.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "352 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/Window Switcher.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "334 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Internet Explorer/Quick Launch/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:53",
+            "ctime_epoch": "2018-09-15 03:16:53",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "270 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/SendTo/Compressed (zipped) Folder.ZFSendToTarget": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "3 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/SendTo/Desktop (create shortcut).DeskLink": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "7 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/SendTo/Desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "440 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/SendTo/Mail Recipient.MAPIMail": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "4 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/Magnify.lnk": {
+            "atime_epoch": "2018-09-15 03:12:21",
+            "ctime_epoch": "2018-09-15 03:12:21",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/Narrator.lnk": {
+            "atime_epoch": "2018-09-15 03:12:21",
+            "ctime_epoch": "2018-09-15 03:12:21",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/On-Screen Keyboard.lnk": {
+            "atime_epoch": "2018-09-15 03:12:20",
+            "ctime_epoch": "2018-09-15 03:12:20",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.08 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessibility/desktop.ini": {
+            "atime_epoch": "2023-02-22 22:57:46",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-22 23:26:37",
+            "size": "568 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessories/Notepad.lnk": {
+            "atime_epoch": "2018-09-15 03:12:38",
+            "ctime_epoch": "2018-09-15 03:12:38",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.13 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Accessories/desktop.ini": {
+            "atime_epoch": "2023-02-22 22:57:46",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-22 23:26:37",
+            "size": "328 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Maintenance/Desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "170 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Administrative Tools.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.25 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Command Prompt.lnk": {
+            "atime_epoch": "2018-09-15 03:12:15",
+            "ctime_epoch": "2018-09-15 03:12:15",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "1.12 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Control Panel.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "405 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "934 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/File Explorer.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "407 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/Run.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "409 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/System Tools/computer.lnk": {
+            "atime_epoch": "2018-09-15 03:12:58",
+            "ctime_epoch": "2018-09-15 03:12:58",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "335 B"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/Windows PowerShell (x86).lnk": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "2.44 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/Windows PowerShell ISE (x86).lnk": {
+            "atime_epoch": "2018-09-15 03:13:34",
+            "ctime_epoch": "2018-09-15 03:13:34",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.24 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/Windows PowerShell ISE.lnk": {
+            "atime_epoch": "2018-09-15 03:13:34",
+            "ctime_epoch": "2018-09-15 03:13:34",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "1.24 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/Windows PowerShell.lnk": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "2.44 KB"
+        },
+        "Default/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Windows PowerShell/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:53",
+            "ctime_epoch": "2018-09-15 03:16:53",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "218 B"
+        },
+        "Default/NTUSER.DAT": {
+            "atime_epoch": "2023-02-22 23:33:15",
+            "ctime_epoch": "2018-09-15 02:09:26",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "256 KB"
+        },
+        "Default/NTUSER.DAT.LOG1": {
+            "atime_epoch": "2018-09-15 02:09:26",
+            "ctime_epoch": "2018-09-15 02:09:26",
+            "mtime_epoch": "2023-02-23 05:55:38",
+            "size": "0 B"
+        },
+        "Default/NTUSER.DAT.LOG2": {
+            "atime_epoch": "2018-09-15 02:09:26",
+            "ctime_epoch": "2018-09-15 02:09:26",
+            "mtime_epoch": "2023-02-23 05:56:53",
+            "size": "0 B"
+        },
+        "Default/NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TM.blf": {
+            "atime_epoch": "2023-02-23 05:58:55",
+            "ctime_epoch": "2023-02-23 05:58:55",
+            "mtime_epoch": "2023-02-23 05:58:55",
+            "size": "64 KB"
+        },
+        "Default/NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000001.regtrans-ms": {
+            "atime_epoch": "2023-02-23 05:58:55",
+            "ctime_epoch": "2023-02-23 05:58:55",
+            "mtime_epoch": "2023-02-23 05:58:55",
+            "size": "512 KB"
+        },
+        "Default/NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000002.regtrans-ms": {
+            "atime_epoch": "2023-02-23 05:58:55",
+            "ctime_epoch": "2023-02-23 05:58:55",
+            "mtime_epoch": "2023-02-23 05:58:55",
+            "size": "512 KB"
+        },
+        "Public/AccountPictures/desktop.ini": {
+            "atime_epoch": "2023-02-22 23:41:39",
+            "ctime_epoch": "2023-02-23 06:07:21",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "196 B"
+        },
+        "Public/Documents/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "278 B"
+        },
+        "Public/Downloads/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "174 B"
+        },
+        "Public/Libraries/RecordedTV.library-ms": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "999 B"
+        },
+        "Public/Libraries/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "175 B"
+        },
+        "Public/Music/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "380 B"
+        },
+        "Public/Pictures/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "380 B"
+        },
+        "Public/Videos/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "380 B"
+        },
+        "Public/desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-03-01 10:30:49",
+            "size": "174 B"
+        },
+        "desktop.ini": {
+            "atime_epoch": "2018-09-15 03:16:48",
+            "ctime_epoch": "2018-09-15 03:16:48",
+            "mtime_epoch": "2023-02-23 05:53:43",
+            "size": "174 B"
+        }
+    }
+}

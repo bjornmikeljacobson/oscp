@@ -1,0 +1,302 @@
+# Server
+redis_version:4.0.14
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:25b410d64d050b9e
+redis_mode:standalone
+os:Linux 5.15.0-71-generic x86_64
+arch_bits:64
+multiplexing_api:epoll
+atomicvar_api:atomic-builtin
+gcc_version:10.2.0
+process_id:6679
+run_id:27bf1ae3ae63ea03b84e2aa3849eaf808d4e1916
+tcp_port:6379
+uptime_in_seconds:489
+uptime_in_days:0
+hz:10
+lru_clock:10426258
+executable:/usr/local/bin/redis-server
+config_file:
+
+# Clients
+connected_clients:1
+client_longest_output_list:0
+client_biggest_input_buf:0
+blocked_clients:0
+
+# Memory
+used_memory:903631
+used_memory_human:882.45K
+used_memory_rss:4665344
+used_memory_rss_human:4.45M
+used_memory_peak:903631
+used_memory_peak_human:882.45K
+used_memory_peak_perc:100.11%
+used_memory_overhead:902217
+used_memory_startup:852579
+used_memory_dataset:1414
+used_memory_dataset_perc:2.77%
+total_system_memory:4114083840
+total_system_memory_human:3.83G
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+mem_fragmentation_ratio:5.16
+mem_allocator:libc
+active_defrag_running:0
+lazyfree_pending_objects:0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1721701801
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+rdb_last_cow_size:0
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+aof_last_cow_size:0
+
+# Stats
+total_connections_received:1
+total_commands_processed:6
+instantaneous_ops_per_sec:0
+total_net_input_bytes:212
+total_net_output_bytes:10559
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+expired_stale_perc:0.00
+expired_time_cap_reached_count:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+slave_expires_tracked_keys:0
+active_defrag_hits:0
+active_defrag_misses:0
+active_defrag_key_hits:0
+active_defrag_key_misses:0
+
+# Replication
+role:master
+connected_slaves:0
+master_replid:b036bf6cff0183a7e55404e1e3329699aa886a1d
+master_replid2:0000000000000000000000000000000000000000
+master_repl_offset:0
+second_repl_offset:-1
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.48
+used_cpu_user:0.18
+used_cpu_sys_children:0.00
+used_cpu_user_children:0.00
+
+# Cluster
+cluster_enabled:0
+
+# Keyspace
+
+
+
+CONFIG GET *
+  1) "dbfilename"
+  2) "dump.rdb"
+  3) "requirepass"
+  4) ""
+  5) "masterauth"
+  6) ""
+  7) "cluster-announce-ip"
+  8) ""
+  9) "unixsocket"
+ 10) ""
+ 11) "logfile"
+ 12) ""
+ 13) "pidfile"
+ 14) ""
+ 15) "slave-announce-ip"
+ 16) ""
+ 17) "maxmemory"
+ 18) "0"
+ 19) "proto-max-bulk-len"
+ 20) "536870912"
+ 21) "client-query-buffer-limit"
+ 22) "1073741824"
+ 23) "maxmemory-samples"
+ 24) "5"
+ 25) "lfu-log-factor"
+ 26) "10"
+ 27) "lfu-decay-time"
+ 28) "1"
+ 29) "timeout"
+ 30) "0"
+ 31) "active-defrag-threshold-lower"
+ 32) "10"
+ 33) "active-defrag-threshold-upper"
+ 34) "100"
+ 35) "active-defrag-ignore-bytes"
+ 36) "104857600"
+ 37) "active-defrag-cycle-min"
+ 38) "25"
+ 39) "active-defrag-cycle-max"
+ 40) "75"
+ 41) "auto-aof-rewrite-percentage"
+ 42) "100"
+ 43) "auto-aof-rewrite-min-size"
+ 44) "67108864"
+ 45) "hash-max-ziplist-entries"
+ 46) "512"
+ 47) "hash-max-ziplist-value"
+ 48) "64"
+ 49) "list-max-ziplist-size"
+ 50) "-2"
+ 51) "list-compress-depth"
+ 52) "0"
+ 53) "set-max-intset-entries"
+ 54) "512"
+ 55) "zset-max-ziplist-entries"
+ 56) "128"
+ 57) "zset-max-ziplist-value"
+ 58) "64"
+ 59) "hll-sparse-max-bytes"
+ 60) "3000"
+ 61) "lua-time-limit"
+ 62) "5000"
+ 63) "slowlog-log-slower-than"
+ 64) "10000"
+ 65) "latency-monitor-threshold"
+ 66) "0"
+ 67) "slowlog-max-len"
+ 68) "128"
+ 69) "port"
+ 70) "6379"
+ 71) "cluster-announce-port"
+ 72) "0"
+ 73) "cluster-announce-bus-port"
+ 74) "0"
+ 75) "tcp-backlog"
+ 76) "511"
+ 77) "databases"
+ 78) "16"
+ 79) "repl-ping-slave-period"
+ 80) "10"
+ 81) "repl-timeout"
+ 82) "60"
+ 83) "repl-backlog-size"
+ 84) "1048576"
+ 85) "repl-backlog-ttl"
+ 86) "3600"
+ 87) "maxclients"
+ 88) "10000"
+ 89) "watchdog-period"
+ 90) "0"
+ 91) "slave-priority"
+ 92) "100"
+ 93) "slave-announce-port"
+ 94) "0"
+ 95) "min-slaves-to-write"
+ 96) "0"
+ 97) "min-slaves-max-lag"
+ 98) "10"
+ 99) "hz"
+100) "10"
+101) "cluster-node-timeout"
+102) "15000"
+103) "cluster-migration-barrier"
+104) "1"
+105) "cluster-slave-validity-factor"
+106) "10"
+107) "repl-diskless-sync-delay"
+108) "5"
+109) "tcp-keepalive"
+110) "300"
+111) "cluster-require-full-coverage"
+112) "yes"
+113) "cluster-slave-no-failover"
+114) "no"
+115) "no-appendfsync-on-rewrite"
+116) "no"
+117) "slave-serve-stale-data"
+118) "yes"
+119) "slave-read-only"
+120) "yes"
+121) "stop-writes-on-bgsave-error"
+122) "yes"
+123) "daemonize"
+124) "no"
+125) "rdbcompression"
+126) "yes"
+127) "rdbchecksum"
+128) "yes"
+129) "activerehashing"
+130) "yes"
+131) "activedefrag"
+132) "no"
+133) "protected-mode"
+134) "no"
+135) "repl-disable-tcp-nodelay"
+136) "no"
+137) "repl-diskless-sync"
+138) "no"
+139) "aof-rewrite-incremental-fsync"
+140) "yes"
+141) "aof-load-truncated"
+142) "yes"
+143) "aof-use-rdb-preamble"
+144) "no"
+145) "lazyfree-lazy-eviction"
+146) "no"
+147) "lazyfree-lazy-expire"
+148) "no"
+149) "lazyfree-lazy-server-del"
+150) "no"
+151) "slave-lazy-flush"
+152) "no"
+153) "maxmemory-policy"
+154) "noeviction"
+155) "loglevel"
+156) "notice"
+157) "supervised"
+158) "no"
+159) "appendfsync"
+160) "everysec"
+161) "syslog-facility"
+162) "local0"
+163) "appendonly"
+164) "no"
+165) "dir"
+166) "/tmp"
+167) "save"
+168) ""
+169) "client-output-buffer-limit"
+170) "normal 0 0 0 slave 268435456 67108864 60 pubsub 33554432 8388608 60"
+171) "unixsocketperm"
+172) "0"
+173) "slaveof"
+174) ""
+175) "notify-keyspace-events"
+176) ""
+177) "bind"
+178) ""
+

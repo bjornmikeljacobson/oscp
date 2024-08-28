@@ -1,0 +1,72 @@
+# Nmap 7.94SVN scan initiated Mon Mar 18 13:35:50 2024 as: nmap -T4 -v -A -oN ms01-http --script=vuln -p 8000,8080,8443 ms01.oscp.exam
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+adjust_timeouts2: packet supposedly had rtt of -205743 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -205743 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -209890 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -209890 microseconds.  Ignoring time.
+Nmap scan report for ms01.oscp.exam (192.168.241.147)
+Host is up (0.048s latency).
+rDNS record for 192.168.241.147: MS01.oscp.exam
+
+PORT     STATE SERVICE  VERSION
+8000/tcp open  http     Microsoft IIS httpd 10.0
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-server-header: Microsoft-IIS/10.0
+8080/tcp open  http     Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=ms01.oscp.exam
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://ms01.oscp.exam:8080/
+|     Form id: 
+|_    Form action: /Home/Signup
+| http-server-header: 
+|   Microsoft-HTTPAPI/2.0
+|_  Microsoft-IIS/10.0
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-enum: 
+|_  /home/: Potentially interesting folder
+8443/tcp open  ssl/http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|_  /home/: Potentially interesting folder
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=ms01.oscp.exam
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: https://ms01.oscp.exam:8443/
+|     Form id: 
+|_    Form action: /Home/Signup
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-server-header: 
+|   Microsoft-HTTPAPI/2.0
+|_  Microsoft-IIS/10.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows XP SP3 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   51.24 ms 192.168.45.1
+2   51.14 ms 192.168.45.254
+3   52.17 ms 192.168.251.1
+4   46.10 ms MS01.oscp.exam (192.168.241.147)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 18 13:46:08 2024 -- 1 IP address (1 host up) scanned in 618.01 seconds

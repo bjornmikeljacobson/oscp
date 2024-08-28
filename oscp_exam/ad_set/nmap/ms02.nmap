@@ -1,0 +1,36 @@
+# Nmap 7.94SVN scan initiated Sun May 19 15:26:51 2024 as: nmap -A -oA ms02 -v -Pn ms02.oscp.exam
+Nmap scan report for ms02.oscp.exam (192.168.112.102)
+Host is up (0.039s latency).
+rDNS record for 192.168.112.102: ms02
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (88%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-05-19T19:27:15
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE (using port 139/tcp)
+HOP RTT      ADDRESS
+1   39.07 ms 192.168.49.1
+2   39.12 ms ms02 (192.168.112.102)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 19 15:27:52 2024 -- 1 IP address (1 host up) scanned in 61.43 seconds

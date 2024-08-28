@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sun May 19 19:38:44 2024 as: nmap -p 3306 -&#45;script=*sql* -v -oA ms02-sql ms02.oscp.exam -->
+<nmaprun scanner="nmap" args="nmap -p 3306 -&#45;script=*sql* -v -oA ms02-sql ms02.oscp.exam" start="1716161924" startstr="Sun May 19 19:38:44 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="3306"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1716161924"/>
+<taskend task="NSE" time="1716161929"/>
+<taskbegin task="NSE" time="1716161929"/>
+<taskend task="NSE" time="1716161929"/>
+<taskbegin task="NSE" time="1716161929"/>
+<taskend task="NSE" time="1716161929"/>
+<taskbegin task="NSE" time="1716161929"/>
+<taskend task="NSE" time="1716161929"/>
+<taskbegin task="Ping Scan" time="1716161929"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.112.102" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ms02.oscp.exam" type="user"/>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1716161929" extrainfo="1 total hosts"/>
+<taskbegin task="SYN Stealth Scan" time="1716161929"/>
+<taskend task="SYN Stealth Scan" time="1716161930" extrainfo="1 total ports"/>
+<taskbegin task="NSE" time="1716161930"/>
+<taskprogress task="NSE" time="1716161962" percent="51.16" remaining="31" etc="1716161993"/>
+<taskprogress task="NSE" time="1716161992" percent="51.16" remaining="60" etc="1716162051"/>
+<taskprogress task="NSE" time="1716162022" percent="51.16" remaining="88" etc="1716162110"/>
+<taskprogress task="NSE" time="1716162052" percent="51.16" remaining="117" etc="1716162168"/>
+<taskprogress task="NSE" time="1716162082" percent="51.16" remaining="146" etc="1716162227"/>
+<taskprogress task="NSE" time="1716162112" percent="51.16" remaining="174" etc="1716162286"/>
+<taskprogress task="NSE" time="1716162142" percent="51.16" remaining="203" etc="1716162344"/>
+<taskprogress task="NSE" time="1716162172" percent="51.16" remaining="232" etc="1716162403"/>
+<taskend task="NSE" time="1716162176"/>
+<taskbegin task="NSE" time="1716162176"/>
+<taskend task="NSE" time="1716162181"/>
+<taskbegin task="NSE" time="1716162181"/>
+<taskend task="NSE" time="1716162181"/>
+<taskbegin task="NSE" time="1716162181"/>
+<taskend task="NSE" time="1716162181"/>
+<host starttime="1716161930" endtime="1716162181"><status state="up" reason="timestamp-reply" reason_ttl="127"/>
+<address addr="192.168.112.102" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ms02.oscp.exam" type="user"/>
+<hostname name="ms02" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="mysql" method="table" conf="3"/><script id="mysql-info" output="&#xa;  MySQL Error: Host &apos;192.168.49.112&apos; is not allowed to connect to this MySQL server"><elem key="MySQL Error">Host &apos;192.168.49.112&apos; is not allowed to connect to this MySQL server</elem>
+</script><script id="mysql-enum" output="&#xa;  Accounts: No valid accounts found&#xa;  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0"><elem key="Accounts">No valid accounts found</elem>
+<elem key="Statistics">Performed 10 guesses in 1 seconds, average tps: 10.0</elem>
+</script><script id="mysql-empty-password" output="Host &apos;192.168.49.112&apos; is not allowed to connect to this MySQL server"/><script id="mysql-brute" output="&#xa;  Accounts: No valid accounts found&#xa;  Statistics: Performed 50009 guesses in 246 seconds, average tps: 208.0"><elem key="Accounts">No valid accounts found</elem>
+<elem key="Statistics">Performed 50009 guesses in 246 seconds, average tps: 208.0</elem>
+</script></port>
+</ports>
+<times srtt="48888" rttvar="37029" to="197004"/>
+</host>
+<taskbegin task="NSE" time="1716162181"/>
+<taskend task="NSE" time="1716162181"/>
+<taskbegin task="NSE" time="1716162181"/>
+<taskend task="NSE" time="1716162181"/>
+<taskbegin task="NSE" time="1716162181"/>
+<taskend task="NSE" time="1716162181"/>
+<taskbegin task="NSE" time="1716162181"/>
+<taskend task="NSE" time="1716162181"/>
+<runstats><finished time="1716162181" timestr="Sun May 19 19:43:01 2024" summary="Nmap done at Sun May 19 19:43:01 2024; 1 IP address (1 host up) scanned in 257.30 seconds" elapsed="257.30" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

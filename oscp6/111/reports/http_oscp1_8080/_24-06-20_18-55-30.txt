@@ -1,0 +1,13 @@
+# Dirsearch started Thu Jun 20 19:24:38 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://oscp1:8080 -w /usr/share/wordlists/dirbuster/directory-list-1.0.txt -r
+
+301   145B   http://oscp1:8080/dev    -> REDIRECTS TO: http://oscp1:8080/dev/
+400   324B   http://oscp1:8080/_Face_testing_at_Logan_is_fo%0Dund_lacking%2B
+301   152B   http://oscp1:8080/dev/images    -> REDIRECTS TO: http://oscp1:8080/dev/images/
+301   151B   http://oscp1:8080/dev/staff    -> REDIRECTS TO: http://oscp1:8080/dev/staff/
+200     2KB  http://oscp1:8080/dev/images\
+400   324B   http://oscp1:8080/dev/_Face_testing_at_Logan_is_fo%0Dund_lacking%2B
+400   324B   http://oscp1:8080/dev/images/_Face_testing_at_Logan_is_fo%0Dund_lacking%2B
+301   158B   http://oscp1:8080/dev/staff/images    -> REDIRECTS TO: http://oscp1:8080/dev/staff/images/
+200     2KB  http://oscp1:8080/dev/staff/images\
+400   324B   http://oscp1:8080/dev/staff/_Face_testing_at_Logan_is_fo%0Dund_lacking%2B
+400   324B   http://oscp1:8080/dev/staff/images/_Face_testing_at_Logan_is_fo%0Dund_lacking%2B

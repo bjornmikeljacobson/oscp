@@ -1,0 +1,51 @@
+# Nmap 7.94SVN scan initiated Mon Mar 18 13:51:06 2024 as: nmap -sCV -T4 -p 445 -oN smb --script "smb* and not
+brute" 192.168.241.147
+Nmap scan report for MS01.oscp.exam (192.168.241.147)
+Host is up (0.052s latency).
+
+PORT    STATE SERVICE       VERSION
+445/tcp open  microsoft-ds?
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Host script results:
+| smb-protocols: 
+|   dialects: 
+|     2:0:2
+|     2:1:0
+|     3:0:0
+|     3:0:2
+|_    3:1:1
+|_smb-print-text: false
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_smb-vuln-ms10-054: false
+| smb-mbenum: 
+|_  ERROR: Failed to connect to browser service: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+| smb2-capabilities: 
+|   2:0:2: 
+|     Distributed File System
+|   2:1:0: 
+|     Distributed File System
+|     Leasing
+|     Multi-credit operations
+|   3:0:0: 
+|     Distributed File System
+|     Leasing
+|     Multi-credit operations
+|   3:0:2: 
+|     Distributed File System
+|     Leasing
+|     Multi-credit operations
+|   3:1:1: 
+|     Distributed File System
+|     Leasing
+|_    Multi-credit operations
+|_smb-flood: ERROR: Script execution failed (use -d to debug)
+| smb2-time: 
+|   date: 2024-03-18T17:51:35
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 18 13:52:04 2024 -- 1 IP address (1 host up) scanned in 58.22 seconds

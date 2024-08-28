@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Sun Mar  3 05:01:07 2024 as: nmap -A -Pn -p 1433 -oN ms02-142/nmap/https -v --script=http* -T4 --unprivileged 10.10.140.142
+Pre-scan script results:
+|_http-robtex-shared-ns: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
+Nmap scan report for MS02.oscp.exam (10.10.140.142)
+Host is up.
+
+PORT     STATE    SERVICE  VERSION
+1433/tcp filtered ms-sql-s
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  3 05:01:09 2024 -- 1 IP address (1 host up) scanned in 1.40 seconds

@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Sat Feb 24 15:01:55 2024 as: nmap -A -T4 -v -p- -oA crystal-144/full 192.168.212.144
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.212.144 (crystal.com)	Status: Up
+Host: 192.168.212.144 (crystal.com)	Ports: 21/open/tcp//ftp//vsftpd 3.0.5/, 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.52 ((Ubuntu))/	Ignored State: closed (65532)	Seq Index: 264	IP ID Seq: All zeros
+# Nmap done at Sat Feb 24 15:02:54 2024 -- 1 IP address (1 host up) scanned in 59.06 seconds

@@ -1,0 +1,20 @@
+# Nmap 7.94SVN scan initiated Wed Jun  5 15:08:02 2024 as: nmap -v -Pn -T3 -oA ms01-udp -sU ms01.oscp.exam
+Increasing send delay for 192.168.225.153 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.225.153 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+Nmap scan report for ms01.oscp.exam (192.168.225.153)
+Host is up (0.094s latency).
+rDNS record for 192.168.225.153: MS01.oscp.exam
+Not shown: 991 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+123/udp  open|filtered ntp
+137/udp  open|filtered netbios-ns
+138/udp  open|filtered netbios-dgm
+500/udp  open|filtered isakmp
+1900/udp open|filtered upnp
+4500/udp open|filtered nat-t-ike
+5050/udp open|filtered mmcc
+5353/udp open|filtered zeroconf
+5355/udp open|filtered llmnr
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun  5 15:26:42 2024 -- 1 IP address (1 host up) scanned in 1119.52 seconds

@@ -1,0 +1,55 @@
+# Nmap 7.94SVN scan initiated Thu Jun 20 13:38:58 2024 as: nmap -v -Pn -sU -oN 192.168.134.112-udp 192.168.134.112
+Increasing send delay for 192.168.134.112 from 50 to 100 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.134.112 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.134.112 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.134.112 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for 192.168.134.112
+Host is up (0.030s latency).
+Not shown: 957 closed udp ports (port-unreach)
+PORT      STATE         SERVICE
+13/udp    open|filtered daytime
+111/udp   open|filtered rpcbind
+137/udp   open          netbios-ns
+138/udp   open|filtered netbios-dgm
+139/udp   open|filtered netbios-ssn
+161/udp   open|filtered snmp
+631/udp   open|filtered ipp
+781/udp   open|filtered hp-collector
+1886/udp  open|filtered leoip
+1993/udp  open|filtered snmp-tcp-port
+3130/udp  open|filtered squid-ipc
+5353/udp  open|filtered zeroconf
+9103/udp  open|filtered bacula-sd
+10080/udp open|filtered amanda
+17184/udp open|filtered unknown
+18617/udp open|filtered unknown
+18958/udp open|filtered unknown
+18996/udp open|filtered unknown
+19022/udp open|filtered unknown
+19161/udp open|filtered unknown
+19415/udp open|filtered unknown
+20146/udp open|filtered unknown
+20313/udp open|filtered unknown
+21206/udp open|filtered unknown
+21454/udp open|filtered unknown
+21834/udp open|filtered unknown
+22043/udp open|filtered unknown
+22996/udp open|filtered unknown
+23679/udp open|filtered unknown
+23980/udp open|filtered unknown
+26415/udp open|filtered unknown
+30975/udp open|filtered unknown
+31073/udp open|filtered unknown
+34580/udp open|filtered unknown
+40116/udp open|filtered unknown
+41971/udp open|filtered unknown
+43514/udp open|filtered unknown
+44190/udp open|filtered unknown
+44334/udp open|filtered unknown
+47808/udp open|filtered bacnet
+49201/udp open|filtered unknown
+49220/udp open|filtered unknown
+51905/udp open|filtered unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jun 20 13:56:20 2024 -- 1 IP address (1 host up) scanned in 1042.25 seconds

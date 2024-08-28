@@ -1,0 +1,95 @@
+# Nmap 7.94SVN scan initiated Thu Jun 20 07:11:15 2024 as: nmap -v -Pn -p- -A -oN ms01.oscp.exam-full-tcp.nmap ms01.oscp.exam
+Nmap scan report for ms01.oscp.exam (192.168.134.101)
+Host is up (0.025s latency).
+Not shown: 65514 closed tcp ports (reset)
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_03-21-22  02:45AM             38100936 ServerSetup-3.9.0.2463.exe
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp    open  http          Microsoft IIS httpd 10.0
+|_http-title: IIS Windows
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: OSCP
+|   NetBIOS_Domain_Name: OSCP
+|   NetBIOS_Computer_Name: MS01
+|   DNS_Domain_Name: oscp.exam
+|   DNS_Computer_Name: MS01.oscp.exam
+|   DNS_Tree_Name: oscp.exam
+|   Product_Version: 10.0.19041
+|_  System_Time: 2024-06-20T11:14:35+00:00
+|_ssl-date: 2024-06-20T11:15:10+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=MS01.oscp.exam
+| Issuer: commonName=MS01.oscp.exam
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-06-19T11:02:51
+| Not valid after:  2024-12-19T11:02:51
+| MD5:   33c0:5a80:32b7:e5dc:b30f:6b15:d0fc:580d
+|_SHA-1: 6551:e597:4084:b3b9:bb35:744e:f2b8:d9b1:0766:52eb
+5040/tcp  open  unknown
+7680/tcp  open  tcpwrapped
+8080/tcp  open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+9510/tcp  open  nagios-nsca   Nagios NSCA
+9512/tcp  open  unknown
+9595/tcp  open  pds?
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+51393/tcp open  msrpc         Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=6/20%OT=21%CT=1%CU=36686%PV=Y%DS=2%DC=T%G=Y%TM=6674
+OS:0F3F%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=107%TI=I%II=I%SS=S%TS=U)
+OS:SEQ(SP=102%GCD=1%ISR=107%TI=I%II=I%SS=S%TS=U)OPS(O1=M551NW8NNS%O2=M551NW
+OS:8NNS%O3=M551NW8%O4=M551NW8NNS%O5=M551NW8NNS%O6=M551NNS)WIN(W1=FFFF%W2=FF
+OS:FF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%DF=Y%TG=80%W=FFFF%O=M551NW8NN
+OS:S%CC=N%Q=)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M551NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%TG=8
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3
+OS:(R=N)T4(R=N)T5(R=Y%DF=Y%TG=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=Y%DF=Y%T
+OS:=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=N)U1(R=Y%DF=N%T=80%I
+OS:PL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%TG=80%CD=Z)IE
+OS:(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-06-20T11:14:35
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE (using port 1025/tcp)
+HOP RTT      ADDRESS
+1   24.80 ms 192.168.49.1
+2   24.92 ms ms01.oscp.exam (192.168.134.101)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 20 07:15:11 2024 -- 1 IP address (1 host up) scanned in 236.57 seconds

@@ -1,0 +1,2 @@
+404      GET        6l       24w      315c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+

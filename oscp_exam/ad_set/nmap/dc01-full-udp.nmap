@@ -1,0 +1,1 @@
+# Nmap 7.94SVN scan initiated Sun May 19 19:19:56 2024 as: nmap -A -oA dc01-full-udp -v -Pn -sU dc01.oscp.exam

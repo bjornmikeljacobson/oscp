@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 13:24:07 2024 as: nmap -v -Pn -sU -oN dc01.oscp.exam-udp dc01.oscp.exam
+Nmap scan report for dc01.oscp.exam (172.16.136.100)
+Host is up.
+All 1000 scanned ports on dc01.oscp.exam (172.16.136.100) are in ignored states.
+Not shown: 1000 open|filtered udp ports (no-response)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul 22 13:27:28 2024 -- 1 IP address (1 host up) scanned in 201.45 seconds

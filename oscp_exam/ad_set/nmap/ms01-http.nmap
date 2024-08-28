@@ -1,0 +1,3 @@
+# Nmap 7.94SVN scan initiated Sun May 19 19:46:31 2024 as: nmap -p 8080 --script=http* -v -oA ms01-http -T2 ms01.oscp.exam
+Pre-scan script results:
+|_http-robtex-shared-ns: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/

@@ -1,0 +1,32 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 22:02:41 2024 as: nmap -v -Pn -p- -A -oN 192.168.136.110-full-tcp.nmap 192.168.136.110
+Nmap scan report for 192.168.136.110
+Host is up (0.030s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 65:83:fe:93:71:c9:bb:b7:f4:0d:cc:a3:eb:fe:74:55 (ECDSA)
+|_  256 3a:ba:4a:c3:5a:19:54:03:a4:d8:79:b6:c0:f8:c0:68 (ED25519)
+80/tcp   open  http    Apache httpd 2.4.52
+|_http-title: Index of /
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET POST
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+6379/tcp open  redis   Redis key-value store 4.0.14
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 33.295 days (since Wed Jun 19 15:00:08 2024)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: 127.0.0.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   33.37 ms 192.168.49.1
+2   30.21 ms 192.168.136.110
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 22 22:04:55 2024 -- 1 IP address (1 host up) scanned in 133.75 seconds

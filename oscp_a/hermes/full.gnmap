@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Sat Feb 24 14:47:40 2024 as: nmap -A -T4 -v -p- -oA hermes/full 192.168.212.145
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.212.145 ()	Status: Up
+Host: 192.168.212.145 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 10.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 1978/open/tcp//unisql?///, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Services/	Ignored State: filtered (65528)	Seq Index: 260	IP ID Seq: Incremental
+# Nmap done at Sat Feb 24 14:52:53 2024 -- 1 IP address (1 host up) scanned in 312.32 seconds

@@ -1,0 +1,498 @@
+http://ms01.oscp.exam:81/scripts
+http://ms01.oscp.exam:81/attendance.php
+http://ms01.oscp.exam:81/scripts.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/images/ (Apache)
+http://ms01.oscp.exam:81/images/profile.jpg
+http://ms01.oscp.exam:81/bower_components/jquery-knob/dist/jquery.knob.min.js
+http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/daterangepicker.css
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap/dist/ (Apache)
+http://ms01.oscp.exam:81/bower_components/font-awesome/css/font-awesome.min.css
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/font-awesome/css/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/dist/css/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/timepicker/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/font-awesome/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js
+http://ms01.oscp.exam:81/admin/index.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery-sparkline/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/morris.js/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery-ui/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap/ (Apache)
+http://ms01.oscp.exam:81/bower_components/font-awesome/HELP-US-OUT.txt
+http://ms01.oscp.exam:81/bower_components/moment/moment.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/datatables.net/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/datatables.net-bs/js/ (Apache)
+http://ms01.oscp.exam:81/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js
+http://ms01.oscp.exam:81/dist/css/AdminLTE.min.css
+http://ms01.oscp.exam:81/bower_components/jquery/dist/core.js
+http://ms01.oscp.exam:81/bower_components/jquery-ui/package.json
+http://ms01.oscp.exam:81/bower_components/jquery-ui/LICENSE.txt
+http://ms01.oscp.exam:81/bower_components/bootstrap/CHANGELOG.md
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery-sparkline/ (Apache)
+http://ms01.oscp.exam:81/bower_components/jquery/dist/jquery.min.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/ISSUE_TEMPLATE.md
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap/package.json
+http://ms01.oscp.exam:81/bower_components/bootstrap/Gemfile
+http://ms01.oscp.exam:81/plugins/timepicker/bootstrap-timepicker.js
+http://ms01.oscp.exam:81/bower_components/jquery-ui/composer.json
+http://ms01.oscp.exam:81/bower_components/bootstrap/Gruntfile.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/bower.json
+http://ms01.oscp.exam:81/bower_components/bootstrap/dist/css/bootstrap.min.css
+http://ms01.oscp.exam:81/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js
+http://ms01.oscp.exam:81/bower_components/datatables.net/License.txt
+http://ms01.oscp.exam:81/bower_components/datatables.net-bs/js/dataTables.bootstrap.js
+http://ms01.oscp.exam:81/bower_components/datatables.net/bower.json
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/composer.json
+http://ms01.oscp.exam:81/bower_components/jquery-sparkline/sparkline.jquery.json
+http://ms01.oscp.exam:81/bower_components/jquery-sparkline/bower.json
+http://ms01.oscp.exam:81/bower_components/jquery-sparkline/version.txt
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/bower.json
+http://ms01.oscp.exam:81/Scripts
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/LICENSE
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/CHANGELOG.md
+http://ms01.oscp.exam:81/bower_components/jquery/dist/jquery.slim.min.js
+http://ms01.oscp.exam:81/Scripts.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/font-awesome/scss/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap/fonts/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap/nuget/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/datatables.net/js/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/bootstrap-wysihtml5/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/jQueryUI/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/bootstrap-slider/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/docs/ (Apache)
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_list.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_screen-reader.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_animated.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_bordered-pulled.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_larger.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/font-awesome.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_rotated-flipped.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_fixed-width.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_stacked.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_path.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_mixins.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_core.scss
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_variables.scss
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/less/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/pace/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/bs-lessdoc-parser.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/sauce_browsers.yml
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/grunt/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/bs-commonjs-generator.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/nuget/bootstrap.nuspec
+http://ms01.oscp.exam:81/bower_components/bootstrap/nuget/bootstrap.less.nuspec
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/bs-raw-files-generator.js
+http://ms01.oscp.exam:81/bower_components/font-awesome/scss/_icons.scss
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/configBridge.json
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/change-version.js
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/docs/requirements.txt
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/inputmask/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/js/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/docs/options.rst
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/docs/methods.rst
+http://ms01.oscp.exam:81/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/dist/ (Apache)
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/less/datepicker.less
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/less/datepicker3.less
+http://ms01.oscp.exam:81/plugins/timepicker/bootstrap-timepicker.min.js
+http://ms01.oscp.exam:81/bower_components/inputmask/bower.json
+http://ms01.oscp.exam:81/plugins/iCheck/icheck.js
+http://ms01.oscp.exam:81/plugins/iCheck/all.css
+http://ms01.oscp.exam:81/plugins/iCheck/icheck.min.js
+http://ms01.oscp.exam:81/bower_components/jquery-sparkline/dist/jquery.sparkline.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/grunt/npm-shrinkwrap.json
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/futurico/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/polaris/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/flat/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/line/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/square/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/plugins/iCheck/minimal/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/inputmask/dist/ (Apache)
+http://ms01.oscp.exam:81/plugins/iCheck/futurico/futurico.css
+http://ms01.oscp.exam:81/plugins/iCheck/futurico/futurico@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/futurico/futurico.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/aero.css
+http://ms01.oscp.exam:81/plugins/iCheck/flat/yellow.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/blue.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/blue@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/polaris/polaris.png
+http://ms01.oscp.exam:81/plugins/iCheck/polaris/polaris.css
+http://ms01.oscp.exam:81/plugins/iCheck/flat/red.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/pink.css
+http://ms01.oscp.exam:81/plugins/iCheck/flat/green.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/grey@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/aero.png
+http://ms01.oscp.exam:81/plugins/iCheck/line/green.css
+http://ms01.oscp.exam:81/plugins/iCheck/flat/purple@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/red.css
+http://ms01.oscp.exam:81/plugins/iCheck/line/aero.css
+http://ms01.oscp.exam:81/plugins/iCheck/polaris/polaris@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/green@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/aero@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/orange.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/purple.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/blue.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/yellow@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/green.css
+http://ms01.oscp.exam:81/plugins/iCheck/flat/flat@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/flat/yellow.css
+http://ms01.oscp.exam:81/plugins/iCheck/flat/orange.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/green@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/grey@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/blue.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/green.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/red@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/grey.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/aero.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/purple.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/yellow.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/_all.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/orange.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/square@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/aero.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/pink.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/purple.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/red.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/purple@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/grey.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/square.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/square.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/blue@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/red.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/aero.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/minimal@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/purple@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/red@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/grey@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/green.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/blue.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/blue@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/grey.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/purple.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/pink.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/green.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/green@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/red.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/purple.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/aero.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/orange@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/minimal.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/yellow@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/pink.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/yellow.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/minimal.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/pink@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/grey.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/orange.png
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/blue.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/orange.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/_all.css
+http://ms01.oscp.exam:81/plugins/iCheck/minimal/red.css
+http://ms01.oscp.exam:81/bower_components/datatables.net/js/jquery.dataTables.min.js
+http://ms01.oscp.exam:81/bower_components/raphael/raphael.min.js
+http://ms01.oscp.exam:81/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+http://ms01.oscp.exam:81/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery-knob/dist/ (Apache)
+http://ms01.oscp.exam:81/bower_components/jquery-knob/excanvas.js
+http://ms01.oscp.exam:81/bower_components/jquery-knob/index
+http://ms01.oscp.exam:81/bower_components/jquery-knob/index.html
+http://ms01.oscp.exam:81/Admin/index.php
+http://ms01.oscp.exam:81/Admin/
+http://ms01.oscp.exam:81/bower_components/jquery-slimscroll/jquery.slimscroll.min.js
+http://ms01.oscp.exam:81/dist/js/demo.js
+http://ms01.oscp.exam:81/bower_components/fastclick/lib/fastclick.js
+http://ms01.oscp.exam:81/dist/js/pages/dashboard.js
+http://ms01.oscp.exam:81/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/db/ (Apache)
+http://ms01.oscp.exam:81/db/apsystem.sql
+http://ms01.oscp.exam:81/db/
+http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/daterangepicker.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/Admin/includes/ (Apache)
+http://ms01.oscp.exam:81/Admin/includes/attendance_modal.php
+http://ms01.oscp.exam:81/Admin/includes/cashadvance_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/fastclick/lib/ (Apache)
+http://ms01.oscp.exam:81/Admin/includes/employee_schedule_modal.php
+http://ms01.oscp.exam:81/Admin/includes/schedule_modal.php
+http://ms01.oscp.exam:81/Admin/includes/datatable_initializer.php
+http://ms01.oscp.exam:81/Admin/includes/overtime_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery-slimscroll/ (Apache)
+http://ms01.oscp.exam:81/Admin/includes/position_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/ (Apache)
+http://ms01.oscp.exam:81/Admin/includes/navbar.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/datatables.net-bs/ (Apache)
+http://ms01.oscp.exam:81/Admin/includes/profile_modal.php
+http://ms01.oscp.exam:81/Admin/includes/
+http://ms01.oscp.exam:81/Admin/includes/deduction_modal.php
+http://ms01.oscp.exam:81/Admin/includes/conn.php
+http://ms01.oscp.exam:81/Admin/includes/footer.php
+http://ms01.oscp.exam:81/Admin/includes/employee_modal.php
+http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/package.js
+http://ms01.oscp.exam:81/bower_components/datatables.net-bs/bower.json
+http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/daterangepicker.scss
+http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/demo.html
+http://ms01.oscp.exam:81/plugins/
+http://ms01.oscp.exam:81/plugins/timepicker/bootstrap-timepicker.min.css
+http://ms01.oscp.exam:81/bower_components/bootstrap-daterangepicker/drp.png
+http://ms01.oscp.exam:81/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css
+http://ms01.oscp.exam:81/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css
+http://ms01.oscp.exam:81/dist/js/adminlte.min.js
+http://ms01.oscp.exam:81/bower_components/morris.js/morris.min.js
+http://ms01.oscp.exam:81/dist/css/skins/_all-skins.min.css
+http://ms01.oscp.exam:81/bower_components/Ionicons/css/ionicons.min.css
+http://ms01.oscp.exam:81/bower_components/bootstrap/dist/js/bootstrap.min.js
+http://ms01.oscp.exam:81/bower_components/moment/min/moment.min.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/datatables.net-bs/css/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/Ionicons/css/ (Apache)
+http://ms01.oscp.exam:81/
+http://ms01.oscp.exam:81/bower_components/chart.js/Chart.js
+http://ms01.oscp.exam:81/dist/js/pages/
+http://ms01.oscp.exam:81/images/facebook-profile-image.jpeg
+http://ms01.oscp.exam:81/images/
+http://ms01.oscp.exam:81/bower_components/jquery-ui/jquery-ui.min.js
+http://ms01.oscp.exam:81/bower_components/bootstrap/package.js
+http://ms01.oscp.exam:81/bower_components/jquery-ui/bower.json
+http://ms01.oscp.exam:81/bower_components/bootstrap/LICENSE
+http://ms01.oscp.exam:81/bower_components/jquery-ui/component.json
+http://ms01.oscp.exam:81/bower_components/jquery/LICENSE.txt
+http://ms01.oscp.exam:81/admin/
+http://ms01.oscp.exam:81/bower_components/Ionicons/css/ionicons.css
+http://ms01.oscp.exam:81/bower_components/jquery/bower.json
+http://ms01.oscp.exam:81/bower_components/jquery-ui/AUTHORS.txt
+http://ms01.oscp.exam:81/bower_components/jquery-ui/jquery-ui.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/jquery-knob/js/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/eve-raphael/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/select2/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/ckeditor/ (Apache)
+http://ms01.oscp.exam:81/bower_components/jquery-knob/js/jquery.knob.js
+http://ms01.oscp.exam:81/bower_components/jquery-knob/js/
+http://ms01.oscp.exam:81/bower_components/eve-raphael/bower.json
+http://ms01.oscp.exam:81/bower_components/eve-raphael/package.json
+http://ms01.oscp.exam:81/bower_components/eve-raphael/eve.js
+http://ms01.oscp.exam:81/bower_components/eve-raphael/LICENSE
+http://ms01.oscp.exam:81/bower_components/eve-raphael/component.json
+http://ms01.oscp.exam:81/bower_components/select2/composer.json
+http://ms01.oscp.exam:81/bower_components/select2/component.json
+http://ms01.oscp.exam:81/bower_components/select2/LICENSE.md
+http://ms01.oscp.exam:81/index
+http://ms01.oscp.exam:81/plugins/iCheck/square/pink.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/yellow.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/orange.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/pink@2x.png
+http://ms01.oscp.exam:81/plugins/iCheck/square/orange@2x.png
+http://ms01.oscp.exam:81/index.php
+http://ms01.oscp.exam:81/plugins/iCheck/line/_all.css
+http://ms01.oscp.exam:81/plugins/iCheck/line/purple.css
+http://ms01.oscp.exam:81/plugins/iCheck/square/blue.png
+http://ms01.oscp.exam:81/plugins/iCheck/line/yellow.css
+http://ms01.oscp.exam:81/plugins/iCheck/line/orange.css
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/select2/tests/ (Apache)
+http://ms01.oscp.exam:81/bower_components/moment/Templates/
+http://ms01.oscp.exam:81/bower_components/select2/tests/integration.html
+http://ms01.oscp.exam:81/bower_components/select2/tests/unit.html
+http://ms01.oscp.exam:81/bower_components/select2/tests/helpers.js
+http://ms01.oscp.exam:81/bower_components/fastclick/
+http://ms01.oscp.exam:81/bower_components/PACE/
+http://ms01.oscp.exam:81/bower_components/PACE/Install
+http://ms01.oscp.exam:81/bower_components/Ionicons/CSS/
+http://ms01.oscp.exam:81/bower_components/PACE/INSTALL
+http://ms01.oscp.exam:81/plugins/jvectormap/jquery-jvectormap-1.2.2.css
+http://ms01.oscp.exam:81/dist/js/
+http://ms01.oscp.exam:81/plugins/jvectormap/jquery-jvectormap-usa-en.js
+http://ms01.oscp.exam:81/plugins/jvectormap/
+http://ms01.oscp.exam:81/bower_components/moment/min/moment-with-locales.min.js
+http://ms01.oscp.exam:81/bower_components/moment/min/locales.min.js
+http://ms01.oscp.exam:81/bower_components/moment/min/moment-with-locales.js
+http://ms01.oscp.exam:81/bower_components/moment/min/locales.js
+http://ms01.oscp.exam:81/dist/js/Demo
+http://ms01.oscp.exam:81/bower_components/moment/min/tests.js
+http://ms01.oscp.exam:81/bower_components/moment/min/
+http://ms01.oscp.exam:81/ADMIN/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/fastclick/Lib/ (Apache)
+http://ms01.oscp.exam:81/bower_components/fastclick/Lib/fastclick.js
+http://ms01.oscp.exam:81/bower_components/fastclick/Lib/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/bower_components/chart.js/Docs/ (Apache)
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/05-Pie-Doughnut-Chart.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/01-Line-Chart.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/03-Radar-Chart.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/07-Notes.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/02-Bar-Chart.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/00-Getting-Started.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/06-Advanced.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/04-Polar-Area-Chart.md
+http://ms01.oscp.exam:81/bower_components/chart.js/Docs/
+http://ms01.oscp.exam:81/DB/apsystem.sql
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/DB/ (Apache)
+http://ms01.oscp.exam:81/DB/
+http://ms01.oscp.exam:81/ADMIN/index.php
+http://ms01.oscp.exam:81/dist/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/dist/img/ (Apache)
+http://ms01.oscp.exam:81/dist/img/avatar3.png
+http://ms01.oscp.exam:81/dist/img/default-50x50.gif
+http://ms01.oscp.exam:81/dist/img/user4-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/avatar04.png
+http://ms01.oscp.exam:81/dist/img/user6-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/user1-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/avatar5.png
+http://ms01.oscp.exam:81/dist/img/user8-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/user5-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/user7-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/avatar.png
+http://ms01.oscp.exam:81/dist/img/boxed-bg.png
+http://ms01.oscp.exam:81/dist/img/icons.png
+http://ms01.oscp.exam:81/dist/img/user3-128x128.jpg
+http://ms01.oscp.exam:81/dist/img/avatar2.png
+http://ms01.oscp.exam:81/dist/img/user2-160x160.jpg
+http://ms01.oscp.exam:81/dist/img/boxed-bg.jpg
+http://ms01.oscp.exam:81/dist/img/photo2.png
+http://ms01.oscp.exam:81/dist/img/photo3.jpg
+http://ms01.oscp.exam:81/dist/img/photo1.png
+http://ms01.oscp.exam:81/dist/img/photo4.jpg
+http://ms01.oscp.exam:81/bower_components/moment/LICENSE
+http://ms01.oscp.exam:81/bower_components/raphael/LICENSE
+http://ms01.oscp.exam:81/bower_components/jquery-knob/Index
+http://ms01.oscp.exam:81/tcpdf/tcpdf_parser.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/ (Apache)
+http://ms01.oscp.exam:81/tcpdf/tcpdf_barcodes_2d.php
+http://ms01.oscp.exam:81/tcpdf/tcpdf_autoconfig.php
+http://ms01.oscp.exam:81/tcpdf/tcpdf_barcodes_1d.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/config/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/include/ (Apache)
+http://ms01.oscp.exam:81/tcpdf/tcpdf.php
+http://ms01.oscp.exam:81/tcpdf/tcpdf_import.php
+http://ms01.oscp.exam:81/tcpdf/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/fonts/ (Apache)
+http://ms01.oscp.exam:81/tcpdf/config/tcpdf_config.php
+http://ms01.oscp.exam:81/tcpdf/include/sRGB.icc
+http://ms01.oscp.exam:81/tcpdf/include/tcpdf_colors.php
+http://ms01.oscp.exam:81/tcpdf/include/tcpdf_fonts.php
+http://ms01.oscp.exam:81/tcpdf/include/tcpdf_static.php
+http://ms01.oscp.exam:81/tcpdf/include/tcpdf_filters.php
+http://ms01.oscp.exam:81/tcpdf/include/tcpdf_images.php
+http://ms01.oscp.exam:81/tcpdf/include/tcpdf_font_data.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedbi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/msungstdlight.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusanscondensedbi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/times.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusanscondensed.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freemonobi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusans.php
+http://ms01.oscp.exam:81/tcpdf/fonts/uni2cid_aj16.php
+http://ms01.oscp.exam:81/tcpdf/fonts/timesb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmono.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freeserif.php
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfacourier.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansb.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/uni2cid_ak12.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freesansbi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freeserifb.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusanscondensedi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfahelvetica.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freemonob.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfazapfdingbats.z
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/include/barcodes/ (Apache)
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfatimesbi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmono.php
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfahelveticai.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freemonob.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freeserifi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmonoi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmonobi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/timesi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/courier.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freeserifb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/uni2cid_ac15.php
+http://ms01.oscp.exam:81/tcpdf/fonts/helveticabi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/kozgopromedium.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserif.ctg.z
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/fonts/dejavu-fonts-ttf-2.34/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/fonts/freefont-20100919/ (Apache)
+http://ms01.oscp.exam:81/tcpdf/include/barcodes/datamatrix.php
+http://ms01.oscp.exam:81/tcpdf/include/barcodes/pdf417.php
+http://ms01.oscp.exam:81/tcpdf/include/barcodes/qrcode.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavu-fonts-ttf-2.34/langcover.txt
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedbi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfahelvetica.z
+http://ms01.oscp.exam:81/tcpdf/fonts/kozminproregular.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freesansi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/timesbi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/symbol.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedb.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/helvetica.php
+http://ms01.oscp.exam:81/tcpdf/fonts/stsongstdlight.php
+http://ms01.oscp.exam:81/tcpdf/fonts/aefurat.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freemonobi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/cid0ct.php
+http://ms01.oscp.exam:81/tcpdf/fonts/cid0cs.php
+http://ms01.oscp.exam:81/tcpdf/fonts/cid0kr.php
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfatimes.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfahelveticai.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansbi.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfacourier.z
+http://ms01.oscp.exam:81/tcpdf/fonts/aealarabiya.z
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/tcpdf/fonts/ae_fonts_2.0/ (Apache)
+http://ms01.oscp.exam:81/tcpdf/fonts/freemonobi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/courieri.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansextralight.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freesansb.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansb.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfatimesbi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freesansb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmonob.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansbi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfahelveticabi.php
+http://ms01.oscp.exam:81/tcpdf/fonts/freemono.php
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfacourierb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/zapfdingbats.php
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfatimesb.php
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusans.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/pdfacourierb.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedb.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freemono.ctg.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freemonob.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freeserifb.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusanscondensedi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmonoi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavu-fonts-ttf-2.34/status.txt
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusanscondensed.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freesansi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserif.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavuserifcondensedi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusansmonob.z
+http://ms01.oscp.exam:81/tcpdf/fonts/dejavusanscondensedbi.z
+http://ms01.oscp.exam:81/tcpdf/fonts/freesans.z
+http://ms01.oscp.exam:81/Admin/Index
+http://ms01.oscp.exam:81/Admin/Index.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://ms01.oscp.exam:81/Admin/INCLUDES/ (Apache)
+http://ms01.oscp.exam:81/Admin/INCLUDES/scripts.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/footer.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/cashadvance_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/menubar.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/conn.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/navbar.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/profile_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/attendance_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/position_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/employee_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/schedule_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/deduction_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/overtime_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/datatable_initializer.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/employee_schedule_modal.php
+http://ms01.oscp.exam:81/Admin/INCLUDES/
+http://ms01.oscp.exam:81/dist/js/pages/Dashboard
+http://ms01.oscp.exam:81/Index
+http://ms01.oscp.exam:81/Index.php

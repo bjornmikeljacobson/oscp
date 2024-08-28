@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sat Feb 24 15:01:28 2024 as: nmap -A -T4 -v -p- -oA aero-143/full 192.168.212.143 -->
+<nmaprun scanner="nmap" args="nmap -A -T4 -v -p- -oA aero-143/full 192.168.212.143" start="1708804888" startstr="Sat Feb 24 15:01:28 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1708804888"/>
+<taskend task="NSE" time="1708804888"/>
+<taskbegin task="NSE" time="1708804888"/>
+<taskend task="NSE" time="1708804888"/>
+<taskbegin task="NSE" time="1708804888"/>
+<taskend task="NSE" time="1708804888"/>
+<taskbegin task="Ping Scan" time="1708804888"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.212.143" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1708804888" extrainfo="1 total hosts"/>
+<taskbegin task="SYN Stealth Scan" time="1708804888"/>
+<taskprogress task="SYN Stealth Scan" time="1708804919" percent="22.65" remaining="106" etc="1708805025"/>
+<taskprogress task="SYN Stealth Scan" time="1708804949" percent="57.98" remaining="45" etc="1708804993"/>
+<taskend task="SYN Stealth Scan" time="1708804977" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1708804978"/>
+<taskend task="Service scan" time="1708805110" extrainfo="10 services on 1 host"/>
+<taskbegin task="Traceroute" time="1708805115"/>
+<taskend task="Traceroute" time="1708805115"/>
+<taskbegin task="Parallel DNS resolution of 3 hosts." time="1708805115"/>
+<taskend task="Parallel DNS resolution of 3 hosts." time="1708805115"/>
+<taskbegin task="NSE" time="1708805115"/>
+<taskend task="NSE" time="1708805124"/>
+<taskbegin task="NSE" time="1708805124"/>
+<taskend task="NSE" time="1708805145"/>
+<taskbegin task="NSE" time="1708805145"/>
+<taskend task="NSE" time="1708805145"/>
+<host starttime="1708804888" endtime="1708805145"><status state="up" reason="echo-reply" reason_ttl="61"/>
+<address addr="192.168.212.143" addrtype="ipv4"/>
+<hostnames>
+<hostname name="aero.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65525">
+<extrareasons reason="no-response" count="65525" proto="tcp" ports="1-20,23-79,82-442,444-2999,3002,3004-3305,3307-5431,5433-65535"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="ftp" product="vsftpd" version="3.0.3" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd:3.0.3</cpe></service></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.4" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 23:4c:6f:ff:b8:52:29:65:3d:d1:4e:38:eb:fe:01:c1 (RSA)&#xa;  256 0d:fd:36:d8:05:69:83:ef:ae:a0:fe:4b:82:03:32:ed (ECDSA)&#xa;  256 cc:76:17:1e:8e:c5:57:b2:1f:45:28:09:05:5a:eb:39 (ED25519)"><table>
+<elem key="bits">3072</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">234c6fffb85229653dd14e38ebfe01c1</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQCi/7Md8C4Np6BJgxvw5Jb8jJ+RYx+s7Wc7jWxTHhTMURFOTc6HH2XC0rvbZukvws+KficflBsI/B7RVgY454RK1NOGOqVd5FSIY3qol4MGH2/Sq03mfjcc8aMgni5OZd2DNZY7e8auGa3fDOci6PXOZaYxwwjn52Vt/iNZu8sAv3rf1sRLAikvk5fGlEbxLu1+zXDCySqP0IgeR+i7JcWUp8+xiwp2ZmURcAsFkM0TBm07MJKD+T+zPru2YxvsICXMMG37rV22KFqmk2p/8PF18WUqJpDPnPYEKZwGjbxa71STgQfUcFXeXU9QX3ofz/g0ZpxEg8wk2O9fNvYdZ454isgPWtxhHe9wii18eq4DBizwfHao1OI8iKpPbkQlrKmOrPqU55LXJR84n68cCPp8yH8Pd8Mv+AzV+9h0/u72XB/0AaFcgT5u7SnGoiTrx5e2eMzI+lFkm5xY+KJw5ZvTaC3MnD3LJugV6axmAH+9L6LDrLV8dkLq6kV8KpS9Ej0=</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">0dfd36d8056983efaea0fe4b820332ed</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLKaSNQY+Y3BFhxGXMm8uTdQnXJ1VbZEwFMoa1MUkYgu0vSwafvy6ffXVglWIlroS4axopq6HkpSA+2wnjp2E8s=</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">cc76171e8ec557b21f452809055aeb39</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIC3D5QMyrcUNcOicavOsnzna2L1/Fg2N7w7okmegpssB</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET POST OPTIONS HEAD"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+</table>
+</script><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+<port protocol="tcp" portid="81"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET POST OPTIONS HEAD"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+</table>
+</script><script id="http-title" output="Test Page for the Nginx HTTP Server on Fedora"><elem key="title">Test Page for the Nginx HTTP Server on Fedora</elem>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="http" product="Apache httpd" version="2.4.41" hostname="127.0.0.2" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script><script id="http-methods" output="&#xa;  Supported Methods: GET POST OPTIONS HEAD"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="3000"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="ppp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3001"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="nessus" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3003"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="cgms" servicefp="SF-Port3003-TCP:V=7.94SVN%I=7%D=2/24%Time=65DA4B7D%P=x86_64-pc-linux-gnu%r(GenericLines,1,&quot;\n&quot;)%r(GetRequest,1,&quot;\n&quot;)%r(HTTPOptions,1,&quot;\n&quot;)%r(RTSPRequest,1,&quot;\n&quot;)%r(Help,1,&quot;\n&quot;)%r(SSLSessionReq,1,&quot;\n&quot;)%r(TerminalServerCookie,1,&quot;\n&quot;)%r(Kerberos,1,&quot;\n&quot;)%r(FourOhFourRequest,1,&quot;\n&quot;)%r(LPDString,1,&quot;\n&quot;)%r(LDAPSearchReq,1,&quot;\n&quot;)%r(SIPOptions,1,&quot;\n&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="mysql" product="MySQL" extrainfo="unauthorized" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql</cpe></service></port>
+<port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="postgresql" product="PostgreSQL DB" version="9.6.0 or later" servicefp="SF-Port5432-TCP:V=7.94SVN%I=7%D=2/24%Time=65DA4B78%P=x86_64-pc-linux-gnu%r(SMBProgNeg,8C,&quot;E\0\0\0\x8bSFATAL\0VFATAL\0C0A000\0Munsupported\x20frontend\x20protocol\x2065363\.19778:\x20server\x20supports\x202\.0\x20to\x203\.0\0Fpostmaster\.c\0L2113\0RProcessStartupPacket\0\0&quot;);" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql</cpe></service><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="ssl-cert" output="Subject: commonName=aero&#xa;Subject Alternative Name: DNS:aero&#xa;Issuer: commonName=aero&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-05-10T22:20:48&#xa;Not valid after:  2031-05-08T22:20:48&#xa;MD5:   0cbe:58c4:2d38:4109:72c9:e3c4:fe39:ca8d&#xa;SHA-1: ad85:4984:c180:ba73:e010:83f8:c44f:18b9:d176:2fd8"><table key="subject">
+<elem key="commonName">aero</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">aero</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">BE34AD1515E45AE776FD6CF8FF7D09E40DE37B0935423E8CC27CD00EFA0279118EC837C17A6F357363563D333EBD7DF66ABD4F187B7D7535E84775F478CDBA0FD9DCB591DC0DB01A4F4E3CE438E507093788D14F05FD11B0B341A98415889A08601DAFBB8764C7EEB8EDEC8B1706C303390177F7E138832428AC592E277C01AF126B564637641CCD143DABD753A5877CD7FB32E2F3F36FAD01A1DCC342DB2AE3441BCF3DF9A28EE97F6357A40CB27306759AF98C1D75F9EE2F6EC4DCE159A45197B37382A38AC1607061A2F7C7F5F61A5357A938F6F3E66B3471D5BA212AE63AF61E08BDA63FABD3380EBACBB0E72F4A29EECB2DEAE3911D5DCAC13A2C8D066F</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:aero</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-05-10T22:20:48</elem>
+<elem key="notAfter">2031-05-08T22:20:48</elem>
+</table>
+<elem key="md5">0cbe58c42d38410972c9e3c4fe39ca8d</elem>
+<elem key="sha1">ad854984c180ba73e01083f8c44f18b9d1762fd8</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIICyjCCAbKgAwIBAgIUUhXFOA5R7/D70TfWErlFqDzV4qcwDQYJKoZIhvcNAQEL&#xa;BQAwDzENMAsGA1UEAwwEYWVybzAeFw0yMTA1MTAyMjIwNDhaFw0zMTA1MDgyMjIw&#xa;NDhaMA8xDTALBgNVBAMMBGFlcm8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK&#xa;AoIBAQC+NK0VFeRa53b9bPj/fQnkDeN7CTVCPozCfNAO+gJ5EY7IN8F6bzVzY1Y9&#xa;Mz69ffZqvU8Ye311NehHdfR4zboP2dy1kdwNsBpPTjzkOOUHCTeI0U8F/RGws0Gp&#xa;hBWImghgHa+7h2TH7rjt7IsXBsMDOQF39+E4gyQorFkuJ3wBrxJrVkY3ZBzNFD2r&#xa;11Olh3zX+zLi8/NvrQGh3MNC2yrjRBvPPfmijul/Y1ekDLJzBnWa+YwddfnuL27E&#xa;3OFZpFGXs3OCo4rBYHBhovfH9fYaU1epOPbz5ms0cdW6ISrmOvYeCL2mP6vTOA66&#xa;y7DnL0op7sst6uORHV3KwTosjQZvAgMBAAGjHjAcMAkGA1UdEwQCMAAwDwYDVR0R&#xa;BAgwBoIEYWVybzANBgkqhkiG9w0BAQsFAAOCAQEArU2QhS00+7OedCclrx+Tktu4&#xa;kV3Z26wzHvTl0TXaoQPK+8MsZMPKcgf9QWGJoaIXynlQ49UZv6ePe0ZQiPxTqJoK&#xa;Blz8NOfCZQz8Dg4/PBHXBRU42rSsZHbah4B44sDhzSVBJX+V8HIyR7gCYjuuRo/E&#xa;hEXHW5evojRmajVg90vtDkBwSzVRbiorF8WRpTnWNyLeQlZ/qa/DQK5DvdKwOfNO&#xa;fSNhUu1u6yCIX9zJjVigxoNqvV+d18qZauUQ+jNuSu7NWG1WEyGaBEFB2PQwAh7I&#xa;fkzb++Msr8hanm/ts+atP6mqaWgoFTlKVpOoXAPibTvEqhYeZqMDCmc9/TTA/Q==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="fingerprint-strings" output="&#xa;  SMBProgNeg: &#xa;    SFATAL&#xa;    VFATAL&#xa;    C0A000&#xa;    Munsupported frontend protocol 65363.19778: server supports 2.0 to 3.0&#xa;    Fpostmaster.c&#xa;    L2113&#xa;    RProcessStartupPacket"><elem key="SMBProgNeg">&#xa;    SFATAL&#xa;    VFATAL&#xa;    C0A000&#xa;    Munsupported frontend protocol 65363.19778: server supports 2.0 to 3.0&#xa;    Fpostmaster.c&#xa;    L2113&#xa;    RProcessStartupPacket</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="21"/>
+</os>
+<uptime seconds="4039769" lastboot="Mon Jan  8 20:56:16 2024"/>
+<distance value="4"/>
+<tcpsequence index="266" difficulty="Good luck!" values="645FEAAA,71D5BA3E,EE704A3F,6ADAFF42,661C4596,EF701C0B"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="F0C98500,F0C9856A,F0C985CA,F0C9862A,F0C98693,F0C986FA"/>
+<trace port="3306" proto="tcp">
+<hop ttl="1" ipaddr="192.168.45.1" rtt="50.44"/>
+<hop ttl="2" ipaddr="192.168.45.254" rtt="50.51"/>
+<hop ttl="3" ipaddr="192.168.251.1" rtt="50.73"/>
+<hop ttl="4" ipaddr="192.168.212.143" rtt="50.74" host="aero.com"/>
+</trace>
+<times srtt="49701" rttvar="1836" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1708805145"/>
+<taskend task="NSE" time="1708805145"/>
+<taskbegin task="NSE" time="1708805145"/>
+<taskend task="NSE" time="1708805145"/>
+<taskbegin task="NSE" time="1708805145"/>
+<taskend task="NSE" time="1708805145"/>
+<runstats><finished time="1708805145" timestr="Sat Feb 24 15:05:45 2024" summary="Nmap done at Sat Feb 24 15:05:45 2024; 1 IP address (1 host up) scanned in 257.22 seconds" elapsed="257.22" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

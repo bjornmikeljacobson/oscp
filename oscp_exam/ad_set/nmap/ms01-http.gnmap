@@ -1,0 +1,2 @@
+# Nmap 7.94SVN scan initiated Sun May 19 19:46:31 2024 as: nmap -p 8080 --script=http* -v -oA ms01-http -T2 ms01.oscp.exam
+# Ports scanned: TCP(1;8080) UDP(0;) SCTP(0;) PROTOCOLS(0;)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pharmacy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="pharmacy.xsd">
+    <medication price="730.54" code="string" date="2016-02-27">
+        <title>string</title>
+        <schedule>
+            <name>string</name>
+            <generic>string</generic>
+        </schedule>
+        <genre>string</genre>
+    </medication>
+    <medication price="6738.774" code="string">
+        <title>string</title>
+        <schedule>
+            <name>string</name>
+            <generic>string</generic>
+        </schedule>
+    </medication>
+</pharmacy>

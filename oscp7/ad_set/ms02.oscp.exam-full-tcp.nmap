@@ -1,0 +1,45 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 13:44:40 2024 as: nmap -v -Pn -p- -A -oN ms02.oscp.exam-full-tcp.nmap ms02.oscp.exam
+adjust_timeouts2: packet supposedly had rtt of -66679 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -66679 microseconds.  Ignoring time.
+Nmap scan report for ms02.oscp.exam (172.16.136.102)
+Host is up (0.019s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: OSCP
+|   NetBIOS_Domain_Name: OSCP
+|   NetBIOS_Computer_Name: MS02
+|   DNS_Domain_Name: oscp.exam
+|   DNS_Computer_Name: MS02.oscp.exam
+|   DNS_Tree_Name: oscp.exam
+|   Product_Version: 10.0.17763
+|_  System_Time: 2024-07-22T17:49:02+00:00
+| ssl-cert: Subject: commonName=MS02.oscp.exam
+| Issuer: commonName=MS02.oscp.exam
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-05-06T17:10:34
+| Not valid after:  2024-11-05T17:10:34
+| MD5:   7075:f139:10c7:c67f:a82b:637a:e105:1fee
+|_SHA-1: 84cf:4011:c577:2c8f:2e85:5628:93e9:c163:1b85:52cb
+|_ssl-date: 2024-07-22T17:49:07+00:00; 0s from scanner time.
+5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 35.657 days (since Sun Jun 16 22:02:55 2024)
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: Incrementing by 2
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   19.38 ms ms02.oscp.exam (172.16.136.102)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 22 13:49:07 2024 -- 1 IP address (1 host up) scanned in 267.44 seconds

@@ -1,0 +1,327 @@
+ANSI color bit for Windows is not set. If you are executing this from a Windows terminal inside the host you should run 'REG ADD HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1' and then start a new CMD
+Long paths are disabled, so the maximum length of a path supported is 260 chars (this may cause false negatives when looking for files). If you are admin, you can enable it with 'REG ADD HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v VirtualTerminalLevel /t REG_DWORD /d 1' and then start a new CMD
+[33m  WinPEAS-ng[0m[33m by @hacktricks_live[0m
+[1;32m
+       /---------------------------------------------------------------------------------\
+       |                             [34mDo you like PEASS?[1;32m                                  |
+       |---------------------------------------------------------------------------------| 
+       |         [33mGet the latest version[1;32m    :     [1;31mhttps://github.com/sponsors/carlospolop[1;32m |
+       |         [33mFollow on Twitter[1;32m         :     [1;31m@hacktricks_live[1;32m                        |
+       |         [33mRespect on HTB[1;32m            :     [1;31mSirBroccoli            [1;32m                 |
+       |---------------------------------------------------------------------------------|
+       |                                 [34mThank you![1;32m                                      |
+       \---------------------------------------------------------------------------------/
+[0m
+[33m  [+] [1;32mLegend:[0m
+[1;31m         Red[1;37m                Indicates a special privilege over an object or something is misconfigured[0m
+[1;32m         Green[1;37m              Indicates that some protection is enabled or something is well configured[0m
+[36m         Cyan[1;37m               Indicates active users[0m
+[34m         Blue[1;37m               Indicates disabled users[0m
+[1;33m         LightYellow[1;37m        Indicates links[0m
+
+[34m You can find a Windows local PE Checklist here: [33mhttps://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
+[1;90m   Creating Dynamic lists, this could take a while, please wait...[0m
+[1;90m   - Loading sensitive_files yaml definitions file...[0m
+[1;90m   - Loading regexes yaml definitions file...[0m
+[1;90m   - Checking if domain...[0m
+[1;90m   - Getting Win32_UserAccount info...[0m
+[1;90mError while getting Win32_UserAccount info: System.Management.ManagementException: Access denied 
+   at System.Management.ThreadDispatch.Start()
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winPEAS.Checks.Checks.CreateDynamicLists(Boolean isFileSearchEnabled)[0m
+[1;90m   - Creating current user groups list...[0m
+[1;90m   - Creating active users list (local only)...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Creating disabled users list...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Admin users list...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Creating AppLocker bypass list...[0m
+[1;90m   - Creating files/directories list for search...[0m
+[1;90m        [skipped, file search is disabled][0m
+
+
+[1;36m════════════════════════════════════╣ [1;32mSystem Information[1;36m ╠════════════════════════════════════[0m
+
+[1;36m╔══════════╣ [1;32mBasic System Information[0m
+[1;36m╚ [1;34mCheck if the Windows versions is vulnerable to some known exploit [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#kernel-exploits[0m
+[1;90m  [X] Exception: Access denied [0m
+[1;90m  [X] Exception: Access denied [0m
+[1;90m  [X] Exception: The given key was not present in the dictionary.[0m
+
+[1;36m╔══════════╣ [1;32mShowing All Microsoft Updates[0m
+[1;90m  [X] Exception: Creating an instance of the COM component with CLSID {B699E5E8-67FF-4177-88B0-3684A3388BFB} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).[0m
+
+[1;36m╔══════════╣ [1;32mSystem Last Shutdown Date/time (from Registry)
+[0m
+    Last Shutdown Date/time        :    3/2/2023 1:37:07 AM
+
+[1;36m╔══════════╣ [1;32mUser Environment Variables[0m
+[1;36m╚ [1;34mCheck for some passwords or keys in the env variables [1;33m[0m
+[1;37m    COMPUTER[0m[1;31mNAME[0m: [0mMS02
+[1;37m    PUBLIC: [0mC:\Users\Public
+[1;37m    LOCALAPPDATA: [0mC:\Users\celia.almeda\AppData\Local
+[1;37m    PSModulePath: [0mC:\Users\celia.almeda\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+[1;37m    PROCESSOR_ARCHITECTURE: [0mAMD64
+[1;37m    Path: [0mC:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\celia.almeda\AppData\Local\Microsoft\WindowsApps
+[1;37m    CommonProgramFiles(x86): [0mC:\Program Files (x86)\Common Files
+[1;37m    ProgramFiles(x86): [0mC:\Program Files (x86)
+[1;37m    PROCESSOR_LEVEL: [0m23
+[1;37m    ProgramFiles: [0mC:\Program Files
+[1;37m    PATHEXT: [0m.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+[1;37m    USERPROFILE: [0mC:\Users\celia.almeda
+[1;37m    SystemRoot: [0mC:\Windows
+[1;37m    ALLUSERSPROFILE: [0mC:\ProgramData
+[1;37m    DriverData: [0mC:\Windows\System32\Drivers\DriverData
+[1;37m    ProgramData: [0mC:\ProgramData
+[1;37m    PROCESSOR_REVISION: [0m0102
+[1;37m    USER[0m[1;31mNAME[0m: [0mcelia.almeda
+[1;37m    CommonProgramW6432: [0mC:\Program Files\Common Files
+[1;37m    OneDrive: [0mC:\Users\celia.almeda\OneDrive
+[1;37m    CommonProgramFiles: [0mC:\Program Files\Common Files
+[1;37m    OS: [0mWindows_NT
+[1;37m    PROCESSOR_IDENTIFIER: [0mAMD64 Family 23 Model 1 Stepping 2, AuthenticAMD
+[1;37m    ComSpec: [0mC:\Windows\system32\cmd.exe
+[1;37m    SystemDrive: [0mC:
+[1;37m    TEMP: [0mC:\Users\CELIA~1.ALM\AppData\Local\Temp
+[1;37m    NUMBER_OF_PROCESSORS: [0m2
+[1;37m    APPDATA: [0mC:\Users\celia.almeda\AppData\Roaming
+[1;37m    TMP: [0mC:\Users\CELIA~1.ALM\AppData\Local\Temp
+[1;37m    ProgramW6432: [0mC:\Program Files
+[1;37m    windir: [0mC:\Windows
+[1;37m    USERDOMAIN: [0mOSCP
+[1;37m    USERDNSDOMAIN: [0moscp.exam
+
+[1;36m╔══════════╣ [1;32mSystem Environment Variables[0m
+[1;36m╚ [1;34mCheck for some passwords or keys in the env variables [1;33m[0m
+[1;37m    ComSpec: [0mC:\Windows\system32\cmd.exe
+[1;37m    DriverData: [0mC:\Windows\System32\Drivers\DriverData
+[1;37m    OS: [0mWindows_NT
+[1;37m    Path: [0mC:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\
+[1;37m    PATHEXT: [0m.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+[1;37m    PROCESSOR_ARCHITECTURE: [0mAMD64
+[1;37m    PSModulePath: [0mC:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+[1;37m    TEMP: [0mC:\Windows\TEMP
+[1;37m    TMP: [0mC:\Windows\TEMP
+[1;37m    USER[0m[1;31mNAME[0m: [0mSYSTEM
+[1;37m    windir: [0mC:\Windows
+[1;37m    NUMBER_OF_PROCESSORS: [0m2
+[1;37m    PROCESSOR_LEVEL: [0m23
+[1;37m    PROCESSOR_IDENTIFIER: [0mAMD64 Family 23 Model 1 Stepping 2, AuthenticAMD
+[1;37m    PROCESSOR_REVISION: [0m0102
+
+[1;36m╔══════════╣ [1;32mAudit Settings[0m
+[1;36m╚ [1;34mCheck what is being logged [1;33m[0m
+[1;90m    Not Found[0m
+
+[1;36m╔══════════╣ [1;32mAudit Policy Settings - Classic & Advanced[0m
+
+[1;36m╔══════════╣ [1;32mWEF Settings[0m
+[1;36m╚ [1;34mWindows Event Forwarding, is interesting to know were are sent the logs [1;33m[0m
+[1;90m    Not Found[0m
+
+[1;36m╔══════════╣ [1;32mLAPS Settings[0m
+[1;36m╚ [1;34mIf installed, local administrator password is changed frequently and is restricted by ACL [1;33m[0m
+[1;37m    LAPS Enabled: [0m[0m[1;31mLAPS not installed[0m
+
+[1;36m╔══════════╣ [1;32mWdigest[0m
+[1;36m╚ [1;34mIf enabled, plain-text crds could be stored in LSASS [1;33mhttps://book.hacktricks.xyz/windows-hardening/stealing-credentials/credentials-protections#wdigest[0m
+[1;32m    Wdigest is not enabled[0m
+
+[1;36m╔══════════╣ [1;32mLSA Protection[0m
+[1;36m╚ [1;34mIf enabled, a driver is needed to read LSASS memory (If Secure Boot or UEFI, RunAsPPL cannot be disabled by deleting the registry key) [1;33mhttps://book.hacktricks.xyz/windows-hardening/stealing-credentials/credentials-protections#lsa-protection[0m
+[1;31m    LSA Protection is not enabled[0m
+
+[1;36m╔══════════╣ [1;32mCredentials Guard[0m
+[1;36m╚ [1;34mIf enabled, a driver is needed to read LSASS memory [1;33mhttps://book.hacktricks.xyz/windows-hardening/stealing-credentials/credentials-protections#credential-guard[0m
+[1;31m    CredentialGuard is not enabled[0m
+
+[1;36m╔══════════╣ [1;32mCached Creds[0m
+[1;36m╚ [1;34mIf > 0, credentials will be cached in the registry and accessible by SYSTEM user [1;33mhttps://book.hacktricks.xyz/windows-hardening/stealing-credentials/credentials-protections#cached-credentials[0m
+[1;31m    cachedlogonscount is 10[0m
+
+[1;36m╔══════════╣ [1;32mEnumerating saved credentials in Registry (CurrentPass)[0m
+
+[1;36m╔══════════╣ [1;32mAV Information[0m
+[1;90m  [X] Exception: Access denied [0m
+[1;31m    No AV was detected!![0m
+[1;90m    Not Found[0m
+
+[1;36m╔══════════╣ [1;32mWindows Defender configuration[0m
+[1;34m  Local Settings[0m
+[1;34m  Group Policy Settings[0m
+
+[1;36m╔══════════╣ [1;32mUAC Status[0m
+[1;36m╚ [1;34mIf you are in the Administrators group check how to bypass the UAC [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#basic-uac-bypass-full-file-system-access[0m
+[1;37m    ConsentPromptBehaviorAdmin: [0m5 - [0m[1;31mPromptForNonWindowsBinaries[0m
+[1;37m    EnableLUA: [0m1
+[1;37m    LocalAccountTokenFilterPolicy: [0m
+[1;37m    FilterAdministratorToken: [0m
+[1;32m      [*] LocalAccountTokenFilterPolicy set to 0 and FilterAdministratorToken != 1.
+      [-] Only the RID-500 local admin account can be used for lateral movement.[0m
+
+[1;36m╔══════════╣ [1;32mPowerShell Settings[0m
+[1;37m    PowerShell v2 Version: [0m2.0
+[1;37m    PowerShell v5 Version: [0m5.1.19041.1
+[1;37m    PowerShell Core Version: [0m
+[1;37m    Transcription Settings: [0m
+[1;37m    Module Logging Settings: [0m
+[1;37m    Scriptblock Logging Settings: [0m
+[1;37m    [0m[1;31mPS history file: [0m[0m
+[1;37m    [0m[1;31mPS history size: [0m[0m
+
+[1;36m╔══════════╣ [1;32mEnumerating PowerShell Session Settings using the registry[0m
+      You must be an administrator to run this check
+
+[1;36m╔══════════╣ [1;32mPS default transcripts history[0m
+[1;36m╚ [1;34mRead the PS history inside these files (if any)[0m
+
+[1;36m╔══════════╣ [1;32mHKCU Internet Settings[0m
+[1;37m    CertificateRevocation: [0m1
+[1;37m    DisableCachingOfSSLPages: [0m0
+[1;37m    IE5_UA_Backup_Flag: [0m5.0
+[1;37m    PrivacyAdvanced: [0m1
+[1;37m    SecureProtocols: [0m2688
+[1;37m    User Agent: [0mMozilla/4.0 (compatible; MSIE 8.0; Win32)
+[1;37m    ZonesSecurityUpgrade: [0mSystem.Byte[]
+[1;37m    WarnonZoneCrossing: [0m0
+[1;37m    EnableNegotiate: [0m1
+[1;37m    ProxyEnable: [0m0
+[1;37m    MigrateProxy: [0m1
+
+[1;36m╔══════════╣ [1;32mHKLM Internet Settings[0m
+[1;37m    ActiveXCache: [0mC:\Windows\Downloaded Program Files
+[1;37m    CodeBaseSearchPath: [0mCODEBASE
+[1;37m    EnablePunycode: [0m1
+[1;37m    MinorVersion: [0m0
+[1;37m    WarnOnIntranet: [0m1
+
+[1;36m╔══════════╣ [1;32mDrives Information[0m
+[1;36m╚ [1;34mRemember that you should search more info inside the other drives [1;33m[0m
+    C:\ (Type: Fixed)(Filesystem: NTFS)(Available space: 9 GB)([0m[1;31mPermissions: Authenticated Users [AppendData/CreateDirectories])[0m
+    D:\ (Type: CDRom)
+
+[1;36m╔══════════╣ [1;32mChecking WSUS[0m
+[1;36m╚ [1;34m [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#wsus[0m
+[1;90m    Not Found[0m
+
+[1;36m╔══════════╣ [1;32mChecking KrbRelayUp[0m
+[1;36m╚ [1;34m [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#krbrelayup[0m
+[1;31m  The system is inside a domain (OSCP) so it could be vulnerable.[0m
+[1;36m╚ [1;34mYou can try https://github.com/Dec0ne/KrbRelayUp to escalate privileges[0m
+
+[1;36m╔══════════╣ [1;32mChecking If Inside Container[0m
+[1;36m╚ [1;34mIf the binary cexecsvc.exe or associated service exists, you are inside Docker [1;33m[0m
+[1;32mYou are NOT inside a container[0m
+
+[1;36m╔══════════╣ [1;32mChecking AlwaysInstallElevated[0m
+[1;36m╚ [1;34m [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#alwaysinstallelevated[0m
+[1;32m    AlwaysInstallElevated isn't available[0m
+
+[1;36m╔══════════╣ [1;32mEnumerate LSA settings - auth packages included
+[0m
+    auditbasedirectories                 :       0
+    auditbaseobjects                     :       0
+    Bounds                               :       00-30-00-00-00-20-00-00
+    crashonauditfail                     :       0
+    fullprivilegeauditing                :       00
+    LimitBlankPasswordUse                :       1
+    NoLmHash                             :       1
+    Security Packages                    :       ""
+    Notification Packages                :       scecli
+    Authentication Packages              :       msv1_0
+    LsaPid                               :       696
+    LsaCfgFlagsDefault                   :       0
+    SecureBoot                           :       1
+    ProductType                          :       6
+    disabledomaincreds                   :       0
+    everyoneincludesanonymous            :       0
+    forceguest                           :       0
+    restrictanonymous                    :       0
+    restrictanonymoussam                 :       1
+
+[1;36m╔══════════╣ [1;32mEnumerating NTLM Settings[0m
+[1;31m  LanmanCompatibilityLevel    :  (Send NTLMv2 response only - Win7+ default)
+[0m
+[1;34m
+  NTLM Signing Settings[0m
+      ClientRequireSigning    : [0m[1;31mFalse[0m
+      ClientNegotiateSigning  : [0m[1;32mTrue[0m
+      ServerRequireSigning    : [0m[1;31mFalse[0m
+      ServerNegotiateSigning  : [0m[1;31mFalse[0m
+      LdapSigning             : [0m[33m[0m[33mNegotiate signing[0m[0m ([0m[33m[0m[33mNegotiate signing[0m[0m)
+[1;34m
+  Session Security[0m
+[1;32m      NTLMMinClientSec        : 536870912 (Require 128-bit encryption)[0m
+[1;32m      NTLMMinServerSec        : 536870912 (Require 128-bit encryption)
+[0m
+[1;34m
+  NTLM Auditing and Restrictions[0m
+      InboundRestrictions     :  (Not defined)
+[1;31m      OutboundRestrictions    :  (Not defined)[0m
+      InboundAuditing         :  (Not defined)
+      OutboundExceptions      : 
+
+[1;36m╔══════════╣ [1;32mDisplay Local Group Policy settings - local users/machine[0m
+   Type             :     machine
+   Display Name     :     Default Domain Policy
+   Name             :     {31B2F340-016D-11D2-945F-00C04FB984F9}
+   Extensions       :     [{35378EAC-683F-11D2-A89A-00C04FBBCFA2}{53D6AB1B-2488-11D1-A28C-00C04FB94F17}][{827D319E-6EAC-11D2-A4EA-00C04F79F83A}{803E14A0-B4FB-11D0-A0D0-00A0C90F574B}][{B1BE8D72-6EAC-11D2-A4EA-00C04F79F83A}{53D6AB1B-2488-11D1-A28C-00C04FB94F17}]
+   File Sys Path    :     C:\Windows\system32\GroupPolicy\DataStore\0\sysvol\oscp.exam\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\Machine
+   Link             :     LDAP://DC=oscp,DC=exam
+   GPO Link         :     Domain
+   Options          :     All Sections Enabled
+
+[1;90m   =================================================================================================[0m
+
+
+[1;36m╔══════════╣ [1;32mChecking AppLocker effective policy[0m
+   AppLockerPolicy version: 1
+   listing rules:
+
+
+
+[1;36m╔══════════╣ [1;32mEnumerating Printers (WMI)[0m
+
+[1;36m╔══════════╣ [1;32mEnumerating Named Pipes[0m
+  Name                                                                                                 CurrentUserPerms                                                       Sddl
+
+  eventlog                                                                                             [0m[1;31mEveryone [WriteData/CreateFiles][0m                                       O:LSG:LSD:P(A;;0x12019b;;;WD)(A;;CC;;;OW)(A;;0x12008f;;;S-1-5-80-880578595-1860270145-482643319-2788375705-1540778122)
+
+  MSSQL$SQLEXPRESS\sql\query                                                                           [0m[1;31mEveryone [WriteData/CreateFiles][0m                                       O:S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133G:S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133D:(A;;0x12019b;;;WD)(A;;LC;;;S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133)
+
+  ROUTER                                                                                               [0m[1;31mEveryone [WriteData/CreateFiles][0m                                       O:SYG:SYD:P(A;;0x12019b;;;WD)(A;;0x12019b;;;AN)(A;;FA;;;SY)
+
+  SQLLocal\SQLEXPRESS                                                                                  [0m[1;31mEveryone [WriteData/CreateFiles][0m                                       O:S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133G:S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133D:(A;;0x12019b;;;WD)(A;;LC;;;S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133)
+
+  vgauth-service                                                                                       [0m[1;31mEveryone [WriteData/CreateFiles][0m                                       O:BAG:SYD:P(A;;0x12019f;;;WD)(A;;FA;;;SY)(A;;FA;;;BA)
+
+
+[1;36m╔══════════╣ [1;32mEnumerating AMSI registered providers[0m
+    Provider:       {2781761E-28E0-4109-99FE-B9D127C57AFE}
+    Path:           "C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2202.4-0\MpOav.dll"
+
+[1;90m   =================================================================================================[0m
+
+
+[1;36m╔══════════╣ [1;32mEnumerating Sysmon configuration[0m
+      You must be an administrator to run this check
+
+[1;36m╔══════════╣ [1;32mEnumerating Sysmon process creation logs (1)[0m
+      You must be an administrator to run this check
+
+[1;36m╔══════════╣ [1;32mInstalled .NET versions
+[0m
+[1;32m
+       /---------------------------------------------------------------------------------\
+       |                             [34mDo you like PEASS?[1;32m                                  |
+       |---------------------------------------------------------------------------------| 
+       |         [33mGet the latest version[1;32m    :     [1;31mhttps://github.com/sponsors/carlospolop[1;32m |
+       |         [33mFollow on Twitter[1;32m         :     [1;31m@hacktricks_live[1;32m                        |
+       |         [33mRespect on HTB[1;32m            :     [1;31mSirBroccoli            [1;32m                 |
+       |---------------------------------------------------------------------------------|
+       |                                 [34mThank you![1;32m                                      |
+       \---------------------------------------------------------------------------------/
+[0m

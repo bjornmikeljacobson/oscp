@@ -1,0 +1,6 @@
+# Nmap 7.94SVN scan initiated Mon Mar 18 02:16:52 2024 as: nmap -T4 -v -A -oN ms01-udp -sU ms01.oscp.exam
+Warning: 192.168.189.147 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.189.147 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.189.147 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.189.147 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.189.147 from 800 to 1000 due to 11 out of 17 dropped probes since last increase.

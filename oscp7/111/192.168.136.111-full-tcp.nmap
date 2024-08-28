@@ -1,0 +1,59 @@
+# Nmap 7.94SVN scan initiated Tue Jul 23 00:35:16 2024 as: nmap -v -Pn -p- -A -oN 192.168.136.111-full-tcp.nmap 192.168.136.111
+Nmap scan report for 192.168.136.111
+Host is up (0.028s latency).
+Not shown: 65530 filtered tcp ports (no-response)
+PORT    STATE SERVICE       VERSION
+80/tcp  open  http          Microsoft IIS httpd 10.0
+|_http-title: Home
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-generator: Nicepage 5.13.1, nicepage.com
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp open  ssl/http      Microsoft IIS httpd 10.0
+|_ssl-date: 2023-09-16T01:50:41+00:00; -311d02h47m22s from scanner time.
+|_http-title: Home
+|_http-generator: Nicepage 5.13.1, nicepage.com
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: commonName=PowerShellWebAccessTestWebSite
+| Issuer: commonName=PowerShellWebAccessTestWebSite
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2023-08-24T08:19:45
+| Not valid after:  2023-11-22T08:19:45
+| MD5:   ce5f:2697:4f6f:429e:f052:4186:6f96:948c
+|_SHA-1: ba7e:919b:1a3f:953c:475e:9408:75c1:8b41:9f15:8293
+445/tcp open  microsoft-ds?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (89%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: -311d02h47m22s, deviation: 0s, median: -311d02h47m23s
+| smb2-time: 
+|   date: 2023-09-16T01:50:00
+|_  start_date: N/A
+
+TRACEROUTE (using port 135/tcp)
+HOP RTT      ADDRESS
+1   25.39 ms 192.168.49.1
+2   25.89 ms 192.168.136.111
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 23 00:38:08 2024 -- 1 IP address (1 host up) scanned in 172.22 seconds

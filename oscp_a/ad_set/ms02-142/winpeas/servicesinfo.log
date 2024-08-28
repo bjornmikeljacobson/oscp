@@ -1,0 +1,218 @@
+ANSI color bit for Windows is not set. If you are executing this from a Windows terminal inside the host you should run 'REG ADD HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1' and then start a new CMD
+Long paths are disabled, so the maximum length of a path supported is 260 chars (this may cause false negatives when looking for files). If you are admin, you can enable it with 'REG ADD HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v VirtualTerminalLevel /t REG_DWORD /d 1' and then start a new CMD
+[33m  WinPEAS-ng[0m[33m by @hacktricks_live[0m
+[1;32m
+       /---------------------------------------------------------------------------------\
+       |                             [34mDo you like PEASS?[1;32m                                  |
+       |---------------------------------------------------------------------------------| 
+       |         [33mGet the latest version[1;32m    :     [1;31mhttps://github.com/sponsors/carlospolop[1;32m |
+       |         [33mFollow on Twitter[1;32m         :     [1;31m@hacktricks_live[1;32m                        |
+       |         [33mRespect on HTB[1;32m            :     [1;31mSirBroccoli            [1;32m                 |
+       |---------------------------------------------------------------------------------|
+       |                                 [34mThank you![1;32m                                      |
+       \---------------------------------------------------------------------------------/
+[0m
+[33m  [+] [1;32mLegend:[0m
+[1;31m         Red[1;37m                Indicates a special privilege over an object or something is misconfigured[0m
+[1;32m         Green[1;37m              Indicates that some protection is enabled or something is well configured[0m
+[36m         Cyan[1;37m               Indicates active users[0m
+[34m         Blue[1;37m               Indicates disabled users[0m
+[1;33m         LightYellow[1;37m        Indicates links[0m
+
+[34m You can find a Windows local PE Checklist here: [33mhttps://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
+[1;90m   Creating Dynamic lists, this could take a while, please wait...[0m
+[1;90m   - Loading sensitive_files yaml definitions file...[0m
+[1;90m   - Loading regexes yaml definitions file...[0m
+[1;90m   - Checking if domain...[0m
+[1;90m   - Getting Win32_UserAccount info...[0m
+[1;90mError while getting Win32_UserAccount info: System.Management.ManagementException: Access denied 
+   at System.Management.ThreadDispatch.Start()
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winPEAS.Checks.Checks.CreateDynamicLists(Boolean isFileSearchEnabled)[0m
+[1;90m   - Creating current user groups list...[0m
+[1;90m   - Creating active users list (local only)...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Creating disabled users list...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Admin users list...[0m
+[1;90m  [X] Exception: Object reference not set to an instance of an object.[0m
+[1;90m   - Creating AppLocker bypass list...[0m
+[1;90m   - Creating files/directories list for search...[0m
+[1;90m        [skipped, file search is disabled][0m
+
+
+[1;36m════════════════════════════════════╣ [1;32mServices Information[1;36m ╠════════════════════════════════════[0m
+[1;90m  [X] Exception: Cannot open Service Control Manager on computer '.'. This operation might require other privileges.[0m
+
+[1;36m╔══════════╣ [1;32mInteresting Services -non Microsoft-[0m
+[1;36m╚ [1;34mCheck if you can overwrite some service binary or perform a DLL hijacking, also check for unquoted paths [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#services[0m
+[1;90m  [X] Exception: Access denied [0m
+    @amdgpio2.inf,%GPIO.SvcDesc%;AMD GPIO Client Driver(Advanced Micro Devices, Inc - @amdgpio2.inf,%GPIO.SvcDesc%;AMD GPIO Client Driver)[[0m[1;32mC:\Windows\System32\drivers\amdgpio2.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @amdi2c.inf,%amdi2c.SVCDESC%;AMD I2C Controller Service(Advanced Micro Devices, Inc - @amdi2c.inf,%amdi2c.SVCDESC%;AMD I2C Controller Service)[[0m[1;32mC:\Windows\System32\drivers\amdi2c.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @arcsas.inf,%arcsas_ServiceName%;Adaptec SAS/SATA-II RAID Storport's Miniport Driver(PMC-Sierra, Inc. - @arcsas.inf,%arcsas_ServiceName%;Adaptec SAS/SATA-II RAID Storport's Miniport Driver)[[0m[1;32mSystem32\drivers\arcsas.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    @netbvbda.inf,%vbd_srv_desc%;QLogic Network Adapter VBD(QLogic Corporation - @netbvbda.inf,%vbd_srv_desc%;QLogic Network Adapter VBD)[[0m[1;32mSystem32\drivers\bxvbda.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    @bcmfn2.inf,%bcmfn2.SVCDESC%;bcmfn2 Service(Windows (R) Win 7 DDK provider - @bcmfn2.inf,%bcmfn2.SVCDESC%;bcmfn2 Service)[[0m[1;32mC:\Windows\System32\drivers\bcmfn2.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @cht4vx64.inf,%cht4vbd.generic%;Chelsio Virtual Bus Driver(Chelsio Communications - @cht4vx64.inf,%cht4vbd.generic%;Chelsio Virtual Bus Driver)[[0m[1;32mC:\Windows\System32\drivers\cht4vx64.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @net1ic64.inf,%e1iExpress.Service.DispName%;Intel(R) PRO/1000 PCI Express Network Connection Driver I(Intel Corporation - @net1ic64.inf,%e1iExpress.Service.DispName%;Intel(R) PRO/1000 PCI Express Network Connection Driver I)[[0m[1;32mC:\Windows\System32\drivers\e1i65x64.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @netevbda.inf,%vbd_srv_desc%;QLogic 10 Gigabit Ethernet Adapter VBD(QLogic Corporation - @netevbda.inf,%vbd_srv_desc%;QLogic 10 Gigabit Ethernet Adapter VBD)[[0m[1;32mSystem32\drivers\evbda.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    @iagpio.inf,%iagpio.SVCDESC%;Intel Serial IO GPIO Controller Driver(Intel(R) Corporation - @iagpio.inf,%iagpio.SVCDESC%;Intel Serial IO GPIO Controller Driver)[[0m[1;32mC:\Windows\System32\drivers\iagpio.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iai2c.inf,%iai2c.SVCDESC%;Intel(R) Serial IO I2C Host Controller(Intel(R) Corporation - @iai2c.inf,%iai2c.SVCDESC%;Intel(R) Serial IO I2C Host Controller)[[0m[1;32mC:\Windows\System32\drivers\iai2c.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_GPIO2_SKL.inf,%iaLPSS2i_GPIO2.SVCDESC%;Intel(R) Serial IO GPIO Driver v2(Intel Corporation - @iaLPSS2i_GPIO2_SKL.inf,%iaLPSS2i_GPIO2.SVCDESC%;Intel(R) Serial IO GPIO Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_GPIO2.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_GPIO2_BXT_P.inf,%iaLPSS2i_GPIO2_BXT_P.SVCDESC%;Intel(R) Serial IO GPIO Driver v2(Intel Corporation - @iaLPSS2i_GPIO2_BXT_P.inf,%iaLPSS2i_GPIO2_BXT_P.SVCDESC%;Intel(R) Serial IO GPIO Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_GPIO2_BXT_P.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_GPIO2_CNL.inf,%iaLPSS2i_GPIO2_CNL.SVCDESC%;Intel(R) Serial IO GPIO Driver v2(Intel Corporation - @iaLPSS2i_GPIO2_CNL.inf,%iaLPSS2i_GPIO2_CNL.SVCDESC%;Intel(R) Serial IO GPIO Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_GPIO2_CNL.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_GPIO2_GLK.inf,%iaLPSS2i_GPIO2_GLK.SVCDESC%;Intel(R) Serial IO GPIO Driver v2(Intel Corporation - @iaLPSS2i_GPIO2_GLK.inf,%iaLPSS2i_GPIO2_GLK.SVCDESC%;Intel(R) Serial IO GPIO Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_GPIO2_GLK.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_I2C_SKL.inf,%iaLPSS2i_I2C.SVCDESC%;Intel(R) Serial IO I2C Driver v2(Intel Corporation - @iaLPSS2i_I2C_SKL.inf,%iaLPSS2i_I2C.SVCDESC%;Intel(R) Serial IO I2C Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_I2C.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_I2C_BXT_P.inf,%iaLPSS2i_I2C_BXT_P.SVCDESC%;Intel(R) Serial IO I2C Driver v2(Intel Corporation - @iaLPSS2i_I2C_BXT_P.inf,%iaLPSS2i_I2C_BXT_P.SVCDESC%;Intel(R) Serial IO I2C Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_I2C_BXT_P.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_I2C_CNL.inf,%iaLPSS2i_I2C_CNL.SVCDESC%;Intel(R) Serial IO I2C Driver v2(Intel Corporation - @iaLPSS2i_I2C_CNL.inf,%iaLPSS2i_I2C_CNL.SVCDESC%;Intel(R) Serial IO I2C Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_I2C_CNL.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iaLPSS2i_I2C_GLK.inf,%iaLPSS2i_I2C_GLK.SVCDESC%;Intel(R) Serial IO I2C Driver v2(Intel Corporation - @iaLPSS2i_I2C_GLK.inf,%iaLPSS2i_I2C_GLK.SVCDESC%;Intel(R) Serial IO I2C Driver v2)[[0m[1;32mC:\Windows\System32\drivers\iaLPSS2i_I2C_GLK.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @ialpssi_gpio.inf,%iaLPSSi_GPIO.SVCDESC%;Intel(R) Serial IO GPIO Controller Driver(Intel Corporation - @ialpssi_gpio.inf,%iaLPSSi_GPIO.SVCDESC%;Intel(R) Serial IO GPIO Controller Driver)[[0m[1;32mC:\Windows\System32\drivers\iaLPSSi_GPIO.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @ialpssi_i2c.inf,%iaLPSSi_I2C.SVCDESC%;Intel(R) Serial IO I2C Controller Driver(Intel Corporation - @ialpssi_i2c.inf,%iaLPSSi_I2C.SVCDESC%;Intel(R) Serial IO I2C Controller Driver)[[0m[1;32mC:\Windows\System32\drivers\iaLPSSi_I2C.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @iastorav.inf,%iaStorAVC.DeviceDesc%;Intel Chipset SATA RAID Controller(Intel Corporation - @iastorav.inf,%iaStorAVC.DeviceDesc%;Intel Chipset SATA RAID Controller)[[0m[1;32mSystem32\drivers\iaStorAVC.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    @iastorv.inf,%*PNP0600.DeviceDesc%;Intel RAID Controller Windows 7(Intel Corporation - @iastorv.inf,%*PNP0600.DeviceDesc%;Intel RAID Controller Windows 7)[[0m[1;32mSystem32\drivers\iaStorV.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    @mlx4_bus.inf,%Ibbus.ServiceDesc%;Mellanox InfiniBand Bus/AL (Filter Driver)(Mellanox - @mlx4_bus.inf,%Ibbus.ServiceDesc%;Mellanox InfiniBand Bus/AL (Filter Driver))[[0m[1;32mC:\Windows\System32\drivers\ibbus.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @mlx4_bus.inf,%MLX4BUS.ServiceDesc%;Mellanox ConnectX Bus Enumerator(Mellanox - @mlx4_bus.inf,%MLX4BUS.ServiceDesc%;Mellanox ConnectX Bus Enumerator)[[0m[1;32mC:\Windows\System32\drivers\mlx4_bus.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @mlx4_bus.inf,%ndfltr.ServiceDesc%;NetworkDirect Service(Mellanox - @mlx4_bus.inf,%ndfltr.ServiceDesc%;NetworkDirect Service)[[0m[1;32mC:\Windows\System32\drivers\ndfltr.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @oem5.inf,%pvscsi.DiskName%;pvscsi Storage Controller Driver(VMware, Inc. - @oem5.inf,%pvscsi.DiskName%;pvscsi Storage Controller Driver)[[0m[1;32mSystem32\drivers\pvscsi.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    SQL Server Agent (SQLEXPRESS)(SQL Server Agent (SQLEXPRESS))[[0m[1;32m"C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Binn\SQLAGENT.EXE" -i SQLEXPRESS[0m] - Manual
+    [1;37mExecutes jobs, monitors SQL Server, fires alerts, and allows automation of some administrative tasks.
+[1;90m   =================================================================================================[0m
+
+    OpenSSH Authentication Agent(OpenSSH Authentication Agent)[[0m[1;32mC:\Windows\System32\OpenSSH\ssh-agent.exe[0m] - Manual
+    [1;37mAgent to hold private keys used for public key authentication.
+[1;90m   =================================================================================================[0m
+
+    @usbstor.inf,%USBSTOR.SvcDesc%;USB Mass Storage Driver(@usbstor.inf,%USBSTOR.SvcDesc%;USB Mass Storage Driver)[[0m[1;32mC:\Windows\System32\drivers\USBSTOR.SYS[0m] - Manual
+[1;90m   =================================================================================================[0m
+
+    @usbxhci.inf,%PCI\CC_0C0330.DeviceDesc%;USB xHCI Compliant Host Controller(@usbxhci.inf,%PCI\CC_0C0330.DeviceDesc%;USB xHCI Compliant Host Controller)[[0m[1;32mC:\Windows\System32\drivers\USBXHCI.SYS[0m] - System
+[1;90m   =================================================================================================[0m
+
+    VMware Alias Manager and Ticket Service(VMware, Inc. - VMware Alias Manager and Ticket Service)[[0m[1;32m"C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"[0m] - Autoload
+    [1;37mAlias Manager and Ticket Service
+[1;90m   =================================================================================================[0m
+
+    @oem8.inf,%VM3DSERVICE_DISPLAYNAME%;VMware SVGA Helper Service(VMware, Inc. - @oem8.inf,%VM3DSERVICE_DISPLAYNAME%;VMware SVGA Helper Service)[[0m[1;32mC:\Windows\system32\vm3dservice.exe[0m] - Autoload
+    [1;37m@oem8.inf,%VM3DSERVICE_DESCRIPTION%;Helps VMware SVGA driver by collecting and conveying user mode information
+[1;90m   =================================================================================================[0m
+
+    @oem9.inf,%loc.vmciServiceDisplayName%;VMware VMCI Bus Driver(VMware, Inc. - @oem9.inf,%loc.vmciServiceDisplayName%;VMware VMCI Bus Driver)[[0m[1;32mSystem32\drivers\vmci.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    Memory Control Driver(VMware, Inc. - Memory Control Driver)[[0m[1;32mC:\Windows\system32\DRIVERS\vmmemctl.sys[0m] - Autoload
+    [1;37mDriver to provide enhanced memory management of this virtual machine.
+[1;90m   =================================================================================================[0m
+
+    @oem7.inf,%VMMouse.SvcDesc%;VMware Pointing Device(VMware, Inc. - @oem7.inf,%VMMouse.SvcDesc%;VMware Pointing Device)[[0m[1;32mC:\Windows\System32\drivers\vmmouse.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    VMware Tools(VMware, Inc. - VMware Tools)[[0m[1;32m"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"[0m] - Autoload
+    [1;37mProvides support for synchronizing objects between the host and guest operating systems.
+[1;90m   =================================================================================================[0m
+
+    @oem10.inf,%loc.vmxnet3.ndis6.DispName%;vmxnet3 NDIS 6 Ethernet Adapter Driver(VMware, Inc. - @oem10.inf,%loc.vmxnet3.ndis6.DispName%;vmxnet3 NDIS 6 Ethernet Adapter Driver)[[0m[1;32mC:\Windows\System32\drivers\vmxnet3.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    vSockets Virtual Machine Communication Interface Sockets driver(VMware, Inc. - vSockets Virtual Machine Communication Interface Sockets driver)[[0m[1;32msystem32\DRIVERS\vsock.sys[0m] - Boot
+    [1;37mvSockets Driver
+[1;90m   =================================================================================================[0m
+
+    @vstxraid.inf,%Driver.DeviceDesc%;VIA StorX Storage RAID Controller Windows Driver(VIA Corporation - @vstxraid.inf,%Driver.DeviceDesc%;VIA StorX Storage RAID Controller Windows Driver)[[0m[1;32mSystem32\drivers\vstxraid.sys[0m] - Boot
+[1;90m   =================================================================================================[0m
+
+    @mlx4_bus.inf,%WinMad.ServiceDesc%;WinMad Service(Mellanox - @mlx4_bus.inf,%WinMad.ServiceDesc%;WinMad Service)[[0m[1;32mC:\Windows\System32\drivers\winmad.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+    @winusb.inf,%WINUSB_SvcName%;WinUsb Driver(@winusb.inf,%WINUSB_SvcName%;WinUsb Driver)[[0m[1;32mC:\Windows\System32\drivers\WinUSB.SYS[0m] - System
+    [1;37m@winusb.inf,%WINUSB_SvcDesc%;Generic driver for USB devices
+[1;90m   =================================================================================================[0m
+
+    @mlx4_bus.inf,%WinVerbs.ServiceDesc%;WinVerbs Service(Mellanox - @mlx4_bus.inf,%WinVerbs.ServiceDesc%;WinVerbs Service)[[0m[1;32mC:\Windows\System32\drivers\winverbs.sys[0m] - System
+[1;90m   =================================================================================================[0m
+
+
+[1;36m╔══════════╣ [1;32mModifiable Services[0m
+[1;36m╚ [1;34mCheck if you can modify any service [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#services[0m
+[1;32m    You cannot modify any service[0m
+
+[1;36m╔══════════╣ [1;32mLooking if you can modify any service registry[0m
+[1;36m╚ [1;34mCheck if you can modify the registry of a service [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#services-registry-permissions[0m
+[1;32m    [-] Looks like you cannot change the registry of any service...[0m
+
+[1;36m╔══════════╣ [1;32mChecking write permissions in PATH folders (DLL Hijacking)[0m
+[1;36m╚ [1;34mCheck for DLL Hijacking in PATH folders [1;33mhttps://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#dll-hijacking[0m
+[1;32m    C:\Windows\system32[0m
+[1;32m    C:\Windows[0m
+[1;32m    C:\Windows\System32\Wbem[0m
+[1;32m    C:\Windows\System32\WindowsPowerShell\v1.0\[0m
+[1;32m    C:\Windows\System32\OpenSSH\[0m
+[1;32m    C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\[0m
+[1;32m    C:\Program Files\Azure Data Studio\bin[0m
+[1;32m    C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\[0m
+[1;32m    C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\[0m
+[1;32m    C:\Program Files\Microsoft SQL Server\150\Tools\Binn\[0m
+[1;32m    C:\Program Files\Microsoft SQL Server\150\DTS\Binn\[0m
+[1;32m
+       /---------------------------------------------------------------------------------\
+       |                             [34mDo you like PEASS?[1;32m                                  |
+       |---------------------------------------------------------------------------------| 
+       |         [33mGet the latest version[1;32m    :     [1;31mhttps://github.com/sponsors/carlospolop[1;32m |
+       |         [33mFollow on Twitter[1;32m         :     [1;31m@hacktricks_live[1;32m                        |
+       |         [33mRespect on HTB[1;32m            :     [1;31mSirBroccoli            [1;32m                 |
+       |---------------------------------------------------------------------------------|
+       |                                 [34mThank you![1;32m                                      |
+       \---------------------------------------------------------------------------------/
+[0m

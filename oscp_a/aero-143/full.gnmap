@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Sat Feb 24 15:01:28 2024 as: nmap -A -T4 -v -p- -oA aero-143/full 192.168.212.143
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.212.143 (aero.com)	Status: Up
+Host: 192.168.212.143 (aero.com)	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/, 81/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/, 443/open/tcp//http//Apache httpd 2.4.41/, 3000/open/tcp//ppp?///, 3001/open/tcp//nessus?///, 3003/open/tcp//cgms?///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 5432/open/tcp//postgresql//PostgreSQL DB 9.6.0 or later/	Ignored State: filtered (65525)	Seq Index: 266	IP ID Seq: All zeros
+# Nmap done at Sat Feb 24 15:05:45 2024 -- 1 IP address (1 host up) scanned in 257.22 seconds

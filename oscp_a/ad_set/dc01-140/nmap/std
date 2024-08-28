@@ -1,0 +1,47 @@
+# Nmap 7.94SVN scan initiated Sun Mar  3 04:48:03 2024 as: nmap -A -Pn -v -oN nmap/std -T4 10.10.140.140
+Nmap scan report for oscp.exam (10.10.140.140)
+Host is up (0.059s latency).
+Not shown: 989 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-03-03 09:48:19Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 5.210 days (since Mon Feb 26 23:46:51 2024)
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Randomized
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -1s
+| nbstat: NetBIOS name: DC01, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:bf:16:af (VMware)
+| Names:
+|   DC01<20>             Flags: <unique><active>
+|   DC01<00>             Flags: <unique><active>
+|   OSCP<00>             Flags: <group><active>
+|   OSCP<1c>             Flags: <group><active>
+|_  OSCP<1b>             Flags: <unique><active>
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2024-03-03T09:48:30
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   59.11 ms oscp.exam (10.10.140.140)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  3 04:49:12 2024 -- 1 IP address (1 host up) scanned in 69.23 seconds

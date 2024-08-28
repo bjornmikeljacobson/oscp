@@ -1,0 +1,5 @@
+# Dirsearch started Thu Jun 20 18:54:51 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://oscp1 -w /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+
+301   143B   http://oscp1/images    -> REDIRECTS TO: http://oscp1/images/
+403     1KB  http://oscp1/images\
+400   324B   http://oscp1/_Face_testing_at_Logan_is_fo%0Dund_lacking%2B

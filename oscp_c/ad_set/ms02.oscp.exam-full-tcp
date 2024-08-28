@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Wed Jun  5 21:47:13 2024 as: nmap -v -Pn -p- -oN ms02.oscp.exam-full-tcp ms02.oscp.exam
+Failed to resolve "ms02.oscp.exam".
+Read data files from: /usr/bin/../share/nmap
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Wed Jun  5 21:47:14 2024 -- 0 IP addresses (0 hosts up) scanned in 0.15 seconds

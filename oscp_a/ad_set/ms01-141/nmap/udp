@@ -1,0 +1,36 @@
+# Nmap 7.94SVN scan initiated Sat Mar  2 19:16:59 2024 as: nmap -A -Pn -v -sU -oN nmap/udp 192.168.190.141
+Increasing send delay for 192.168.190.141 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.190.141 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.190.141 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 192.168.190.141 from 800 to 1000 due to 11 out of 19 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -396027 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -537509 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -537509 microseconds.  Ignoring time.
+Nmap scan report for MS01.oscp.exam (192.168.190.141)
+Host is up (0.064s latency).
+Not shown: 991 closed udp ports (port-unreach)
+PORT     STATE         SERVICE     VERSION
+123/udp  open|filtered ntp
+137/udp  open|filtered netbios-ns
+138/udp  open|filtered netbios-dgm
+500/udp  open|filtered isakmp
+1900/udp open|filtered upnp
+4500/udp open|filtered nat-t-ike
+5050/udp open|filtered mmcc
+5353/udp open|filtered zeroconf
+5355/udp open|filtered llmnr
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.18 (92%), Linux 2.6.30 (92%), Microsoft Windows Server 2008 R2 (91%), Microsoft Windows Server 2008 R2 SP1 (91%), Microsoft Windows Server 2008 SP2 Datacenter Version (91%), Microsoft Windows Server 2012 Data Center (91%), Microsoft Windows Server 2012 R2 (91%), Microsoft Windows Server 2016 (91%), Microsoft Windows 7 (91%), Microsoft Windows 7 SP1 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+
+TRACEROUTE (using port 8001/udp)
+HOP RTT      ADDRESS
+1   65.29 ms 192.168.45.1
+2   65.36 ms 192.168.45.254
+3   65.40 ms 192.168.251.1
+4   57.36 ms MS01.oscp.exam (192.168.190.141)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  2 19:39:51 2024 -- 1 IP address (1 host up) scanned in 1372.09 seconds

@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 22:02:41 2024 as: nmap -v -Pn -oN 192.168.136.110-std.nmap 192.168.136.110
+Nmap scan report for 192.168.136.110
+Host is up (0.032s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul 22 22:02:54 2024 -- 1 IP address (1 host up) scanned in 12.80 seconds

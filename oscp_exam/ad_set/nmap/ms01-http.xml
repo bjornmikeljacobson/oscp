@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Sun May 19 19:46:31 2024 as: nmap -p 8080 -&#45;script=http* -v -oA ms01-http -T2 ms01.oscp.exam -->
+<nmaprun scanner="nmap" args="nmap -p 8080 -&#45;script=http* -v -oA ms01-http -T2 ms01.oscp.exam" start="1716162391" startstr="Sun May 19 19:46:31 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="8080"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1716162391"/>
+<taskend task="NSE" time="1716162391"/>
+<taskbegin task="NSE" time="1716162391"/>
+<taskend task="NSE" time="1716162391"/>
+<prescript><script id="http-robtex-shared-ns" output="*TEMPORARILY DISABLED* due to changes in Robtex&apos;s API. See https://www.robtex.com/api/"/></prescript><taskbegin task="Ping Scan" time="1716162391"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.112.101" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ms01.oscp.exam" type="user"/>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1716162392" extrainfo="1 total hosts"/>
+<taskbegin task="SYN Stealth Scan" time="1716162392"/>
+<taskend task="SYN Stealth Scan" time="1716162392" extrainfo="1 total ports"/>
+<taskbegin task="NSE" time="1716162392"/>
+<taskprogress task="NSE" time="1716162423" percent="3.56" remaining="840" etc="1716163262"/>
+<taskprogress task="NSE" time="1716162453" percent="3.56" remaining="1652" etc="1716164104"/>
+<taskprogress task="NSE" time="1716162483" percent="3.56" remaining="2464" etc="1716164946"/>
+<taskprogress task="NSE" time="1716162513" percent="3.56" remaining="3276" etc="1716165788"/>
+<taskprogress task="NSE" time="1716162543" percent="3.56" remaining="4088" etc="1716166630"/>
+<taskprogress task="NSE" time="1716162573" percent="3.56" remaining="4900" etc="1716167472"/>
+<taskprogress task="NSE" time="1716162603" percent="3.56" remaining="5712" etc="1716168314"/>
+<taskprogress task="NSE" time="1716162633" percent="3.56" remaining="6524" etc="1716169156"/>
+<taskprogress task="NSE" time="1716162663" percent="3.56" remaining="7336" etc="1716169998"/>
+<taskprogress task="NSE" time="1716162693" percent="3.56" remaining="8148" etc="1716170840"/>
+<taskprogress task="NSE" time="1716162723" percent="3.56" remaining="8960" etc="1716171682"/>
+<taskprogress task="NSE" time="1716162753" percent="3.56" remaining="9772" etc="1716172524"/>
+<taskprogress task="NSE" time="1716162783" percent="3.56" remaining="10584" etc="1716173366"/>
+<taskprogress task="NSE" time="1716162813" percent="3.56" remaining="11396" etc="1716174208"/>
+<taskprogress task="NSE" time="1716162843" percent="3.56" remaining="12208" etc="1716175050"/>
+<taskprogress task="NSE" time="1716162873" percent="3.56" remaining="13020" etc="1716175892"/>
+<taskprogress task="NSE" time="1716162903" percent="3.56" remaining="13832" etc="1716176734"/>
+<taskprogress task="NSE" time="1716162933" percent="3.56" remaining="14644" etc="1716177576"/>
+<taskprogress task="NSE" time="1716162963" percent="3.56" remaining="15456" etc="1716178418"/>
+<taskprogress task="NSE" time="1716162993" percent="3.56" remaining="16268" etc="1716179260"/>
+<taskprogress task="NSE" time="1716163026" percent="3.56" remaining="17161" etc="1716180186"/>
+<taskprogress task="NSE" time="1716163059" percent="3.56" remaining="18054" etc="1716181112"/>
+<taskprogress task="NSE" time="1716163095" percent="3.56" remaining="19028" etc="1716182123"/>
+<taskprogress task="NSE" time="1716163134" percent="3.56" remaining="20084" etc="1716183217"/>
+<taskprogress task="NSE" time="1716163173" percent="3.56" remaining="21140" etc="1716184312"/>
+<taskprogress task="NSE" time="1716163215" percent="3.56" remaining="22276" etc="1716185491"/>
+<taskprogress task="NSE" time="1716163260" percent="3.56" remaining="23494" etc="1716186754"/>
+<taskprogress task="NSE" time="1716163308" percent="3.56" remaining="24794" etc="1716188101"/>
+<taskprogress task="NSE" time="1716163347" percent="3.56" remaining="25849" etc="1716189196"/>
+<taskprogress task="NSE" time="1716163348" percent="3.56" remaining="25876" etc="1716189224"/>
+<taskprogress task="NSE" time="1716163348" percent="3.56" remaining="25876" etc="1716189224"/>

@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Thu Jun 20 13:09:02 2024 as: nmap -v -Pn -sU -oN dc01.oscp.exam-udp dc01.oscp.exam
+Nmap scan report for dc01.oscp.exam (172.16.134.100)
+Host is up (0.12s latency).
+Not shown: 995 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+53/udp  open  domain
+88/udp  open  kerberos-sec
+123/udp open  ntp
+137/udp open  netbios-ns
+389/udp open  ldap
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jun 20 13:11:24 2024 -- 1 IP address (1 host up) scanned in 141.79 seconds

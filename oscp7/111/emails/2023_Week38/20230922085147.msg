@@ -1,0 +1,24 @@
+[Start of MSG File]
+[Message Properties]
+  - Sender: Anne Howard <ahoward@oscp.exam>
+  - Recipients: Rob Crossingham <rcrossingham@oscp.exam>
+  - Subject: Access
+  - Date: 2023-09-22 08:51:47
+  - Message ID: <6tgbh8l70ht7v1a@oscp.exam>
+  - MIME Version: 1.0
+  - ...
+[Message Body]
+  Hey Rob,  
+
+  Thanks so much for setting up the auto-email-backup for me! I now see it working at the end of the week, into a neat folder.   Its such a relief to know I won't lose everything if my laptop gets stolen again. 
+
+  Sasha is busy preparing for the launch - please assist her with the access she needs (Patrick said he informed you of the requirements this morning at the staff meeting).
+
+  Please let me know if you need any further information or approval.  
+
+  Best regards,
+  Anne
+[Attachments]
+  - signature.jpg
+  - ...
+[End of MSG File]

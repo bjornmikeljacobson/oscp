@@ -1,0 +1,76 @@
+# Nmap 7.94SVN scan initiated Sun May 19 16:57:48 2024 as: nmap -A -oA dc01-full-tcp -v -Pn -p- dc01.oscp.exam
+Nmap scan report for dc01.oscp.exam (192.168.112.100)
+Host is up (0.037s latency).
+rDNS record for 192.168.112.100: dc01
+Not shown: 65512 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-05-19 20:59:46Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=dc01.oscp.exam
+| Issuer: commonName=dc01.oscp.exam
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-05-18T19:55:01
+| Not valid after:  2024-11-17T19:55:01
+| MD5:   0d4b:64fc:9e0c:a59b:86e2:3afb:60ee:d388
+|_SHA-1: 308d:7c6a:7eb0:6984:3c05:1d46:3b6a:a8bf:7bf4:534d
+|_ssl-date: 2024-05-19T21:01:21+00:00; 0s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: oscp
+|   NetBIOS_Domain_Name: oscp
+|   NetBIOS_Computer_Name: DC01
+|   DNS_Domain_Name: oscp.exam
+|   DNS_Computer_Name: dc01.oscp.exam
+|   DNS_Tree_Name: oscp.exam
+|   Product_Version: 10.0.17763
+|_  System_Time: 2024-05-19T21:00:39+00:00
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+9389/tcp  open  mc-nmf        .NET Message Framing
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49674/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49675/tcp open  msrpc         Microsoft Windows RPC
+49678/tcp open  msrpc         Microsoft Windows RPC
+49705/tcp open  msrpc         Microsoft Windows RPC
+61893/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (89%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-05-19T21:00:42
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+1   33.17 ms 192.168.49.1
+2   33.44 ms dc01 (192.168.112.100)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 19 17:01:22 2024 -- 1 IP address (1 host up) scanned in 214.65 seconds

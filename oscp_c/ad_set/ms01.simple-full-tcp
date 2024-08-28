@@ -1,0 +1,27 @@
+# Nmap 7.94SVN scan initiated Wed Jun  5 15:37:17 2024 as: nmap -v -Pn -T3 -sV -p- -oN ms01.simple-full-tcp ms01.oscp.exam
+Nmap scan report for ms01.oscp.exam (192.168.225.153)
+Host is up (0.053s latency).
+rDNS record for 192.168.225.153: MS01.oscp.exam
+Not shown: 65519 closed tcp ports (reset)
+PORT      STATE SERVICE       VERSION
+22/tcp    open  ssh           OpenSSH for_Windows_8.1 (protocol 2.0)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5040/tcp  open  unknown
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8000/tcp  open  http          Microsoft IIS httpd 10.0
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun  5 15:40:54 2024 -- 1 IP address (1 host up) scanned in 217.64 seconds

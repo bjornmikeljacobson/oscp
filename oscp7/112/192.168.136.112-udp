@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 22:03:18 2024 as: nmap -v -Pn -sU -oN 192.168.136.112-udp 192.168.136.112
+Increasing send delay for 192.168.136.112 from 800 to 1000 due to 11 out of 27 dropped probes since last increase.
+Nmap scan report for 192.168.136.112
+Host is up (0.032s latency).
+Not shown: 996 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+137/udp  open          netbios-ns
+138/udp  open|filtered netbios-dgm
+631/udp  open|filtered ipp
+5353/udp open|filtered zeroconf
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul 22 22:20:38 2024 -- 1 IP address (1 host up) scanned in 1039.71 seconds

@@ -1,0 +1,991 @@
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/images/ (Apache)
+http://192.168.190.141:81/images/facebook-profile-image.jpeg
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap/dist/ (Apache)
+http://192.168.190.141:81/attendance.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/raphael/ (Apache)
+http://192.168.190.141:81/images/profile.jpg
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-sparkline/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/timepicker/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/datatables.net-bs/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/ (Apache)
+http://192.168.190.141:81/bower_components/raphael/license.txt
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/font-awesome/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-sparkline/ (Apache)
+http://192.168.190.141:81/
+http://192.168.190.141:81/scripts
+http://192.168.190.141:81/bower_components/jquery/LICENSE.txt
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/CODE_OF_CONDUCT.md
+http://192.168.190.141:81/bower_components/bootstrap/ISSUE_TEMPLATE.md
+http://192.168.190.141:81/bower_components/datatables.net-bs/License.txt
+http://192.168.190.141:81/bower_components/bootstrap/Gemfile.lock
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/CHANGELOG.md
+http://192.168.190.141:81/bower_components/font-awesome/HELP-US-OUT.txt
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/moment/ (Apache)
+http://192.168.190.141:81/bower_components/jquery-sparkline/Makefile
+http://192.168.190.141:81/bower_components/jquery-sparkline/Changelog.txt
+http://192.168.190.141:81/bower_components/jquery-sparkline/minheader.txt
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/moment/min/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-ui/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/fastclick/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/fastclick/lib/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/Gemfile
+http://192.168.190.141:81/admin/includes/deduction_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/admin/includes/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/ (Apache)
+http://192.168.190.141:81/bower_components/raphael/yarn.lock
+http://192.168.190.141:81/bower_components/moment/moment.d.ts
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/jvectormap/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/bootstrap-wysihtml5/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/LICENSE
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap/nuget/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap/grunt/ (Apache)
+http://192.168.190.141:81/admin/includes/profile_modal.php
+http://192.168.190.141:81/bower_components/jquery/dist/jquery.slim.min.map
+http://192.168.190.141:81/admin/includes/footer.php
+http://192.168.190.141:81/admin/includes/overtime_modal.php
+http://192.168.190.141:81/admin/includes/schedule_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-slider/ (Apache)
+http://192.168.190.141:81/admin/includes/attendance_modal.php
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/yarn.lock
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-slimscroll/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/demo.html
+http://192.168.190.141:81/bower_components/jquery/dist/jquery.min.map
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/LICENSE
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/font-awesome/less/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/build/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/eve-raphael/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-sparkline/src/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/Ionicons/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/nuget/bootstrap.nuspec
+http://192.168.190.141:81/bower_components/bootstrap/nuget/MyGet.ps1
+http://192.168.190.141:81/bower_components/bootstrap/nuget/bootstrap.less.nuspec
+http://192.168.190.141:81/bower_components/bootstrap/grunt/sauce_browsers.yml
+http://192.168.190.141:81/admin/includes/scripts.php
+http://192.168.190.141:81/admin/includes/employee_modal.php
+http://192.168.190.141:81/admin/includes/cashadvance_modal.php
+http://192.168.190.141:81/admin/includes/conn.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap/less/ (Apache)
+http://192.168.190.141:81/admin/index.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/Flot/ (Apache)
+http://192.168.190.141:81/admin/includes/navbar.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/grunt/ (Apache)
+http://192.168.190.141:81/bower_components/font-awesome/less/screen-reader.less
+http://192.168.190.141:81/bower_components/font-awesome/less/animated.less
+http://192.168.190.141:81/bower_components/font-awesome/less/list.less
+http://192.168.190.141:81/bower_components/bootstrap-slider/locks.png
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/build/build_standalone.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/build/build3.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/build/build.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/dist/img/ (Apache)
+http://192.168.190.141:81/bower_components/eve-raphael/LICENSE
+http://192.168.190.141:81/bower_components/Ionicons/LICENSE
+http://192.168.190.141:81/admin/includes/datatable_initializer.php
+http://192.168.190.141:81/admin/includes/employee_schedule_modal.php
+http://192.168.190.141:81/admin/includes/menubar.php
+http://192.168.190.141:81/bower_components/bootstrap/less/responsive-embed.less
+http://192.168.190.141:81/bower_components/bootstrap/less/component-animations.less
+http://192.168.190.141:81/bower_components/bootstrap/less/tooltip.less
+http://192.168.190.141:81/bower_components/bootstrap/less/carousel.less
+http://192.168.190.141:81/bower_components/bootstrap/less/button-groups.less
+http://192.168.190.141:81/bower_components/Flot/PLUGINS.md
+http://192.168.190.141:81/bower_components/Flot/FAQ.md
+http://192.168.190.141:81/bower_components/Flot/CONTRIBUTING.md
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/bootstrap-slider/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/inputmask/ (Apache)
+http://192.168.190.141:81/bower_components/font-awesome/less/mixins.less
+http://192.168.190.141:81/bower_components/font-awesome/less/fixed-width.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/build/build_standalone3.less
+http://192.168.190.141:81/dist/img/user7-128x128.jpg
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery/external/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery/src/ (Apache)
+http://192.168.190.141:81/dist/img/avatar3.png
+http://192.168.190.141:81/admin/includes/position_modal.php
+http://192.168.190.141:81/bower_components/bootstrap/less/forms.less
+http://192.168.190.141:81/bower_components/bootstrap/less/bootstrap.less
+http://192.168.190.141:81/bower_components/bootstrap/less/input-groups.less
+http://192.168.190.141:81/bower_components/bootstrap/less/list-group.less
+http://192.168.190.141:81/bower_components/bootstrap/less/code.less
+http://192.168.190.141:81/bower_components/Flot/LICENSE.txt
+http://192.168.190.141:81/bower_components/Flot/API.md
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/jQueryUI/ (Apache)
+http://192.168.190.141:81/bower_components/font-awesome/less/icons.less
+http://192.168.190.141:81/bower_components/font-awesome/less/font-awesome.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/less/ (Apache)
+http://192.168.190.141:81/dist/img/icons.png
+http://192.168.190.141:81/dist/img/user3-128x128.jpg
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/tests/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ion.rangeSlider/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/less/pagination.less
+http://192.168.190.141:81/bower_components/bootstrap/less/modals.less
+http://192.168.190.141:81/dist/img/user8-128x128.jpg
+http://192.168.190.141:81/bower_components/bootstrap/less/thumbnails.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/Ionicons/fonts/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/less/mixins.less
+http://192.168.190.141:81/bower_components/bootstrap/less/alerts.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/pace/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/input-mask/ (Apache)
+http://192.168.190.141:81/bower_components/font-awesome/less/rotated-flipped.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/mocha/ (Apache)
+http://192.168.190.141:81/bower_components/font-awesome/less/path.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/tests/timezone.html
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/less/datepicker3.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/tests/tests.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/Ionicons/less/ (Apache)
+http://192.168.190.141:81/bower_components/ion.rangeSlider/License.md
+http://192.168.190.141:81/bower_components/ion.rangeSlider/history.md
+http://192.168.190.141:81/bower_components/bootstrap/less/wells.less
+http://192.168.190.141:81/dist/img/user2-160x160.jpg
+http://192.168.190.141:81/bower_components/bootstrap/less/utilities.less
+http://192.168.190.141:81/bower_components/bootstrap/less/tables.less
+http://192.168.190.141:81/bower_components/bootstrap/less/normalize.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/Ionicons/png/ (Apache)
+http://192.168.190.141:81/admin/includes/
+http://192.168.190.141:81/images/desktop.jpg
+http://192.168.190.141:81/bower_components/font-awesome/less/stacked.less
+http://192.168.190.141:81/bower_components/mocha/LICENSE
+http://192.168.190.141:81/bower_components/font-awesome/less/variables.less
+http://192.168.190.141:81/images/
+http://192.168.190.141:81/bower_components/Ionicons/less/ionicons.less
+http://192.168.190.141:81/bower_components/ion.rangeSlider/index.md
+http://192.168.190.141:81/bower_components/bootstrap/less/panels.less
+http://192.168.190.141:81/bower_components/Ionicons/less/_ionicons-variables.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/inputmask/dist/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/less/responsive-utilities.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-timepicker/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap/fonts/ (Apache)
+http://192.168.190.141:81/bower_components/Flot/NEWS.md
+http://192.168.190.141:81/bower_components/font-awesome/less/larger.less
+http://192.168.190.141:81/bower_components/jquery/AUTHORS.txt
+http://192.168.190.141:81/bower_components/Ionicons/less/_ionicons-font.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/fullcalendar/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/less/buttons.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ion.rangeSlider/_tmp/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/input-mask/phone-codes/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-timepicker/LICENSE
+http://192.168.190.141:81/bower_components/bootstrap/less/scaffolding.less
+http://192.168.190.141:81/bower_components/bootstrap-timepicker/CHANGELOG.md
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ion.rangeSlider/img/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/mocha/media/ (Apache)
+http://192.168.190.141:81/bower_components/mocha/History.md
+http://192.168.190.141:81/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2
+http://192.168.190.141:81/bower_components/Ionicons/fonts/ionicons.eot
+http://192.168.190.141:81/dist/img/boxed-bg.jpg
+http://192.168.190.141:81/dist/img/user6-128x128.jpg
+http://192.168.190.141:81/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff
+http://192.168.190.141:81/bower_components/bootstrap/less/variables.less
+http://192.168.190.141:81/bower_components/fullcalendar/CONTRIBUTING.md
+http://192.168.190.141:81/bower_components/bootstrap/less/theme.less
+http://192.168.190.141:81/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot
+http://192.168.190.141:81/bower_components/bootstrap/less/type.less
+http://192.168.190.141:81/bower_components/ion.rangeSlider/_tmp/logo-ion-range-slider.png
+http://192.168.190.141:81/bower_components/bootstrap/less/dropdowns.less
+http://192.168.190.141:81/bower_components/ion.rangeSlider/img/sprite-skin-flat.png
+http://192.168.190.141:81/bower_components/ion.rangeSlider/img/sprite-skin-modern.png
+http://192.168.190.141:81/bower_components/ion.rangeSlider/img/sprite-skin-nice.png
+http://192.168.190.141:81/bower_components/fullcalendar/LICENSE.txt
+http://192.168.190.141:81/bower_components/Ionicons/fonts/ionicons.woff
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jvectormap/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/drp.png
+http://192.168.190.141:81/bower_components/bootstrap/less/media.less
+http://192.168.190.141:81/bower_components/bootstrap/less/glyphicons.less
+http://192.168.190.141:81/bower_components/ion.rangeSlider/img/sprite-skin-simple.png
+http://192.168.190.141:81/bower_components/bootstrap/less/navs.less
+http://192.168.190.141:81/bower_components/bootstrap/less/labels.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf
+http://192.168.190.141:81/dist/img/user1-128x128.jpg
+http://192.168.190.141:81/bower_components/Ionicons/fonts/ionicons.ttf
+http://192.168.190.141:81/bower_components/jvectormap/build.sh
+http://192.168.190.141:81/bower_components/bootstrap/less/grid.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/less/datepicker.less
+http://192.168.190.141:81/bower_components/bootstrap/less/popovers.less
+http://192.168.190.141:81/bower_components/bootstrap/less/badges.less
+http://192.168.190.141:81/bower_components/bootstrap/less/navbar.less
+http://192.168.190.141:81/dist/img/boxed-bg.png
+http://192.168.190.141:81/dist/img/avatar2.png
+http://192.168.190.141:81/bower_components/jvectormap/LICENSE-COMMERCIAL
+http://192.168.190.141:81/bower_components/bootstrap/less/close.less
+http://192.168.190.141:81/bower_components/bootstrap/less/print.less
+http://192.168.190.141:81/bower_components/bootstrap/less/jumbotron.less
+http://192.168.190.141:81/bower_components/bootstrap/less/progress-bars.less
+http://192.168.190.141:81/bower_components/fullcalendar/CHANGELOG.md
+http://192.168.190.141:81/bower_components/jvectormap/LICENSE-AGPL
+http://192.168.190.141:81/dist/img/avatar5.png
+http://192.168.190.141:81/dist/img/avatar04.png
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jvectormap/converter/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/less/breadcrumbs.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jvectormap/src/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/futurico/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/line/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/flat/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/square/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jvectormap/tests/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap/less/pager.less
+http://192.168.190.141:81/bower_components/jvectormap/converter/processor.py
+http://192.168.190.141:81/bower_components/jvectormap/converter/converter.py
+http://192.168.190.141:81/bower_components/jvectormap/converter/simplifier.py
+http://192.168.190.141:81/plugins/iCheck/futurico/futurico@2x.png
+http://192.168.190.141:81/plugins/iCheck/futurico/futurico.png
+http://192.168.190.141:81/plugins/iCheck/line/line.png
+http://192.168.190.141:81/plugins/iCheck/square/orange@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/green@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/flat.png
+http://192.168.190.141:81/plugins/iCheck/square/pink@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/red@2x.png
+http://192.168.190.141:81/plugins/iCheck/line/line@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/orange.png
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/polaris/ (Apache)
+http://192.168.190.141:81/bower_components/jvectormap/tests/reverse-projection.html
+http://192.168.190.141:81/plugins/iCheck/flat/purple@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/blue@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/blue.png
+http://192.168.190.141:81/bower_components/jvectormap/tests/basic.html
+http://192.168.190.141:81/plugins/iCheck/square/grey@2x.png
+http://192.168.190.141:81/bower_components/jvectormap/tests/markers.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jvectormap/lib/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/plugins/iCheck/minimal/ (Apache)
+http://192.168.190.141:81/bower_components/jvectormap/tests/drill-down.html
+http://192.168.190.141:81/plugins/iCheck/flat/aero@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/green@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/aero.png
+http://192.168.190.141:81/plugins/iCheck/flat/green.png
+http://192.168.190.141:81/plugins/iCheck/flat/grey.png
+http://192.168.190.141:81/plugins/iCheck/square/square.png
+http://192.168.190.141:81/bower_components/jvectormap/tests/custom.html
+http://192.168.190.141:81/plugins/iCheck/polaris/polaris.png
+http://192.168.190.141:81/plugins/iCheck/square/purple@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/red.png
+http://192.168.190.141:81/plugins/iCheck/polaris/polaris@2x.png
+http://192.168.190.141:81/plugins/iCheck/minimal/green.png
+http://192.168.190.141:81/plugins/iCheck/minimal/blue.png
+http://192.168.190.141:81/plugins/iCheck/minimal/aero@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/pink@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/yellow@2x.png
+http://192.168.190.141:81/plugins/iCheck/minimal/minimal.png
+http://192.168.190.141:81/plugins/iCheck/minimal/minimal@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/yellow@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/orange@2x.png
+http://192.168.190.141:81/bower_components/jvectormap/tests/build.html
+http://192.168.190.141:81/bower_components/jvectormap/tests/memory.html
+http://192.168.190.141:81/plugins/iCheck/flat/blue.png
+http://192.168.190.141:81/plugins/iCheck/square/aero.png
+http://192.168.190.141:81/bower_components/jvectormap/tests/hidden.html
+http://192.168.190.141:81/plugins/iCheck/square/grey.png
+http://192.168.190.141:81/plugins/iCheck/square/purple.png
+http://192.168.190.141:81/plugins/iCheck/minimal/pink.png
+http://192.168.190.141:81/plugins/iCheck/minimal/red@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/grey@2x.png
+http://192.168.190.141:81/plugins/iCheck/minimal/green@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/square@2x.png
+http://192.168.190.141:81/plugins/iCheck/minimal/purple@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/yellow.png
+http://192.168.190.141:81/plugins/iCheck/flat/red.png
+http://192.168.190.141:81/plugins/iCheck/flat/purple.png
+http://192.168.190.141:81/plugins/iCheck/square/aero@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/blue@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/red@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/yellow.png
+http://192.168.190.141:81/plugins/iCheck/square/pink.png
+http://192.168.190.141:81/plugins/iCheck/minimal/yellow@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/flat@2x.png
+http://192.168.190.141:81/plugins/iCheck/minimal/grey@2x.png
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/fullcalendar/dist/ (Apache)
+http://192.168.190.141:81/plugins/iCheck/minimal/blue@2x.png
+http://192.168.190.141:81/plugins/iCheck/flat/pink.png
+http://192.168.190.141:81/plugins/iCheck/minimal/pink@2x.png
+http://192.168.190.141:81/plugins/iCheck/square/green.png
+http://192.168.190.141:81/plugins/iCheck/minimal/aero.png
+http://192.168.190.141:81/plugins/iCheck/square/orange.png
+http://192.168.190.141:81/plugins/iCheck/minimal/red.png
+http://192.168.190.141:81/plugins/iCheck/minimal/orange@2x.png
+http://192.168.190.141:81/plugins/iCheck/minimal/grey.png
+http://192.168.190.141:81/plugins/iCheck/minimal/orange.png
+http://192.168.190.141:81/dist/img/default-50x50.gif
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/dist/img/credit/ (Apache)
+http://192.168.190.141:81/plugins/iCheck/minimal/purple.png
+http://192.168.190.141:81/plugins/iCheck/minimal/yellow.png
+http://192.168.190.141:81/dist/img/credit/mestro.png
+http://192.168.190.141:81/dist/img/user5-128x128.jpg
+http://192.168.190.141:81/dist/img/credit/american-express.png
+http://192.168.190.141:81/dist/img/credit/mastercard.png
+http://192.168.190.141:81/bower_components/Ionicons/less/_ionicons-icons.less
+http://192.168.190.141:81/dist/img/credit/cirrus.png
+http://192.168.190.141:81/dist/img/credit/paypal2.png
+http://192.168.190.141:81/dist/img/credit/paypal.png
+http://192.168.190.141:81/dist/img/credit/visa.png
+http://192.168.190.141:81/dist/img/photo2.png
+http://192.168.190.141:81/dist/img/user4-128x128.jpg
+http://192.168.190.141:81/bower_components/Ionicons/cheatsheet.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ckeditor/ (Apache)
+http://192.168.190.141:81/dist/img/photo4.jpg
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ckeditor/skins/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ckeditor/lang/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ckeditor/adapters/ (Apache)
+http://192.168.190.141:81/dist/img/photo3.jpg
+http://192.168.190.141:81/bower_components/ckeditor/lang/_translationstatus.txt
+http://192.168.190.141:81/dist/img/avatar.png
+http://192.168.190.141:81/bower_components/ckeditor/LICENSE.md
+http://192.168.190.141:81/bower_components/ckeditor/samples/index.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/toolbarconfigurator/index.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/img/logo.png
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/ckeditor/plugins/ (Apache)
+http://192.168.190.141:81/bower_components/ckeditor/CHANGES.md
+http://192.168.190.141:81/dist/img/photo1.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/
+http://192.168.190.141:81/bower_components/ckeditor/samples/img/navigation-tip.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/img/github-top.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/img/
+http://192.168.190.141:81/Scripts
+http://192.168.190.141:81/admin/index
+http://192.168.190.141:81/bower_components/ckeditor/plugins/icons.png
+http://192.168.190.141:81/bower_components/ckeditor/plugins/icons_hidpi.png
+http://192.168.190.141:81/bower_components/Flot/Makefile
+http://192.168.190.141:81/bower_components/bootstrap/CHANGELOG.md
+http://192.168.190.141:81/bower_components/font-awesome/less/bordered-pulled.less
+http://192.168.190.141:81/bower_components/eve-raphael/e.html
+http://192.168.190.141:81/bower_components/font-awesome/less/core.less
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/CONTRIBUTING.md
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/select2/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/ (Apache)
+http://192.168.190.141:81/bower_components/moment/CHANGELOG.md
+http://192.168.190.141:81/bower_components/select2/LICENSE.md
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/index.rst
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/options.rst
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/keyboard.rst
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/Makefile
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/make.bat
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/methods.rst
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/requirements.txt
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/moment/locale/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/conf.py
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/events.rst
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/markup.rst
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/moment/templates/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-colorpicker/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/website/
+http://192.168.190.141:81/bower_components/bootstrap-datepicker/docs/i18n.rst
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/navigation.html
+http://192.168.190.141:81/bower_components/bootstrap-colorpicker/CONTRIBUTING.md
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/height-width.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/moment/src/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/select2/tests/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-colorpicker/LICENSE
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/select2/vendor/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/select2/src/ (Apache)
+http://192.168.190.141:81/bower_components/jquery-sparkline/version.txt
+http://192.168.190.141:81/bower_components/moment/LICENSE
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/font-awesome/fonts/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-colorpicker/src/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/select2/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-colorpicker/dist/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/bootstrap-colorpicker/docs/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/datatables.net/ (Apache)
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/tabindex.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/uicolor/uicolor.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/uilanguages.html
+http://192.168.190.141:81/bower_components/select2/tests/integration.html
+http://192.168.190.141:81/bower_components/select2/docs/
+http://192.168.190.141:81/bower_components/jquery-ui/LICENSE.txt
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/PACE/ (Apache)
+http://192.168.190.141:81/bower_components/bootstrap-colorpicker/docs/layout.hbs
+http://192.168.190.141:81/bower_components/datatables.net/License.txt
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/placeholder/placeholder.html
+http://192.168.190.141:81/plugins/
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/docprops/docprops.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/dialog/dialog.html
+http://192.168.190.141:81/bower_components/jquery-ui/AUTHORS.txt
+http://192.168.190.141:81/bower_components/select2/CHANGELOG.md
+http://192.168.190.141:81/bower_components/PACE/LICENSE
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/sourcedialog/sourcedialog.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/inlineall.html
+http://192.168.190.141:81/bower_components/select2/tests/unit.html
+http://192.168.190.141:81/bower_components/PACE/pace.coffee
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/appendto.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/enterkey/enterkey.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/ajax.html
+http://192.168.190.141:81/bower_components/font-awesome/fonts/fontawesome-webfont.woff2
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/replacebyclass.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/wysiwygarea/fullpage.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/divarea/divarea.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/image2/image2.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/inlinetextarea.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/PACE/themes/ (Apache)
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/jquery.html
+http://192.168.190.141:81/bower_components/font-awesome/fonts/fontawesome-webfont.woff
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-ui/themes/ (Apache)
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/toolbar/toolbar.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/bbcode/bbcode.html
+http://192.168.190.141:81/Admin/index.php
+http://192.168.190.141:81/Admin/
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/devtools/devtools.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/inlinebycode.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/db/ (Apache)
+http://192.168.190.141:81/db/apsystem.sql
+http://192.168.190.141:81/db/
+http://192.168.190.141:81/bower_components/font-awesome/fonts/FontAwesome.otf
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/stylesheetparser/stylesheetparser.html
+http://192.168.190.141:81/bower_components/font-awesome/fonts/fontawesome-webfont.eot
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/htmlwriter/outputhtml.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/replacebycode.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/magicline/magicline.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-ui/ui/ (Apache)
+http://192.168.190.141:81/bower_components/font-awesome/fonts/fontawesome-webfont.ttf
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/datafiltering.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/divreplace.html
+http://192.168.190.141:81/admin/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/Admin/includes/ (Apache)
+http://192.168.190.141:81/Admin/includes/deduction_modal.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/htmlwriter/outputforflash.html
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-knob/dist/ (Apache)
+http://192.168.190.141:81/Admin/includes/profile_modal.php
+http://192.168.190.141:81/Admin/includes/menubar.php
+http://192.168.190.141:81/Admin/includes/footer.php
+http://192.168.190.141:81/Admin/includes/datatable_initializer.php
+http://192.168.190.141:81/Admin/includes/overtime_modal.php
+http://192.168.190.141:81/Admin/includes/employee_schedule_modal.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/readonly.html
+http://192.168.190.141:81/Admin/includes/attendance_modal.php
+http://192.168.190.141:81/Admin/includes/employee_modal.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/sharedspace/sharedspace.html
+http://192.168.190.141:81/Admin/includes/cashadvance_modal.php
+http://192.168.190.141:81/Admin/includes/position_modal.php
+http://192.168.190.141:81/Admin/includes/conn.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/codesnippet/codesnippet.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/tableresize/tableresize.html
+http://192.168.190.141:81/Admin/includes/navbar.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/mathjax/mathjax.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/api.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/uicolor.html
+http://192.168.190.141:81/Admin/includes/scripts.php
+http://192.168.190.141:81/Admin/includes/schedule_modal.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/autogrow/autogrow.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/xhtmlstyle.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/old/
+http://192.168.190.141:81/bower_components/ckeditor/samples/index
+http://192.168.190.141:81/bower_components/Flot/examples/series-types/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/axes-time/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/visitors/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/ajax/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/interacting/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/axes-time-zones/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/resize/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/percentiles/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/basic-options/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/symbols/index.html
+http://192.168.190.141:81/bower_components/Ionicons/src/images
+http://192.168.190.141:81/bower_components/Flot/examples/annotating/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/navigate/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/axes-interacting/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/tracking/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/zooming/index.html
+http://192.168.190.141:81/bower_components/Ionicons/src/search
+http://192.168.190.141:81/bower_components/Flot/examples/series-errorbars/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/threshold/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/series-pie/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/realtime/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/stacking/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/series-toggle/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/image/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/categories/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/basic-usage/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/selection/index.html
+http://192.168.190.141:81/bower_components/Flot/examples/canvas/index.html
+http://192.168.190.141:81/bower_components/Ionicons/src/
+http://192.168.190.141:81/bower_components/Flot/examples/axes-multiple/index.html
+http://192.168.190.141:81/bower_components/Ionicons/src/reply
+http://192.168.190.141:81/bower_components/Flot/examples/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/Images/ (Apache)
+http://192.168.190.141:81/Images/profile.jpg
+http://192.168.190.141:81/Images/facebook-profile-image.jpeg
+http://192.168.190.141:81/bower_components/Ionicons/src/help
+http://192.168.190.141:81/Images/desktop.jpg
+http://192.168.190.141:81/Images/
+http://192.168.190.141:81/bower_components/Ionicons/src/flash
+http://192.168.190.141:81/bower_components/raphael/dev/banner.txt
+http://192.168.190.141:81/bower_components/raphael/dev/
+http://192.168.190.141:81/bower_components/Ionicons/src/upload
+http://192.168.190.141:81/bower_components/Flot/examples/ajax/
+http://192.168.190.141:81/bower_components/jquery-knob/
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/style
+http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/website/index
+http://192.168.190.141:81/index
+http://192.168.190.141:81/bower_components/Ionicons/src/email
+http://192.168.190.141:81/bower_components/Ionicons/src/home
+http://192.168.190.141:81/bower_components/Ionicons/src/archive
+http://192.168.190.141:81/bower_components/Ionicons/src/plus
+http://192.168.190.141:81/bower_components/select2/docs/index
+http://192.168.190.141:81/admin/Includes/employee_modal.php
+http://192.168.190.141:81/admin/Includes/position_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/admin/Includes/ (Apache)
+http://192.168.190.141:81/admin/Includes/deduction_modal.php
+http://192.168.190.141:81/bower_components/Ionicons/src/Search
+http://192.168.190.141:81/admin/Includes/employee_schedule_modal.php
+http://192.168.190.141:81/admin/Includes/schedule_modal.php
+http://192.168.190.141:81/admin/Includes/footer.php
+http://192.168.190.141:81/bower_components/select2/docs/community
+http://192.168.190.141:81/admin/Includes/conn.php
+http://192.168.190.141:81/admin/Includes/scripts.php
+http://192.168.190.141:81/admin/Includes/cashadvance_modal.php
+http://192.168.190.141:81/admin/Includes/profile_modal.php
+http://192.168.190.141:81/admin/Includes/overtime_modal.php
+http://192.168.190.141:81/admin/Includes/menubar.php
+http://192.168.190.141:81/admin/Includes/attendance_modal.php
+http://192.168.190.141:81/admin/Includes/datatable_initializer.php
+http://192.168.190.141:81/admin/Includes/navbar.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/CSS/
+http://192.168.190.141:81/bower_components/Ionicons/src/Images
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/libs/
+http://192.168.190.141:81/bower_components/Ionicons/src/calendar
+http://192.168.190.141:81/bower_components/Flot/examples/image/
+http://192.168.190.141:81/bower_components/Ionicons/src/image
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/index
+http://192.168.190.141:81/bower_components/Flot/examples/index
+http://192.168.190.141:81/Admin/index
+http://192.168.190.141:81/bower_components/Ionicons/src/Flash
+http://192.168.190.141:81/bower_components/jquery-knob/index
+http://192.168.190.141:81/bower_components/raphael/dev/banner
+http://192.168.190.141:81/bower_components/Ionicons/src/link
+http://192.168.190.141:81/Admin/includes/
+http://192.168.190.141:81/admin/Includes/
+http://192.168.190.141:81/bower_components/raphael/dev/test/
+http://192.168.190.141:81/bower_components/Flot/examples/shared/
+http://192.168.190.141:81/bower_components/select2/docs/examples
+http://192.168.190.141:81/bower_components/Ionicons/src/map
+http://192.168.190.141:81/bower_components/Ionicons/src/code
+http://192.168.190.141:81/bower_components/Ionicons/src/edit
+http://192.168.190.141:81/bower_components/Flot/examples/examples
+http://192.168.190.141:81/bower_components/Ionicons/src/share
+http://192.168.190.141:81/ADMIN/index.php
+http://192.168.190.141:81/ADMIN/
+http://192.168.190.141:81/bower_components/ckeditor/samples/JS/
+http://192.168.190.141:81/ADMIN/includes/scripts.php
+http://192.168.190.141:81/ADMIN/includes/employee_modal.php
+http://192.168.190.141:81/ADMIN/includes/schedule_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/ADMIN/includes/ (Apache)
+http://192.168.190.141:81/ADMIN/includes/deduction_modal.php
+http://192.168.190.141:81/ADMIN/includes/cashadvance_modal.php
+http://192.168.190.141:81/ADMIN/includes/profile_modal.php
+http://192.168.190.141:81/ADMIN/includes/overtime_modal.php
+http://192.168.190.141:81/ADMIN/includes/attendance_modal.php
+http://192.168.190.141:81/ADMIN/includes/datatable_initializer.php
+http://192.168.190.141:81/ADMIN/includes/navbar.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/Admin/Includes/ (Apache)
+http://192.168.190.141:81/Admin/Includes/schedule_modal.php
+http://192.168.190.141:81/Admin/Includes/profile_modal.php
+http://192.168.190.141:81/Admin/Includes/position_modal.php
+http://192.168.190.141:81/Admin/Includes/navbar.php
+http://192.168.190.141:81/ADMIN/includes/footer.php
+http://192.168.190.141:81/ADMIN/includes/employee_schedule_modal.php
+http://192.168.190.141:81/ADMIN/includes/position_modal.php
+http://192.168.190.141:81/ADMIN/includes/conn.php
+http://192.168.190.141:81/ADMIN/includes/menubar.php
+http://192.168.190.141:81/Admin/Includes/cashadvance_modal.php
+http://192.168.190.141:81/Admin/Includes/conn.php
+http://192.168.190.141:81/Admin/Includes/attendance_modal.php
+http://192.168.190.141:81/Admin/Includes/deduction_modal.php
+http://192.168.190.141:81/Admin/Includes/scripts.php
+http://192.168.190.141:81/Admin/Includes/overtime_modal.php
+http://192.168.190.141:81/ADMIN/includes/
+http://192.168.190.141:81/Admin/Includes/datatable_initializer.php
+http://192.168.190.141:81/Admin/Includes/footer.php
+http://192.168.190.141:81/Admin/Includes/employee_modal.php
+http://192.168.190.141:81/Admin/Includes/employee_schedule_modal.php
+http://192.168.190.141:81/Admin/Includes/menubar.php
+http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/website/website
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/uicolor.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/tableresize/tableresize.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/inlineall.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/replacebyclass.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/xhtmlstyle.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/sourcedialog/sourcedialog.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/autogrow/autogrow.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/datafiltering.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/tabindex.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/wysiwygarea/fullpage.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/jquery.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/inlinetextarea.html
+http://192.168.190.141:81/bower_components/Flot/examples/tracking/
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/appendto.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/ajax.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/readonly.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/replacebycode.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/image2/image2.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/divarea/divarea.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/htmlwriter/outputforflash.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/magicline/magicline.html
+http://192.168.190.141:81/bower_components/Ionicons/src/forward
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/htmlwriter/outputhtml.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/enterkey/enterkey.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/bbcode/bbcode.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/sharedspace/sharedspace.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/uilanguages.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/devtools/devtools.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/stylesheetparser/stylesheetparser.html
+http://192.168.190.141:81/bower_components/Ionicons/src/iphone
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/toolbar/toolbar.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/placeholder/placeholder.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/docprops/docprops.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/uicolor/uicolor.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/dialog/dialog.html
+http://192.168.190.141:81/bower_components/Ionicons/src/Home
+http://192.168.190.141:81/ADMIN/index
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/divreplace.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/mathjax/mathjax.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/api.html
+http://192.168.190.141:81/bower_components/Ionicons/src/settings
+http://192.168.190.141:81/Admin/Includes/
+http://192.168.190.141:81/header
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-knob/JS/ (Apache)
+http://192.168.190.141:81/bower_components/Ionicons/src/flag
+http://192.168.190.141:81/bower_components/Ionicons/src/Help
+http://192.168.190.141:81/bower_components/Ionicons/src/information
+http://192.168.190.141:81/bower_components/Ionicons/src/play
+http://192.168.190.141:81/bower_components/jquery-knob/JS/
+http://192.168.190.141:81/bower_components/Flot/examples/categories/
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/inlinebycode.html
+http://192.168.190.141:81/bower_components/raphael/dev/Test/
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/codesnippet/codesnippet.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/OLD/
+http://192.168.190.141:81/ADMIN/Includes/employee_schedule_modal.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/ADMIN/Includes/ (Apache)
+http://192.168.190.141:81/ADMIN/Includes/overtime_modal.php
+http://192.168.190.141:81/ADMIN/Includes/attendance_modal.php
+http://192.168.190.141:81/ADMIN/Includes/navbar.php
+http://192.168.190.141:81/ADMIN/Includes/footer.php
+http://192.168.190.141:81/ADMIN/Includes/cashadvance_modal.php
+http://192.168.190.141:81/ADMIN/Includes/schedule_modal.php
+http://192.168.190.141:81/ADMIN/Includes/datatable_initializer.php
+http://192.168.190.141:81/ADMIN/Includes/deduction_modal.php
+http://192.168.190.141:81/ADMIN/Includes/position_modal.php
+http://192.168.190.141:81/ADMIN/Includes/conn.php
+http://192.168.190.141:81/ADMIN/Includes/scripts.php
+http://192.168.190.141:81/ADMIN/Includes/employee_modal.php
+http://192.168.190.141:81/ADMIN/Includes/profile_modal.php
+http://192.168.190.141:81/ADMIN/Includes/menubar.php
+http://192.168.190.141:81/bower_components/ckeditor/samples/Css/
+http://192.168.190.141:81/bower_components/Ionicons/src/Upload
+http://192.168.190.141:81/bower_components/Ionicons/src/Archive
+http://192.168.190.141:81/bower_components/Ionicons/src/at
+http://192.168.190.141:81/bower_components/Ionicons/src/Email
+http://192.168.190.141:81/bower_components/Ionicons/src/network
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/build/ (Apache)
+http://192.168.190.141:81/build/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/build/grunt/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/build/less/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/build/bootstrap-less/ (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/bower_components/jquery-knob/Js/ (Apache)
+http://192.168.190.141:81/build/bootstrap-less/pagination.less
+http://192.168.190.141:81/build/less/mixins.less
+http://192.168.190.141:81/build/less/plugins.less
+http://192.168.190.141:81/build/less/404_500_errors.less
+http://192.168.190.141:81/build/less/labels.less
+http://192.168.190.141:81/build/less/dropdown.less
+http://192.168.190.141:81/build/bootstrap-less/glyphicons.less
+http://192.168.190.141:81/ADMIN/Includes/
+http://192.168.190.141:81/build/bootstrap-less/forms.less
+http://192.168.190.141:81/build/bootstrap-less/buttons.less
+http://192.168.190.141:81/build/bootstrap-less/theme.less
+http://192.168.190.141:81/bower_components/jquery-knob/Js/
+http://192.168.190.141:81/build/less/sidebar.less
+http://192.168.190.141:81/build/less/boxes.less
+http://192.168.190.141:81/build/less/table.less
+http://192.168.190.141:81/build/bootstrap-less/button-groups.less
+http://192.168.190.141:81/build/bootstrap-less/panels.less
+http://192.168.190.141:81/build/bootstrap-less/carousel.less
+http://192.168.190.141:81/build/bootstrap-less/print.less
+http://192.168.190.141:81/build/less/treeview.less
+http://192.168.190.141:81/build/less/lockscreen.less
+http://192.168.190.141:81/build/bootstrap-less/tooltip.less
+http://192.168.190.141:81/build/less/miscellaneous.less
+http://192.168.190.141:81/build/bootstrap-less/breadcrumbs.less
+http://192.168.190.141:81/build/bootstrap-less/modals.less
+http://192.168.190.141:81/build/bootstrap-less/input-groups.less
+http://192.168.190.141:81/build/less/print.less
+http://192.168.190.141:81/build/less/direct-chat.less
+http://192.168.190.141:81/build/less/alerts.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/build/less/skins/ (Apache)
+http://192.168.190.141:81/build/bootstrap-less/mixins.less
+http://192.168.190.141:81/build/bootstrap-less/navs.less
+http://192.168.190.141:81/build/less/core.less
+http://192.168.190.141:81/build/bootstrap-less/tables.less
+http://192.168.190.141:81/build/bootstrap-less/responsive-embed.less
+http://192.168.190.141:81/build/less/carousel.less
+http://192.168.190.141:81/build/less/profile.less
+http://192.168.190.141:81/build/less/datepicker.less
+http://192.168.190.141:81/build/bootstrap-less/badges.less
+http://192.168.190.141:81/build/less/skins/skin-black-light.less
+http://192.168.190.141:81/build/less/skins/skin-red-light.less
+http://192.168.190.141:81/build/less/skins/skin-blue-light.less
+http://192.168.190.141:81/build/less/skins/skin-yellow-light.less
+http://192.168.190.141:81/build/bootstrap-less/utilities.less
+http://192.168.190.141:81/build/less/variables.less
+http://192.168.190.141:81/build/bootstrap-less/progress-bars.less
+http://192.168.190.141:81/build/less/products.less
+http://192.168.190.141:81/build/less/forms.less
+http://192.168.190.141:81/build/less/users-list.less
+http://192.168.190.141:81/build/less/skins/skin-yellow.less
+http://192.168.190.141:81/build/less/skins/skin-purple-light.less
+http://192.168.190.141:81/build/bootstrap-less/normalize.less
+http://192.168.190.141:81/build/bootstrap-less/pager.less
+http://192.168.190.141:81/build/less/skins/skin-red.less
+http://192.168.190.141:81/build/less/AdminLTE-without-plugins.less
+http://192.168.190.141:81/build/bootstrap-less/list-group.less
+http://192.168.190.141:81/build/less/bootstrap-social.less
+http://192.168.190.141:81/build/less/buttons.less
+http://192.168.190.141:81/build/less/small-box.less
+http://192.168.190.141:81/build/less/skins/skin-purple.less
+http://192.168.190.141:81/build/bootstrap-less/media.less
+http://192.168.190.141:81/build/less/skins/skin-green-light.less
+http://192.168.190.141:81/build/bootstrap-less/scaffolding.less
+http://192.168.190.141:81/build/less/skins/skin-blue.less
+http://192.168.190.141:81/build/less/AdminLTE.less
+http://192.168.190.141:81/build/bootstrap-less/labels.less
+http://192.168.190.141:81/build/less/mailbox.less
+http://192.168.190.141:81/build/less/control-sidebar.less
+http://192.168.190.141:81/build/less/skins/skin-green.less
+http://192.168.190.141:81/build/less/skins/_all-skins.less
+http://192.168.190.141:81/build/bootstrap-less/thumbnails.less
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/build/bootstrap-less/mixins/ (Apache)
+http://192.168.190.141:81/build/less/modal.less
+http://192.168.190.141:81/build/bootstrap-less/variables.less
+http://192.168.190.141:81/build/bootstrap-less/popovers.less
+http://192.168.190.141:81/build/bootstrap-less/close.less
+http://192.168.190.141:81/build/less/navs.less
+http://192.168.190.141:81/build/less/invoice.less
+http://192.168.190.141:81/build/bootstrap-less/alerts.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/nav-divider.less
+http://192.168.190.141:81/build/less/progress-bars.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/reset-filter.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/hide-text.less
+http://192.168.190.141:81/build/less/select2.less
+http://192.168.190.141:81/build/bootstrap-less/code.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/forms.less
+http://192.168.190.141:81/build/bootstrap-less/grid.less
+http://192.168.190.141:81/build/bootstrap-less/navbar.less
+http://192.168.190.141:81/build/less/callout.less
+http://192.168.190.141:81/build/less/sidebar-mini.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/tab-focus.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/table-row.less
+http://192.168.190.141:81/build/less/info-box.less
+http://192.168.190.141:81/build/bootstrap-less/responsive-utilities.less
+http://192.168.190.141:81/build/less/social-widgets.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/responsive-visibility.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/clearfix.less
+http://192.168.190.141:81/build/bootstrap-less/type.less
+http://192.168.190.141:81/build/bootstrap-less/jumbotron.less
+http://192.168.190.141:81/build/bootstrap-less/wells.less
+http://192.168.190.141:81/build/less/timeline.less
+http://192.168.190.141:81/build/less/login_and_register.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/labels.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/text-overflow.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/center-block.less
+http://192.168.190.141:81/build/bootstrap-less/dropdowns.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/image.less
+http://192.168.190.141:81/build/bootstrap-less/component-animations.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/grid-framework.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/vendor-prefixes.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/gradients.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/grid.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/buttons.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/text-emphasis.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/alerts.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/border-radius.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/panels.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/size.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/list-group.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/nav-vertical-align.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/opacity.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/progress-bar.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/reset-text.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/resize.less
+http://192.168.190.141:81/build/bootstrap-less/mixins/background-variant.less
+http://192.168.190.141:81/bower_components/Ionicons/src/quote
+http://192.168.190.141:81/bower_components/ckeditor/samples/Js/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/DB/ (Apache)
+http://192.168.190.141:81/DB/apsystem.sql
+http://192.168.190.141:81/DB/
+http://192.168.190.141:81/dist/
+http://192.168.190.141:81/bower_components/Ionicons/src/Calendar
+http://192.168.190.141:81/build/bootstrap-less/bootstrap.less
+http://192.168.190.141:81/build/less/fullcalendar.less
+http://192.168.190.141:81/bower_components/select2/docs/Community
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/disable-fade-out.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/programmatic-scrolling.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/mouse-wheel.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/scrollbar.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/rail.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/chaining.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/nested.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/allow-page-scroll.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/start-position.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/dynamic-content.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/scroll-events.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/multiple-elements.html
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/navigation
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/IMAGES/ (Apache)
+http://192.168.190.141:81/IMAGES/facebook-profile-image.jpeg
+http://192.168.190.141:81/IMAGES/profile.jpg
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/stylesheetparser/stylesheetparser.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/uicolor.html
+http://192.168.190.141:81/IMAGES/desktop.jpg
+http://192.168.190.141:81/IMAGES/
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/enterkey/enterkey.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/htmlwriter/outputforflash.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/image2/image2.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/xhtmlstyle.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/readonly.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/replacebyclass.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/dialog/dialog.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/bbcode/bbcode.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/ajax.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/appendto.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/sourcedialog/sourcedialog.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/tableresize/tableresize.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/api.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/devtools/devtools.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/toolbar/toolbar.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/uilanguages.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/placeholder/placeholder.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/divreplace.html
+http://192.168.190.141:81/build/bootstrap-less/mixins/pagination.less
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/uicolor/uicolor.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/replacebycode.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/mathjax/mathjax.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/autogrow/autogrow.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/sharedspace/sharedspace.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/htmlwriter/outputhtml.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/magicline/magicline.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/tabindex.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/inlineall.html
+http://192.168.190.141:81/bower_components/Ionicons/src/card
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/inlinetextarea.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/docprops/docprops.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/codesnippet/codesnippet.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/wysiwygarea/fullpage.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/inlinebycode.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/divarea/divarea.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/jquery.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/datafiltering.html
+http://192.168.190.141:81/bower_components/ckeditor/samples/Old/
+http://192.168.190.141:81/bower_components/Flot/examples/Ajax/
+http://192.168.190.141:81/bower_components/ckeditor/samples/IMG/navigation-tip.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/IMG/github-top.png
+http://192.168.190.141:81/bower_components/Ionicons/src/more
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/Style
+http://192.168.190.141:81/bower_components/Ionicons/src/IMAGES
+http://192.168.190.141:81/bower_components/Ionicons/src/document
+http://192.168.190.141:81/bower_components/Ionicons/src/monitor
+http://192.168.190.141:81/bower_components/jquery-knob/dist/
+http://192.168.190.141:81/bower_components/Ionicons/src/location
+http://192.168.190.141:81/bower_components/Ionicons/src/person
+http://192.168.190.141:81/bower_components/raphael/dev/TEST/
+http://192.168.190.141:81/bower_components/ckeditor/samples/IMG/logo.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/IMG/
+http://192.168.190.141:81/bower_components/jquery-knob/license
+http://192.168.190.141:81/bower_components/Ionicons/src/folder
+http://192.168.190.141:81/bower_components/Ionicons/src/printer
+http://192.168.190.141:81/conn
+http://192.168.190.141:81/bower_components/ckeditor/samples/Img/github-top.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/Img/logo.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/Img/navigation-tip.png
+http://192.168.190.141:81/bower_components/ckeditor/samples/Img/
+http://192.168.190.141:81/bower_components/Ionicons/src/Image
+http://192.168.190.141:81/bower_components/select2/docs/options
+http://192.168.190.141:81/bower_components/Ionicons/src/bookmark
+http://192.168.190.141:81/bower_components/Ionicons/src/cash
+http://192.168.190.141:81/bower_components/Flot/examples/background
+http://192.168.190.141:81/bower_components/Ionicons/src/Code
+http://192.168.190.141:81/bower_components/Flot/examples/Image/
+http://192.168.190.141:81/bower_components/Ionicons/src/IMAGE
+http://192.168.190.141:81/bower_components/Ionicons/src/man
+http://192.168.190.141:81/bower_components/Flot/examples/Shared/
+http://192.168.190.141:81/bower_components/Ionicons/src/UPLOAD
+http://192.168.190.141:81/bower_components/Flot/examples/IMAGE/
+http://192.168.190.141:81/bower_components/Flot/examples/visitors/
+http://192.168.190.141:81/bower_components/jquery-knob/package
+http://192.168.190.141:81/bower_components/Ionicons/src/ipad
+http://192.168.190.141:81/bower_components/Ionicons/src/key
+http://192.168.190.141:81/bower_components/bootstrap-daterangepicker/website/Website
+http://192.168.190.141:81/bower_components/Ionicons/src/Edit
+http://192.168.190.141:81/bower_components/Ionicons/src/Folder
+http://192.168.190.141:81/bower_components/Ionicons/src/alert
+http://192.168.190.141:81/bower_components/Ionicons/src/log-in
+http://192.168.190.141:81/bower_components/Ionicons/src/ARCHIVE
+http://192.168.190.141:81/bower_components/Flot/examples/AJAX/
+http://192.168.190.141:81/bower_components/Ionicons/src/Information
+http://192.168.190.141:81/bower_components/Ionicons/src/calculator
+http://192.168.190.141:81/bower_components/Ionicons/src/star
+http://192.168.190.141:81/bower_components/jquery-knob/LICENSE
+http://192.168.190.141:81/bower_components/Ionicons/src/Person
+http://192.168.190.141:81/bower_components/Ionicons/src/Quote
+http://192.168.190.141:81/bower_components/Ionicons/src/iPhone
+http://192.168.190.141:81/bower_components/select2/docs/Examples
+http://192.168.190.141:81/bower_components/select2/docs/Index
+http://192.168.190.141:81/bower_components/Ionicons/src/FLASH
+http://192.168.190.141:81/bower_components/Ionicons/src/Share
+http://192.168.190.141:81/bower_components/Ionicons/src/cloud
+http://192.168.190.141:81/bower_components/Ionicons/src/university
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/Index
+http://192.168.190.141:81/bower_components/jquery-slimscroll/examples/STYLE
+http://192.168.190.141:81/bower_components/Ionicons/src/Plus
+http://192.168.190.141:81/bower_components/Ionicons/src/bag
+http://192.168.190.141:81/bower_components/Ionicons/src/record
+http://192.168.190.141:81/SCRIPTS
+http://192.168.190.141:81/bower_components/Ionicons/src/woman
+http://192.168.190.141:81/bower_components/Ionicons/src/Bookmark
+http://192.168.190.141:81/bower_components/Ionicons/src/heart
+http://192.168.190.141:81/bower_components/Ionicons/src/laptop
+http://192.168.190.141:81/bower_components/Ionicons/src/Play
+http://192.168.190.141:81/bower_components/Ionicons/src/compose
+http://192.168.190.141:81/bower_components/Ionicons/src/crop
+http://192.168.190.141:81/bower_components/Ionicons/src/stop
+http://192.168.190.141:81/bower_components/Ionicons/src/HOME
+http://192.168.190.141:81/bower_components/jquery-knob/License
+http://192.168.190.141:81/bower_components/Ionicons/src/Document
+http://192.168.190.141:81/bower_components/Ionicons/src/SEARCH
+http://192.168.190.141:81/bower_components/Ionicons/src/chatbox
+http://192.168.190.141:81/bower_components/Ionicons/src/eye
+http://192.168.190.141:81/bower_components/Ionicons/src/Monitor
+http://192.168.190.141:81/bower_components/Ionicons/src/iPad
+http://192.168.190.141:81/bower_components/Ionicons/src/locked
+http://192.168.190.141:81/bower_components/Ionicons/src/podium
+http://192.168.190.141:81/bower_components/Ionicons/src/Alert
+http://192.168.190.141:81/bower_components/Ionicons/src/close
+http://192.168.190.141:81/bower_components/Ionicons/src/female
+http://192.168.190.141:81/bower_components/Ionicons/src/jet
+http://192.168.190.141:81/bower_components/Ionicons/src/navigate
+http://192.168.190.141:81/bower_components/Ionicons/src/Location
+http://192.168.190.141:81/bower_components/Ionicons/src/More
+http://192.168.190.141:81/bower_components/select2/docs/COMMUNITY
+http://192.168.190.141:81/bower_components/Ionicons/src/contrast
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.190.141:81/Db/ (Apache)
+http://192.168.190.141:81/bower_components/Ionicons/src/easel
+http://192.168.190.141:81/bower_components/Ionicons/src/egg
+http://192.168.190.141:81/Db/
+http://192.168.190.141:81/bower_components/Ionicons/src/leaf
+http://192.168.190.141:81/bower_components/Ionicons/src/male
+http://192.168.190.141:81/bower_components/Flot/examples/Background
+http://192.168.190.141:81/bower_components/Ionicons/src/pause
+http://192.168.190.141:81/bower_components/Ionicons/src/tshirt
+http://192.168.190.141:81/bower_components/Ionicons/src/CALENDAR
+http://192.168.190.141:81/bower_components/Ionicons/src/Card
+http://192.168.190.141:81/bower_components/Ionicons/src/IPhone
+http://192.168.190.141:81/bower_components/Ionicons/src/Key
+http://192.168.190.141:81/bower_components/Ionicons/src/Printer
+http://192.168.190.141:81/bower_components/Ionicons/src/Record
+http://192.168.190.141:81/bower_components/Ionicons/src/UpLoad
+http://192.168.190.141:81/bower_components/Ionicons/src/briefcase
+http://192.168.190.141:81/bower_components/Ionicons/src/disc
+http://192.168.190.141:81/bower_components/Ionicons/src/iPod
+http://192.168.190.141:81/bower_components/Ionicons/src/magnet
+http://192.168.190.141:81/bower_components/Ionicons/src/nuclear
+http://192.168.190.141:81/bower_components/Ionicons/src/plane
+http://192.168.190.141:81/bower_components/Ionicons/src/trophy

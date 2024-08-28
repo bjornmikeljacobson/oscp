@@ -1,0 +1,68 @@
+# Nmap 7.94SVN scan initiated Sat Feb 24 14:34:29 2024 as: nmap -A -T4 -v -oA hermes/ 192.168.212.145
+Nmap scan report for 192.168.212.145
+Host is up (0.046s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp   open  http          Microsoft IIS httpd 10.0
+|_http-title: Samuel's Personal Site
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-favicon: Unknown favicon MD5: 556F31ACD686989B1AFCF382C05846AA
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: OSCP
+|   NetBIOS_Domain_Name: OSCP
+|   NetBIOS_Computer_Name: OSCP
+|   DNS_Domain_Name: oscp
+|   DNS_Computer_Name: oscp
+|   Product_Version: 10.0.19041
+|_  System_Time: 2024-02-24T19:34:47+00:00
+| ssl-cert: Subject: commonName=oscp
+| Issuer: commonName=oscp
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-02-23T19:20:07
+| Not valid after:  2024-08-24T19:20:07
+| MD5:   37a8:0c71:edaf:318f:a22a:0ad2:6a6b:8a39
+|_SHA-1: ddd4:1d35:aca2:b000:d9bf:0414:ce9f:995c:5db6:3447
+|_ssl-date: 2024-02-24T19:35:27+00:00; -1s from scanner time.
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows XP SP3 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=255 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-02-24T19:34:49
+|_  start_date: N/A
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+1   45.21 ms 192.168.45.1
+2   44.15 ms 192.168.45.254
+3   45.28 ms 192.168.251.1
+4   47.28 ms 192.168.212.145
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 24 14:35:28 2024 -- 1 IP address (1 host up) scanned in 59.05 seconds

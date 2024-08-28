@@ -1,0 +1,84 @@
+# Nmap 7.94SVN scan initiated Sat Feb 24 15:01:28 2024 as: nmap -A -T4 -v -p- -oA aero-143/full 192.168.212.143
+adjust_timeouts2: packet supposedly had rtt of -179832 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -179832 microseconds.  Ignoring time.
+Nmap scan report for aero.com (192.168.212.143)
+Host is up (0.050s latency).
+Not shown: 65525 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        vsftpd 3.0.3
+22/tcp   open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 23:4c:6f:ff:b8:52:29:65:3d:d1:4e:38:eb:fe:01:c1 (RSA)
+|   256 0d:fd:36:d8:05:69:83:ef:ae:a0:fe:4b:82:03:32:ed (ECDSA)
+|_  256 cc:76:17:1e:8e:c5:57:b2:1f:45:28:09:05:5a:eb:39 (ED25519)
+80/tcp   open  http       Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-title: Apache2 Ubuntu Default Page: It works
+81/tcp   open  http       Apache httpd 2.4.41 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-title: Test Page for the Nginx HTTP Server on Fedora
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+443/tcp  open  http       Apache httpd 2.4.41
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+3000/tcp open  ppp?
+3001/tcp open  nessus?
+3003/tcp open  cgms?
+3306/tcp open  mysql      MySQL (unauthorized)
+5432/tcp open  postgresql PostgreSQL DB 9.6.0 or later
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=aero
+| Subject Alternative Name: DNS:aero
+| Issuer: commonName=aero
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-05-10T22:20:48
+| Not valid after:  2031-05-08T22:20:48
+| MD5:   0cbe:58c4:2d38:4109:72c9:e3c4:fe39:ca8d
+|_SHA-1: ad85:4984:c180:ba73:e010:83f8:c44f:18b9:d176:2fd8
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|     SFATAL
+|     VFATAL
+|     C0A000
+|     Munsupported frontend protocol 65363.19778: server supports 2.0 to 3.0
+|     Fpostmaster.c
+|     L2113
+|_    RProcessStartupPacket
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3003-TCP:V=7.94SVN%I=7%D=2/24%Time=65DA4B7D%P=x86_64-pc-linux-gnu%r
+SF:(GenericLines,1,"\n")%r(GetRequest,1,"\n")%r(HTTPOptions,1,"\n")%r(RTSP
+SF:Request,1,"\n")%r(Help,1,"\n")%r(SSLSessionReq,1,"\n")%r(TerminalServer
+SF:Cookie,1,"\n")%r(Kerberos,1,"\n")%r(FourOhFourRequest,1,"\n")%r(LPDStri
+SF:ng,1,"\n")%r(LDAPSearchReq,1,"\n")%r(SIPOptions,1,"\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5432-TCP:V=7.94SVN%I=7%D=2/24%Time=65DA4B78%P=x86_64-pc-linux-gnu%r
+SF:(SMBProgNeg,8C,"E\0\0\0\x8bSFATAL\0VFATAL\0C0A000\0Munsupported\x20fron
+SF:tend\x20protocol\x2065363\.19778:\x20server\x20supports\x202\.0\x20to\x
+SF:203\.0\0Fpostmaster\.c\0L2113\0RProcessStartupPacket\0\0");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 46.757 days (since Mon Jan  8 20:56:16 2024)
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=266 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: 127.0.0.2; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 3306/tcp)
+HOP RTT      ADDRESS
+1   50.44 ms 192.168.45.1
+2   50.51 ms 192.168.45.254
+3   50.73 ms 192.168.251.1
+4   50.74 ms aero.com (192.168.212.143)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 24 15:05:45 2024 -- 1 IP address (1 host up) scanned in 257.22 seconds

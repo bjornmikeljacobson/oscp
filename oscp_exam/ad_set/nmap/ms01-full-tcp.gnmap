@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Sun May 19 16:48:13 2024 as: nmap -A -oA ms01-full-tcp -v -Pn -p- ms01.oscp.exam
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.112.101 (ms01)	Status: Up
+Host: 192.168.112.101 (ms01)	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 8080/open/tcp//http//Jetty 9.4.z-SNAPSHOT/, 49664/open/tcp//msrpc//Microsoft Windows RPC/, 49665/open/tcp//msrpc//Microsoft Windows RPC/, 49666/open/tcp//msrpc//Microsoft Windows RPC/, 49667/open/tcp//msrpc//Microsoft Windows RPC/, 49669/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (65525)	Seq Index: 260	IP ID Seq: Busy server or unknown class
+# Nmap done at Sun May 19 16:52:22 2024 -- 1 IP address (1 host up) scanned in 249.41 seconds

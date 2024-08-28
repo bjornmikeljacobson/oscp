@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "redis-dump": "^0.1.10"
+  }
+}

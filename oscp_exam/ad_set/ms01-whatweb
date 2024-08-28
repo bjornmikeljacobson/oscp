@@ -1,0 +1,224 @@
+whatweb http://192.168.112.101:8080 -a 4 --color=always -v                                                                                                                        via  v3.11.8 via  v3.1.2
+
+WhatWeb report for http://192.168.112.101:8080
+Status    : 403 Forbidden
+Title     : <None>
+IP        : 192.168.112.101
+Country   : RESERVED, ZZ
+
+Summary   : Bootstrap[3.3.7], Cookies[JSESSIONID.5fc59c86], HTTPServer[Jetty(9.4.z-SNAPSHOT)], HttpOnly[JSESSIONID.5fc59c86], Jenkins[2.150.2], Jetty[9.4.z-SNAPSHOT], Matomo, Meta-Refresh-Redirect[/login?from=%2F], Script, UncommonHeaders[x-content-type-options,x-hudson,x-jenkins,x-jenkins-session,x-you-are-authenticated-as,x-you-are-in-group-disabled,x-required-permission,x-permission-implied-by]
+
+Detected Plugins:
+[ Bootstrap ]
+        Bootstrap is an open source toolkit for developing with
+        HTML, CSS, and JS.
+
+        Version      : 3.3.7
+        Version      : 3.3.7
+        Website     : https://getbootstrap.com/
+
+[ Cookies ]
+        Display the names of cookies in the HTTP headers. The
+        values are not returned to save on space.
+
+        String       : JSESSIONID.5fc59c86
+
+[ HTTPServer ]
+        HTTP server header string. This plugin also attempts to
+        identify the operating system from the server header.
+
+        String       : Jetty(9.4.z-SNAPSHOT) (from server string)
+
+[ HttpOnly ]
+        If the HttpOnly flag is included in the HTTP set-cookie
+        response header and the browser supports it then the cookie
+        cannot be accessed through client side script - More Info:
+        http://en.wikipedia.org/wiki/HTTP_cookie
+
+        String       : JSESSIONID.5fc59c86
+
+[ Jenkins ]
+        Jenkins is an application that monitors executions of
+        repeated jobs, such as building a software project or jobs
+        run by cron.
+
+        Version      : 2.150.2
+        Google Dorks: (1)
+        Website     : http://jenkins-ci.org/
+
+[ Jetty ]
+        Jetty is a pure Java application server. Jetty provides an
+        HTTP server, HTTP client, and javax.servlet container.
+
+        Version      : 9.4.z-SNAPSHOT
+        Google Dorks: (1)
+        Website     : http://jetty.codehaus.org/jetty/
+
+[ Matomo ]
+        Matomo is the leading open alternative to Google Analytics
+        that gives you full control over your data. Matomo lets you
+        easily collect data from websites, apps & the IoT and
+        visualise this data and extract insights. Privacy is
+        built-in. Matomo was formerly known as Piwik, and is
+        developed in PHP.
+
+        Aggressive function available (check plugin file or details).
+        Google Dorks: (1)
+        Website     : https://matomo.org
+
+[ Meta-Refresh-Redirect ]
+        Meta refresh tag is a deprecated URL element that can be
+        used to optionally wait x seconds before reloading the
+        current page or loading a new page. More info:
+        https://secure.wikimedia.org/wikipedia/en/wiki/Meta_refresh
+
+        String       : /login?from=%2F
+
+[ Script ]
+        This plugin detects instances of script HTML elements and
+        returns the script language/type.
+
+
+[ UncommonHeaders ]
+        Uncommon HTTP server headers. The blacklist includes all
+        the standard headers and many non standard but common ones.
+        Interesting but fairly common headers should have their own
+        plugins, eg. x-powered-by, server and x-aspnet-version.
+        Info about headers can be found at www.http-stats.com
+
+        String       : x-content-type-options,x-hudson,x-jenkins,x-jenkins-session,x-you-are-authenticated-as,x-you-are-in-group-disabled,x-required-permission,x-permission-implied-by (from headers)
+
+HTTP Headers:
+        HTTP/1.1 403 Forbidden
+        Connection: close
+        Date: Sun, 19 May 2024 23:40:48 GMT
+        X-Content-Type-Options: nosniff
+        Set-Cookie: JSESSIONID.5fc59c86=node05dvd1ektckic11nug6v10pqxc10325.node0;Path=/;HttpOnly
+        Expires: Thu, 01 Jan 1970 00:00:00 GMT
+        Content-Type: text/html;charset=utf-8
+        X-Hudson: 1.395
+        X-Jenkins: 2.150.2
+        X-Jenkins-Session: 87568b21
+        X-You-Are-Authenticated-As: anonymous
+        X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+        X-Required-Permission: hudson.model.Hudson.Read
+        X-Permission-Implied-By: hudson.security.Permission.GenericRead
+        X-Permission-Implied-By: hudson.model.Hudson.Administer
+        Content-Length: 799
+        Server: Jetty(9.4.z-SNAPSHOT)
+
+WhatWeb report for http://192.168.112.101:8080/login?from=%2F
+Status    : 200 OK
+Title     : Sign in [Jenkins]
+IP        : 192.168.112.101
+Country   : RESERVED, ZZ
+
+Summary   : Bootstrap[3.3.7], Cookies[JSESSIONID.5fc59c86], HTML5, HTTPServer[Jetty(9.4.z-SNAPSHOT)], HttpOnly[JSESSIONID.5fc59c86], Jenkins[2.150.2], Jetty[9.4.z-SNAPSHOT], Matomo, PasswordField[j_password], Script[text/javascript], UncommonHeaders[x-content-type-options,x-hudson,x-jenkins,x-jenkins-session,x-instance-identity], X-Frame-Options[sameorigin]
+
+Detected Plugins:
+[ Bootstrap ]
+        Bootstrap is an open source toolkit for developing with
+        HTML, CSS, and JS.
+
+        Version      : 3.3.7
+        Version      : 3.3.7
+        Website     : https://getbootstrap.com/
+
+[ Cookies ]
+        Display the names of cookies in the HTTP headers. The
+        values are not returned to save on space.
+
+        String       : JSESSIONID.5fc59c86
+
+[ HTML5 ]
+        HTML version 5, detected by the doctype declaration
+
+
+[ HTTPServer ]
+        HTTP server header string. This plugin also attempts to
+        identify the operating system from the server header.
+
+        String       : Jetty(9.4.z-SNAPSHOT) (from server string)
+
+[ HttpOnly ]
+        If the HttpOnly flag is included in the HTTP set-cookie
+        response header and the browser supports it then the cookie
+        cannot be accessed through client side script - More Info:
+        http://en.wikipedia.org/wiki/HTTP_cookie
+
+        String       : JSESSIONID.5fc59c86
+
+[ Jenkins ]
+        Jenkins is an application that monitors executions of
+        repeated jobs, such as building a software project or jobs
+        run by cron.
+
+        Version      : 2.150.2
+        Google Dorks: (1)
+        Website     : http://jenkins-ci.org/
+
+[ Jetty ]
+        Jetty is a pure Java application server. Jetty provides an
+        HTTP server, HTTP client, and javax.servlet container.
+
+        Version      : 9.4.z-SNAPSHOT
+        Google Dorks: (1)
+        Website     : http://jetty.codehaus.org/jetty/
+
+[ Matomo ]
+        Matomo is the leading open alternative to Google Analytics
+        that gives you full control over your data. Matomo lets you
+        easily collect data from websites, apps & the IoT and
+        visualise this data and extract insights. Privacy is
+        built-in. Matomo was formerly known as Piwik, and is
+        developed in PHP.
+
+        Aggressive function available (check plugin file or details).
+        Google Dorks: (1)
+        Website     : https://matomo.org
+
+[ PasswordField ]
+        find password fields
+
+        String       : j_password (from field name)
+
+[ Script ]
+        This plugin detects instances of script HTML elements and
+        returns the script language/type.
+
+        String       : text/javascript
+
+[ UncommonHeaders ]
+        Uncommon HTTP server headers. The blacklist includes all
+        the standard headers and many non standard but common ones.
+        Interesting but fairly common headers should have their own
+        plugins, eg. x-powered-by, server and x-aspnet-version.
+        Info about headers can be found at www.http-stats.com
+
+        String       : x-content-type-options,x-hudson,x-jenkins,x-jenkins-session,x-instance-identity (from headers)
+
+[ X-Frame-Options ]
+        This plugin retrieves the X-Frame-Options value from the
+        HTTP header. - More Info:
+        http://msdn.microsoft.com/en-us/library/cc288472%28VS.85%29.
+        aspx
+
+        String       : sameorigin
+
+HTTP Headers:
+        HTTP/1.1 200 OK
+        Connection: close
+        Date: Sun, 19 May 2024 23:49:34 GMT
+        X-Content-Type-Options: nosniff
+        Content-Encoding: gzip
+        Expires: Thu, 01 Jan 1970 00:00:00 GMT
+        Cache-Control: no-cache,no-store,must-revalidate
+        X-Hudson: 1.395
+        X-Jenkins: 2.150.2
+        X-Jenkins-Session: 87568b21
+        X-Frame-Options: sameorigin
+        X-Instance-Identity: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1GMig2JhpMAl308QFQ+YE9TeyO5QBRFgh8qbXN0hzmgYg/9YQR3tM6owKt1pPEiJzocJJhp9IBB61xFBwsUmT+WBHV7JdGytgOKxI7xIX/8LYdP85Snk/kVADiDKyynXuxuqszVXJAsy++Pkm5kvvM5nizNT1GjgolVCL15+bN9AZ1K0EJRU7L2RgCFEAsBP/EF778dcskXnVn1ZfuJgiaDiYS4Ud4HFeQzmrqCK/NB9dyp4aOSl1y0UkQoKZ6CTalbnOOL14h3ZKUEsZoT5GGaw9gdKBlz5ey9jwKw5VY6OFe9vwxx2mB03ah1E1InC/2HAXszxG6F0fx4eGvQ9rQIDAQAB
+        Content-Type: text/html;charset=utf-8
+        Set-Cookie: JSESSIONID.5fc59c86=node0kjarq7l6fhvs118zp9ruku16q11199.node0;Path=/;HttpOnly
+        Content-Length: 838
+        Server: Jetty(9.4.z-SNAPSHOT)

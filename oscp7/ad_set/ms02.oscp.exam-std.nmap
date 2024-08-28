@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Mon Jul 22 13:44:40 2024 as: nmap -v -Pn -oN ms02.oscp.exam-std.nmap ms02.oscp.exam
+Nmap scan report for ms02.oscp.exam (172.16.136.102)
+Host is up (0.053s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jul 22 13:44:52 2024 -- 1 IP address (1 host up) scanned in 12.47 seconds

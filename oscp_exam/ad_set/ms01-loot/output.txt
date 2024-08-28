@@ -1,0 +1,62 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240519210331
+Username: MS01\Administrator
+RunAs User: MS01\Administrator
+Configuration Name: 
+Machine: MS01 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy bypass -File C:\freezeScript\win10.ps1
+Process ID: 4500
+PSVersion: 5.1.17763.3770
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.3770
+BuildVersion: 10.0.17763.3770
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\output.txt
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Uninstalled product key successfully.
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Key Management Service machine name set to external.kms.ospl.offseclabs.com successfully.
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Installed product key N69G4-B89J2-4G8F4-WWYCC-J464C successfully.
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Activating Windows(R), ServerStandard edition (de32eafd-aaee-4662-9444-c1befb41bde2) ...
+Error: 0xC004F074 The Software Licensing Service reported that the computer could not be activated.
+No Key Management Service (KMS) could be contacted. Please see the Application Event Log for additio
+nal information.
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Software licensing service version: 10.0.17763.3772
+
+Name: Windows(R), ServerStandard edition
+Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Activation ID: de32eafd-aaee-4662-9444-c1befb41bde2
+Application ID: 55c92734-d682-4d71-983e-d6ec3f16059f
+Extended PID: 03612-04297-000-000000-03-1033-17763.0000-1402024
+Product Key Channel: Volume:GVLK
+Installation ID: 175818446336569883935546624683824314904916507136123807143676562
+Partial Product Key: J464C
+License Status: Notification
+Notification Reason: 0xC004F056.
+Remaining Windows rearm count: 1001
+Remaining SKU rearm count: 1001
+Trusted time: 5/19/2024 9:03:33 PM
+Configured Activation Type: All
+Please use slmgr.vbs /ato to activate and update KMS client information in order to update values.
+**********************
+Windows PowerShell transcript end
+End time: 20240519210333
+**********************

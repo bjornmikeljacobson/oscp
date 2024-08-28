@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Sun May 19 19:38:44 2024 as: nmap -p 3306 --script=*sql* -v -oA ms02-sql ms02.oscp.exam
+# Ports scanned: TCP(1;3306) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.112.102 (ms02)	Status: Up
+Host: 192.168.112.102 (ms02)	Ports: 3306/open/tcp//mysql///
+# Nmap done at Sun May 19 19:43:01 2024 -- 1 IP address (1 host up) scanned in 257.30 seconds

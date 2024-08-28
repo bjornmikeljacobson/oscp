@@ -1,0 +1,89 @@
+whatweb https://192.168.136.111 -a 4 -v                                                                                                           via  v3.12.3 took 8m2s
+WhatWeb report for https://192.168.136.111
+Status    : 200 OK
+Title     : Home
+IP        : 192.168.136.111
+Country   : RESERVED, ZZ
+
+Summary   : HTML5, HTTPServer[Microsoft-IIS/10.0], JQuery, Matomo, MetaGenerator[Nicepage 5.13.1, nicepage.com], Microsoft-IIS[10.0], Open-Graph-Protocol[website], Script[application/ld+json,text/javascript], X-Powered-By[ASP.NET]
+
+Detected Plugins:
+[ HTML5 ]
+        HTML version 5, detected by the doctype declaration
+
+
+[ HTTPServer ]
+        HTTP server header string. This plugin also attempts to
+        identify the operating system from the server header.
+
+        String       : Microsoft-IIS/10.0 (from server string)
+
+[ JQuery ]
+        A fast, concise, JavaScript that simplifies how to traverse
+        HTML documents, handle events, perform animations, and add
+        AJAX.
+
+        Website     : http://jquery.com/
+
+[ Matomo ]
+        Matomo is the leading open alternative to Google Analytics
+        that gives you full control over your data. Matomo lets you
+        easily collect data from websites, apps & the IoT and
+        visualise this data and extract insights. Privacy is
+        built-in. Matomo was formerly known as Piwik, and is
+        developed in PHP.
+
+        Aggressive function available (check plugin file or details).
+        Google Dorks: (1)
+        Website     : https://matomo.org
+
+[ MetaGenerator ]
+        This plugin identifies meta generator tags and extracts its
+        value.
+
+        String       : Nicepage 5.13.1, nicepage.com
+
+[ Microsoft-IIS ]
+        Microsoft Internet Information Services (IIS) for Windows
+        Server is a flexible, secure and easy-to-manage Web server
+        for hosting anything on the Web. From media streaming to
+        web application hosting, IIS's scalable and open
+        architecture is ready to handle the most demanding tasks.
+
+        Version      : 10.0
+        Website     : http://www.iis.net/
+
+[ Open-Graph-Protocol ]
+        The Open Graph protocol enables you to integrate your Web
+        pages into the social graph. It is currently designed for
+        Web pages representing profiles of real-world things .
+        things like movies, sports teams, celebrities, and
+        restaurants. Including Open Graph tags on your Web page,
+        makes your page equivalent to a Facebook Page.
+
+        Version      : website
+
+[ Script ]
+        This plugin detects instances of script HTML elements and
+        returns the script language/type.
+
+        String       : application/ld+json,text/javascript
+
+[ X-Powered-By ]
+        X-Powered-By HTTP header
+
+        String       : ASP.NET (from x-powered-by string)
+
+HTTP Headers:
+        HTTP/1.1 200 OK
+        Content-Type: text/html
+        Last-Modified: Thu, 20 Jul 2023 16:08:08 GMT
+        Accept-Ranges: bytes
+        ETag: "064865f24bbd91:0"
+        Server: Microsoft-IIS/10.0
+        X-Powered-By: ASP.NET
+        Date: Sat, 16 Sep 2023 01:05:19 GMT
+        Connection: close
+        Content-Length: 54212
+
+

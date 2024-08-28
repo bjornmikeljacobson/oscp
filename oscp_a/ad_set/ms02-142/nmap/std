@@ -1,0 +1,66 @@
+# Nmap 7.94SVN scan initiated Sun Mar  3 04:48:51 2024 as: nmap -A -Pn -v -oN nmap/std -T4 10.10.140.142
+Nmap scan report for MS02.oscp.exam (10.10.140.142)
+Host is up (0.050s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   10.10.140.142:1433: 
+|     Target_Name: OSCP
+|     NetBIOS_Domain_Name: OSCP
+|     NetBIOS_Computer_Name: MS02
+|     DNS_Domain_Name: oscp.exam
+|     DNS_Computer_Name: MS02.oscp.exam
+|     DNS_Tree_Name: oscp.exam
+|_    Product_Version: 10.0.19041
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Issuer: commonName=SSL_Self_Signed_Fallback
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-08-14T05:56:39
+| Not valid after:  2053-08-14T05:56:39
+| MD5:   533c:ad67:7861:c415:fd14:930b:9ea1:bdb1
+|_SHA-1: 09aa:1de3:0132:7f54:ffca:4697:2ac1:5ab2:a6a4:5ba8
+| ms-sql-info: 
+|   10.10.140.142:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_ssl-date: 2024-03-03T09:50:01+00:00; -1s from scanner time.
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 25.098 days (since Wed Feb  7 02:28:44 2024)
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incrementing by 2
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-03-03T09:49:21
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+| nbstat: NetBIOS name: MS02, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:bf:aa:0b (VMware)
+| Names:
+|   MS02<20>             Flags: <unique><active>
+|   MS02<00>             Flags: <unique><active>
+|_  OSCP<00>             Flags: <group><active>
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   49.95 ms MS02.oscp.exam (10.10.140.142)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar  3 04:50:02 2024 -- 1 IP address (1 host up) scanned in 71.45 seconds

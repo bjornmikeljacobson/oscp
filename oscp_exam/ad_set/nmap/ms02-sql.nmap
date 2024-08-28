@@ -1,0 +1,19 @@
+# Nmap 7.94SVN scan initiated Sun May 19 19:38:44 2024 as: nmap -p 3306 --script=*sql* -v -oA ms02-sql ms02.oscp.exam
+Nmap scan report for ms02.oscp.exam (192.168.112.102)
+Host is up (0.049s latency).
+rDNS record for 192.168.112.102: ms02
+
+PORT     STATE SERVICE
+3306/tcp open  mysql
+| mysql-info: 
+|_  MySQL Error: Host '192.168.49.112' is not allowed to connect to this MySQL server
+| mysql-enum: 
+|   Accounts: No valid accounts found
+|_  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0
+|_mysql-empty-password: Host '192.168.49.112' is not allowed to connect to this MySQL server
+| mysql-brute: 
+|   Accounts: No valid accounts found
+|_  Statistics: Performed 50009 guesses in 246 seconds, average tps: 208.0
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun May 19 19:43:01 2024 -- 1 IP address (1 host up) scanned in 257.30 seconds
